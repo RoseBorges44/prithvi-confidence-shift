@@ -6,7 +6,6 @@ authors:
   - family-names: Borges
     given-names: Rosemeri
     affiliation: "Centro de Informática, Universidade Federal de Pernambuco"
-    # Remove the # from the next line and put your ORCID in it:
-    # orcid: "https://orcid.org/0000-0000-0000-0000"
+    orcid: "https://orcid.org/0009-0006-6868-5976"
 license: MIT
 repository-code: "https://github.com/RoseBorges44/prithvi-confidence-shift"
