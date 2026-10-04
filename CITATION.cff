@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Prithvi confidence under geographic shift"
+type: software
+authors:
+  - family-names: Borges
+    given-names: Rosemeri
+    affiliation: "Centro de Informática, Universidade Federal de Pernambuco"
+    # Remove the # from the next line and put your ORCID in it:
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+license: MIT
+repository-code: "https://github.com/RoseBorges44/prithvi-confidence-shift"

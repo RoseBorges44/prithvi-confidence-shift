@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Large files stay on Google Drive, not on GitHub
+*.pt
+*.ckpt
+*.safetensors
+*.npy
+*.npz
+*.pkl
+*.tif
+*.tiff
+lightning_logs/
+outputs/
