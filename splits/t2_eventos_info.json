@@ -1,0 +1,83 @@
+{
+  "gerado_utc": "2026-10-10T21:18:33Z",
+  "dataset": "isp-uv-es/WorldFloodsv2",
+  "revisao": "1f3faa2989e69930ac31d5c0a79fd224461123f8",
+  "criterios": {
+    "C1": "frac_labeled_in_training_country <= 0.05",
+    "C2": "reference map from Sentinel-2 on the same UTC date as the S2 scene",
+    "C3": "cloud_frac <= 0.3 (cloud pixels over valid pixels of the gt cloud channel)"
+  },
+  "paises_treino_adm0_a3": [
+    "BOL",
+    "ESP",
+    "GHA",
+    "IND",
+    "KHM",
+    "LAO",
+    "LKA",
+    "NGA",
+    "PAK",
+    "PRY",
+    "SOL",
+    "SOM",
+    "THA",
+    "USA",
+    "VNM"
+  ],
+  "natural_earth": {
+    "url": "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_countries.zip",
+    "sha256": "ce1ac7036499a0edd641fbc093cd209a98f96a49d2eca8480aaacad35138a7f6"
+  },
+  "nucleo": {
+    "mapas": [
+      "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+      "EMSR333_02PORTOPALO_DEL_MONIT01_v1",
+      "EMSR342_06NORTHNORMANTON_DEL_v1",
+      "EMSR347_06MWANZA_DEL_v1",
+      "EMSR347_07ZOMBA_DEL_v2",
+      "EMSR438_AOI06_DEL_PRODUCT"
+    ],
+    "eventos": [
+      "EMSR333",
+      "EMSR342",
+      "EMSR347",
+      "EMSR438"
+    ]
+  },
+  "conjunto_completo": {
+    "mapas": [
+      "EMSR264_18MIANDRIVAZODETAIL_DEL_v2",
+      "EMSR273_01GRILE_DEL_MONIT04_v2",
+      "EMSR333_01RATTALORO_DEL_MONIT01_v1",
+      "EMSR333_02PORTOPALO_DEL_MONIT01_v1",
+      "EMSR342_06NORTHNORMANTON_DEL_v1",
+      "EMSR342_07SOUTHNORMANTON_DEL_MONIT03_v2",
+      "EMSR347_06MWANZA_DEL_v1",
+      "EMSR347_07ZOMBA_DEL_v2",
+      "EMSR419_AOI01_DEL_MONIT01",
+      "EMSR438_AOI02_DEL_MONIT03",
+      "EMSR438_AOI06_DEL_PRODUCT",
+      "EMSR9284_01YLITORNIONORTHERN_DEL_MONIT01_v1"
+    ],
+    "eventos": [
+      "EMSR264",
+      "EMSR273",
+      "EMSR333",
+      "EMSR342",
+      "EMSR347",
+      "EMSR419",
+      "EMSR438",
+      "EMSR9284"
+    ]
+  },
+  "t2_eventos_csv_sha256": "d0cd80324207e78fbc8fe02b9626610e914cc3b470bb8168d5be790235c5b892",
+  "versoes": {
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "rasterio": "1.4.3",
+    "gdal": "3.9.3",
+    "huggingface_hub": "1.33.0"
+  },
+  "modelo_rodado": false
+}
