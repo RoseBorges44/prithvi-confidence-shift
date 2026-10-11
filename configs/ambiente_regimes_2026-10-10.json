@@ -1,0 +1,65 @@
+{
+  "gerado_utc": "2026-10-11T00:52:01+00:00",
+  "versoes": {
+    "terratorch": "1.2.11",
+    "torchgeo": "0.7.1",
+    "peft": "0.21.2",
+    "lightning": "2.6.6",
+    "torch": "2.11.0+cu130",
+    "numpy": "2.5.4"
+  },
+  "python": "3.13.15",
+  "gpu": "Tesla T4",
+  "backbone": {
+    "repositorio": "ibm-nasa-geospatial/Prithvi-EO-2.0-300M-TL",
+    "arquivo": "Prithvi_EO_V2_300M_TL.pt",
+    "revisao": "63adbd39c271da4c42f447e69b1a7c91a338cdc9",
+    "sha256": "3629cedfbb350faafcb0dac902ae0d3c927e25ce8d9e0024aa1276ec66956ddb",
+    "commits_com_o_arquivo": 30,
+    "hashes_distintos_no_historico": [
+      "3629cedfbb350faafcb0dac902ae0d3c927e25ce8d9e0024aa1276ec66956ddb"
+    ]
+  },
+  "receita": "config.yaml do commit 918b9f1 do checkpoint ajustado da IBM",
+  "drive_montado": true,
+  "regimes": {
+    "R1": {
+      "treinaveis": 15082242,
+      "total": 318968580,
+      "treinaveis_no_codificador": 0,
+      "tensores_conferidos": 295,
+      "tensores_sem_par_no_arquivo": [],
+      "forma_da_saida": [
+        2,
+        2,
+        224,
+        224
+      ]
+    },
+    "R2": {
+      "treinaveis": 20587266,
+      "total": 324473604,
+      "treinaveis_no_codificador": 5505024,
+      "modulos_lora": 96,
+      "forma_da_saida": [
+        2,
+        2,
+        224,
+        224
+      ]
+    },
+    "R3": {
+      "treinaveis": 318968580,
+      "total": 318968580,
+      "treinaveis_no_codificador": 303886338,
+      "tensores_conferidos": 295,
+      "tensores_sem_par_no_arquivo": [],
+      "forma_da_saida": [
+        2,
+        2,
+        224,
+        224
+      ]
+    }
+  }
+}
