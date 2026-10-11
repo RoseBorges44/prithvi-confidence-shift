@@ -25,7 +25,7 @@ Nine runs in total.
 
 1. The score of a run is `val/mIoU` after epoch 50: the mean intersection over union of the two classes on the 89 validation chips, with `ignore_index` -1 pixels left out.
 2. Per regime, the learning rate with the highest score is chosen.
-3. Tie: if the best two scores differ by less than 0.001, the smaller learning rate is chosen.
+3. Tie: among the learning rates whose score is less than 0.001 below the highest score, the smallest learning rate is chosen.
 4. A run whose loss becomes non-finite is excluded from the choice and reported.
 5. If the chosen value is at an end of the grid, it is kept. The grid is not extended after seeing the results, and this is stated as a limitation.
 
