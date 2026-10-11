@@ -44,3 +44,18 @@ path = hf_hub_download(
 ```
 
 Check the SHA-256 of the downloaded file against the table before using it.
+
+## Pretrained backbone (starting point of the new regimes)
+
+The frozen-encoder, LoRA and full fine-tuning regimes start from the pretrained backbone, not from the fine-tuned checkpoint above. Recorded on 2026-10-10 by `notebooks/semana3_regimes.ipynb`, cell 3.
+
+| Item | Value |
+|---|---|
+| Repository | https://huggingface.co/ibm-nasa-geospatial/Prithvi-EO-2.0-300M-TL |
+| Hugging Face commit | `63adbd39c271da4c42f447e69b1a7c91a338cdc9` (2025-10-09, "Update README.md") |
+| File | `Prithvi_EO_V2_300M_TL.pt` |
+| SHA-256 | `3629cedfbb350faafcb0dac902ae0d3c927e25ce8d9e0024aa1276ec66956ddb` |
+| Check | The downloaded file's SHA-256 equals the one published by Hugging Face for that commit |
+| History | The file exists in 30 of the 33 commits, from `921b18d` (2024-11-29) to `63adbd3` (2025-10-09), with a single SHA-256 across all of them |
+
+Training loads this file through `backbone_ckpt_path` and never downloads the backbone without a revision.
