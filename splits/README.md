@@ -4,6 +4,7 @@ Lists of chips and events: the official Sen1Floods11 splits, the Bolivia hold-ou
 
 | File | Chips | Role | Source | SHA-256 | Fixed on |
 |---|---|---|---|---|---|
+| `sen1floods11_train.txt` | 252 | Fine-tuning of the three regimes | Official `flood_train_data.csv` (SHA-256 of the file as downloaded: `57be4dc440bf8a526effa77e06d4b8cb7a8484589c0bffa201d8e0f49e994beb`), same location | `4d77d923fcedcf1dca02606ec15acfd2e90238ea06f0b40169b470ca4bd756b5` | 2026-10-11 |
 | `sen1floods11_val.txt` | 89 | Calibration (q-hat and tau) and learning-rate choice | Official `flood_valid_data.csv`, hand-labeled split, `gs://sen1floods11/v1.1/splits/flood_handlabeled/` | `14a372859fb18b1f7f9791810b7a233c2cd53aaab84f74721f9ac3476ba50504` | 2026-10-04 |
 | `sen1floods11_test.txt` | 90 | Source evaluation | Official `flood_test_data.csv`, same location | `cfcf04cc36880d0b4156681c9c2efaeb26d62e7ecb6987002e437436cdf98627` | 2026-10-04 |
 | `t2_eventos.csv` | 18 maps; core 6 maps in 4 events | Second shifted target (T2), WorldFloods v2 test split. Primary analysis: rows with `core` true. Secondary, descriptive: `full_set` true (12 maps, 8 events) | Criteria in `prereg/t2_criterios.md` (commit `703c7a3`), applied by `notebooks/semana2_t2_worldfloods.ipynb`, part B | `d0cd80324207e78fbc8fe02b9626610e914cc3b470bb8168d5be790235c5b892` | 2026-10-10 |
