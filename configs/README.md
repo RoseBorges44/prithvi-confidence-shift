@@ -19,3 +19,7 @@ Three epochs of each regime on a Colab T4, batch 16, same recipe as the pilot, v
 | R3 | 15.0, 16.2, 16.0 | 8.2, 9.1, 8.5 | 9.5 GB | 13.6 min | 17.1 min |
 
 Validation mIoU after three epochs: R1 0.808, R2 0.815, R3 0.819 (lr values chosen only for timing). A first measurement of R1 on the same GPU gave 12.8 minutes, so the estimates carry an uncertainty of about a minute.
+
+## Seed pilot (2026-10-13)
+
+`piloto_sementes_2026-10-13.md`: two seeds of the frozen-encoder regime against the validation scores of the released checkpoint, under the rule in `../prereg/piloto_sementes.md`. Records the validation metrics of each model, the chip-bootstrap correlation between models, the per-chip correlation and the spread between seeds.
