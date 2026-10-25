@@ -1,0 +1,20 @@
+{
+  "descricao": "Values of the released checkpoint (R0) used by precondition 2 and by the R0 reproduction test",
+  "origem": "semana1_resultados.json, written by notebooks/semana1_higiene.ipynb on 2026-10-05 01:25",
+  "origem_sha256": "6993f9a2e7cb8da0ef281b04c8b205255ba28d32449fc43c30cc6cac7ef6379e",
+  "modelo": "ibm-nasa-geospatial/Prithvi-EO-2.0-300M-TL-Sen1Floods11, commit 918b9f140bb1783716664a2421ea3253d806017d",
+  "q_hat": 0.05419611930847168,
+  "tau": 0.9458038806915283,
+  "teste": {
+    "auroc_e": 0.937368822529867,
+    "erro_nao_sinalizado": 0.14128661747955057,
+    "taxa_erro": 0.02456094878061108,
+    "miou": 0.8945898540101762
+  },
+  "bolivia": {
+    "auroc_e": 0.9431715437717608,
+    "erro_nao_sinalizado": 0.11033211752814419,
+    "taxa_erro": 0.052937515146548854,
+    "miou": 0.8085352590657995
+  }
+}
