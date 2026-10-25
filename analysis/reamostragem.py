@@ -1,8 +1,9 @@
 """Resampling machinery of the analysis of prereg/preregistro.md (section 6).
 
 A replicate is described by two things: how many times each unit (chip, window or block) enters it,
-and which of the seeds of each regime enter it. The draws come from numpy.random.default_rng(0), so the
-seed draws are identical in every analysis and the unit draws are fixed by the order of the strata.
+and which of the seeds of each regime enter it. The draws come from numpy.random.default_rng(0). The seed draws of R1 and R3 come first, then the unit
+draws in the order of the strata, then the seed draw of R2, so nothing in the primary comparison depends on
+R2 and the draws do not depend on the names of the codes.
 """
 import math
 
@@ -15,11 +16,11 @@ def make_rng(seed=N.BOOT_SEED):
     return np.random.default_rng(seed)
 
 
-def seed_draws(rng, B, n_codes, n_seeds):
-    """Indices of the seeds that enter each replicate, per regime code. Shape (B, n_codes, n_seeds).
+def seed_draw(rng, B, n_seeds):
+    """Indices of the seeds that enter each replicate for one regime. Shape (B, n_seeds).
 
-    Codes are taken in sorted order of their label, independently of each other."""
-    return rng.integers(0, n_seeds, size=(B, n_codes, n_seeds))
+    Each regime has its own draw, independent of the others."""
+    return rng.integers(0, n_seeds, size=(B, n_seeds))
 
 
 def stratified_counts(rng, strata, n_units, B):
@@ -120,6 +121,8 @@ def p_value(x):
 def holm(pvalores):
     """Holm-adjusted p-values (family-wise), in the order given."""
     p = np.asarray(pvalores, dtype=np.float64)
+    if np.isnan(p).any():
+        raise ValueError("Holm correction needs defined p-values")
     m = p.size
     ordem = np.argsort(p, kind="stable")
     ajust = np.empty(m)

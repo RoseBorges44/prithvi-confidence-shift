@@ -85,10 +85,11 @@ def gerar(raiz, semente=12345, escala=1.0, heterogeneidade=0.4, parametros=None,
                 and float(r["cloud_frac"]) <= 0.5}
     usados = {m for m, r in eventos.items() if r["core"] == "True" or r["full_set"] == "True"
               or (nuvem050 and m in nuvem_ok)}
+    linhas_nuvem = []
     if nuvem050:
         for m in NUVEM_MAPAS:
             for i in range(janelas_por_mapa_nuvem):
-                linhas.append({"window_id": f"{m}_r{(i // 3) * 512:05d}_c{(i % 3) * 512:05d}", "map_id": m,
+                linhas_nuvem.append({"window_id": f"{m}_r{(i // 3) * 512:05d}_c{(i % 3) * 512:05d}", "map_id": m,
                                "event": eventos[m]["event"], "core": "False", "row_off": str((i // 3) * 512),
                                "col_off": str((i % 3) * 512), "frac_missing_input": "0.0", "scored_pixels": "0",
                                "water_pixels": "0", "land_pixels": "0", "kept_primary": "True",
@@ -105,7 +106,7 @@ def gerar(raiz, semente=12345, escala=1.0, heterogeneidade=0.4, parametros=None,
         vazio = set(rng.choice(len(chaves), size={"val": 3, "teste": 1, "bolivia": 0}[conj], replace=False)) \
             if conj != "bolivia" else set()
         unidades[conj] = [(c, 0 if i in vazio else tamanho()) for i, c in enumerate(chaves)]
-    for r in linhas:
+    for r in linhas + linhas_nuvem:
         if r["map_id"] in usados and r["kept_sensitivity"] == "True":
             unidades["t2"].append((r["window_id"], tamanho()))
 
@@ -125,11 +126,13 @@ def gerar(raiz, semente=12345, escala=1.0, heterogeneidade=0.4, parametros=None,
     contagem = {}
     for (chave, n), y in zip(unidades["t2"], rotulos["t2"]):
         contagem[chave] = (n, int(y.sum()), int(n - y.sum()))
-    for r in linhas:
+    for r in linhas + linhas_nuvem:
         if r["window_id"] in contagem:
             n, a, t = contagem[r["window_id"]]
             r["scored_pixels"], r["water_pixels"], r["land_pixels"] = str(n), str(a), str(t)
     _escrever_csv(os.path.join(repo, "splits", "t2_janelas.csv"), linhas, campos)
+    if linhas_nuvem:
+        _escrever_csv(os.path.join(repo, "splits", "t2_janelas_nuvem050.csv"), linhas_nuvem, campos)
 
     # label files
     for conj, lista in unidades.items():

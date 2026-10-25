@@ -8,6 +8,7 @@ Each test prints OK or raises. The end-to-end tests write synthetic data in the 
 import json
 import math
 import os
+import shutil
 import sys
 import tempfile
 import time
@@ -246,6 +247,21 @@ def test_categorias_h3():
     assert [R.ceil_two_thirds(n) for n in (3, 4, 5, 6, 9)] == [2, 3, 4, 4, 6]
 
 
+def test_valores_indefinidos():
+    nan = float("nan")
+    assert C.category_h1_h2(nan, -0.01, 0.01) == "Undefined"
+    assert C.category_h1_h2(0.0, nan, 0.01) == "Undefined"
+    assert C.category_h3(nan, -0.01, 0.01, 0.0, 1, 1, 4) == "Undefined"
+    assert C.category_h3(-0.03, -0.05, -0.01, nan, 4, 0, 4) == "Undefined"
+    assert C.category_h3(0.03, 0.01, 0.05, nan, 0, 4, 4) == "Undefined"
+    assert C.category_h3(-0.01, -0.03, -0.001, nan, 4, 0, 4) == "Distortion, weak"
+    assert C.category_h3(0.0, -0.01, 0.01, nan, 0, 0, 4) == "Null"
+    _espera_erro(lambda: R.holm([0.01, nan, 0.2]), "Holm accepted a NaN p-value")
+    assert math.isnan(R.p_value(np.array([])))
+    lo, hi = R.quantile_interval(np.array([nan, nan]), 0.9)
+    assert math.isnan(lo) and math.isnan(hi)
+
+
 def test_holm_e_p():
     p = [0.01, 0.04, 0.03]
     assert np.allclose(R.holm(p), [0.03, 0.06, 0.06])
@@ -270,8 +286,8 @@ def test_sorteios():
     assert (a == b).all()
     cnt2 = R.two_stage_counts(R.make_rng(), estratos, 9, 3000)
     assert abs(cnt2.sum(1).mean() - 9.0) < 0.2
-    s = R.seed_draws(R.make_rng(), 1000, 3, 5)
-    assert s.shape == (1000, 3, 5) and s.min() == 0 and s.max() == 4
+    s = R.seed_draw(R.make_rng(), 1000, 5)
+    assert s.shape == (1000, 5) and s.min() == 0 and s.max() == 4
     v = np.arange(5 * 4, dtype=float).reshape(5, 4)          # 5 seeds, 4 replicates
     sort = np.array([[0, 0, 0, 0, 0], [4, 4, 4, 4, 4], [0, 1, 2, 3, 4], [1, 1, 2, 2, 3]])
     esperado = [v[0, 0], v[4, 1], v[:, 2].mean(), np.mean([v[1, 3], v[1, 3], v[2, 3], v[2, 3], v[3, 3]])]
@@ -381,12 +397,14 @@ def test_ponta_a_ponta_reconstrucao(base):
     esp = A.especificacoes(ctx)["primaria"]
     el_s, el_t = A.elegiveis(est, "fonte"), A.elegiveis(est, "alvo")
     B = 12
-    out = A.rodar_cenario(ctx, est, ens, codigos, esp, sel, B, el_s, el_t)
+    out = A.rodar_cenario(ctx, est, ens, codigos, reg2cod, esp, sel, B, el_s, el_t)
     rng = R.make_rng()
-    S = R.seed_draws(rng, B, len(codigos), A.N_SEMENTES)
+    S = {reg2cod[reg]: R.seed_draw(rng, B, A.N_SEMENTES) for reg in ("R1", "R3")}
     cnt_s = R.stratified_counts(rng, out["P"]["est_s"], out["P"]["n_s"], B)
     cnt_t = R.stratified_counts(rng, out["P"]["est_t"], out["P"]["n_t"], B)
-    assert (S == out["S"]).all()
+    S[reg2cod["R2"]] = R.seed_draw(rng, B, A.N_SEMENTES)
+    for cod_ in S:
+        assert (S[cod_] == out["S"][cod_]).all()
     ids_t = [ctx["alvo"].ids[i] for i in out["P"]["idx"]]
     ids_s = ctx["fonte"].ids
     cod = reg2cod["R3"]
@@ -407,9 +425,19 @@ def test_ponta_a_ponta_reconstrucao(base):
             ref = ref_auroc(np.abs(rep_m), (rep_m > 0) != (rep_y == 1))
             assert abs(out["Rb"][cod]["src_auc"][k][b] - ref) < N.HIST_TOL
     # seed averaging of the regime value
-    j = codigos.index(cod)
-    manual = np.array([out["Rb"][cod]["tgt_auc"][S[b, j], b].mean() for b in range(B)])
-    assert np.allclose(A.media_replicas(out["Rb"][cod], "tgt_auc", S[:, j, :]), manual)
+    manual = np.array([out["Rb"][cod]["tgt_auc"][S[cod][b], b].mean() for b in range(B)])
+    assert np.allclose(A.media_replicas(out["Rb"][cod], "tgt_auc", S[cod]), manual)
+
+    # the draws of R1 and R3 do not depend on R2 or on the order of the codes
+    sem_r2 = {c: v for c, v in reg2cod.items() if c != "R2"}
+    out2 = A.rodar_cenario(ctx, {k: v for k, v in est.items() if k[0] != reg2cod["R2"]}, ens,
+                           [c for c in codigos if c != reg2cod["R2"]], sem_r2, esp, sel, B, el_s, el_t)
+    for reg in ("R1", "R3"):
+        assert (out2["S"][reg2cod[reg]] == out["S"][reg2cod[reg]]).all()
+        assert np.allclose(out2["Rb"][reg2cod[reg]]["tgt_auc"], out["Rb"][reg2cod[reg]]["tgt_auc"])
+    out3 = A.rodar_cenario(ctx, est, ens, codigos[::-1], reg2cod, esp, sel, B, el_s, el_t)
+    for cod_ in S:
+        assert (out3["S"][cod_] == out["S"][cod_]).all()
 
     # blocks: 2 x 2 by grid rank inside each scene
     esp_b = A.especificacoes(ctx)["blocos_espaciais"]
@@ -437,6 +465,80 @@ def test_ponta_a_ponta_reconstrucao(base):
     j1 = json.load(open(os.path.join(saida, "resultados.json")))
     j2 = json.load(open(os.path.join(raiz, "saida2", "resultados.json")))
     assert j1 == j2
+
+
+def _espera_erro(funcao, mensagem):
+    try:
+        funcao()
+    except ValueError:
+        return
+    raise AssertionError(mensagem)
+
+
+def _copia(origem, destino):
+    if os.path.exists(destino):
+        shutil.rmtree(destino)
+    shutil.copytree(origem, destino)
+    return destino
+
+
+def _regravar(caminho, **mudancas):
+    z = dict(np.load(caminho, allow_pickle=False))
+    for k, f in mudancas.items():
+        z[k] = f(z[k])
+    np.savez(caminho, **z)
+
+
+def test_validacoes_de_entrada(base):
+    """Inputs that are wrong in ways the format cannot show are refused."""
+    raiz = os.path.join(base, "validacoes")
+    dados = G.gerar(raiz, semente=305, escala=0.2)
+    orig = dados["margens"]
+
+    def nova(nome):
+        return _copia(orig, os.path.join(raiz, nome))
+
+    # label dtype and boundary flags
+    d = nova("rot_float")
+    _regravar(os.path.join(d, "labels_teste.npz"), rotulo=lambda x: x.astype(np.float32))
+    _espera_erro(lambda: A.ler_rotulos(d, "teste"), "float labels accepted")
+    d = nova("sem_borda")
+    _regravar(os.path.join(d, "labels_teste.npz"), borda=lambda x: np.zeros_like(x))
+    _espera_erro(lambda: A.ler_rotulos(d, "teste"), "no boundary pixel accepted")
+    d = nova("borda_inteira")
+    _regravar(os.path.join(d, "labels_teste.npz"), borda=lambda x: x.astype(np.uint8))
+    _espera_erro(lambda: A.ler_rotulos(d, "teste"), "non-boolean boundary accepted")
+    # file names
+    d = nova("nome")
+    shutil.copy(os.path.join(d, "run_k7_s1_val.npz"), os.path.join(d, "run_k7_s1_validacao.npz"))
+    _espera_erro(lambda: A.listar_corridas(d), "unrecognized run file name accepted")
+    # pilot seeds
+    d = nova("piloto")
+    for conj in ("val", "teste", "bolivia", "t2"):
+        os.rename(os.path.join(d, f"run_k7_s5_{conj}.npz"), os.path.join(d, f"run_k7_s101_{conj}.npz"))
+    _espera_erro(lambda: A.verificar_corridas(A.listar_corridas(d)), "pilot seed accepted")
+    # constant margins and labels that differ from the labels file
+    d = nova("constante")
+    _regravar(os.path.join(d, "run_k7_s1_teste.npz"), margem=lambda x: np.full_like(x, 1.0))
+    rot = A.ler_rotulos(d, "teste")
+    _espera_erro(lambda: A.ler_margens(os.path.join(d, "run_k7_s1_teste.npz"), rot), "constant margins accepted")
+    d = nova("rotulo_diferente")
+    z = dict(np.load(os.path.join(d, "run_k7_s1_val.npz"), allow_pickle=False))
+    rot = A.ler_rotulos(d, "val")
+    z["rotulo"] = 1 - rot["rotulo"]
+    np.savez(os.path.join(d, "run_k7_s1_val.npz"), **z)
+    _espera_erro(lambda: A.ler_margens(os.path.join(d, "run_k7_s1_val.npz"), rot), "different labels accepted")
+    ctx = A.montar_contexto(dados["repo"], orig)
+    # margins with the sign flipped in a run
+    d = nova("invertida")
+    for conj in ("val", "teste", "bolivia", "t2"):
+        _regravar(os.path.join(d, f"run_k7_s1_{conj}.npz"), margem=lambda x: -x)
+    _espera_erro(lambda: A.processar_tudo(ctx, A.listar_corridas(d), N.Bins(), False), "flipped margins accepted")
+    # two runs with the same margins
+    d = nova("duplicada")
+    for conj in ("val", "teste", "bolivia", "t2"):
+        shutil.copy(os.path.join(d, f"run_k7_s1_{conj}.npz"), os.path.join(d, f"run_q2_s2_{conj}.npz"))
+    _espera_erro(lambda: A.processar_tudo(ctx, A.listar_corridas(d), N.Bins(), False), "duplicated runs accepted")
 
 
 def test_controles_de_entrada(base):
@@ -481,8 +583,8 @@ def test_controles_de_entrada(base):
 TESTES_UNIDADE = [test_auroc_histograma_e_exato, test_auroc_analitico, test_augrc_e_eaurc,
                   test_limiar_conformal_e_cobertura, test_temperatura_recupera_valor_conhecido,
                   test_contagens_e_metricas, test_calibracao, test_margem_do_conjunto, test_refino_das_faixas,
-                  test_categorias_h1_h2, test_categorias_h3, test_holm_e_p, test_sorteios]
-TESTES_PONTA = [test_controles_de_entrada, test_ponta_a_ponta_analitico, test_ponta_a_ponta_reconstrucao]
+                  test_categorias_h1_h2, test_categorias_h3, test_valores_indefinidos, test_holm_e_p, test_sorteios]
+TESTES_PONTA = [test_controles_de_entrada, test_validacoes_de_entrada, test_ponta_a_ponta_analitico, test_ponta_a_ponta_reconstrucao]
 
 
 def main():

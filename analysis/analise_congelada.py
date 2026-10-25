@@ -50,6 +50,10 @@ NUVEM_MAX_050 = 0.50
 EVENTOS_PRIMARIOS = ("Bolivia", "EMSR333", "EMSR342", "EMSR347", "EMSR438")
 JANELAS_PRIMARIAS = {"EMSR333": 2, "EMSR342": 92, "EMSR347": 141, "EMSR438": 7}
 MARGEM_S2_PP = 5.0
+# pooled selections whose histogram AUROC_e is compared with the exact value (section 6, "in any run and set")
+CHECADOS = ("todos", "bolivia", "t2", "prim", "sens", "c50", "full")
+MAX_REFINOS = 3
+SEMENTES_PILOTO = {0, 101, 102}
 TAMANHO_BLOCO = 2
 
 
@@ -97,21 +101,30 @@ def listar_corridas(pasta):
         m = ARQ_RX.match(nome)
         if m:
             achados[m["cod"]][int(m["sem"])][m["conj"]] = os.path.join(pasta, nome)
+        elif nome.startswith("run_") or (nome.startswith("labels_") and nome not in
+                                         {f"labels_{c}.npz" for c in CONJUNTOS}):
+            raise ValueError(f"File name not recognized: {nome}")
     return {c: dict(s) for c, s in achados.items()}
 
 
 def ler_rotulos(pasta, conjunto):
     caminho = os.path.join(pasta, f"labels_{conjunto}.npz")
     z = np.load(caminho, allow_pickle=False)
+    if z["rotulo"].dtype.kind not in "iub":
+        raise ValueError(f"{caminho}: rotulo must be integer or boolean, found {z['rotulo'].dtype}")
+    if "borda" in z.files and z["borda"].dtype != np.bool_:
+        raise ValueError(f"{caminho}: borda must be boolean, found {z['borda'].dtype}")
     r = {"chaves": [str(c) for c in z["chaves"]], "tamanhos": z["tamanhos"].astype(np.int64),
          "rotulo": z["rotulo"].astype(np.uint8),
-         "borda": z["borda"].astype(bool) if "borda" in z.files else None}
+         "borda": z["borda"] if "borda" in z.files else None}
     if r["rotulo"].size != r["tamanhos"].sum():
         raise ValueError(f"{caminho}: label count differs from the sizes")
     if not np.isin(r["rotulo"], (0, 1)).all():
         raise ValueError(f"{caminho}: labels other than 0 and 1")
     if r["borda"] is not None and r["borda"].size != r["rotulo"].size:
         raise ValueError(f"{caminho}: boundary flags and labels differ in size")
+    if r["borda"] is not None and not r["borda"].any():
+        raise ValueError(f"{caminho}: no pixel is flagged as boundary")
     return r
 
 
@@ -119,6 +132,8 @@ def ler_margens(caminho, rot, campo="margem"):
     z = np.load(caminho, allow_pickle=False)
     if [str(c) for c in z["chaves"]] != rot["chaves"] or not np.array_equal(z["tamanhos"], rot["tamanhos"]):
         raise ValueError(f"{caminho}: units or sizes differ from the labels file")
+    if "rotulo" in z.files and not np.array_equal(z["rotulo"], rot["rotulo"]):
+        raise ValueError(f"{caminho}: labels differ from the labels file")
     if campo not in z.files:
         return None
     m = z[campo]
@@ -126,6 +141,8 @@ def ler_margens(caminho, rot, campo="margem"):
         raise ValueError(f"{caminho}: {campo} must be float32 with one value per scored pixel")
     if not np.isfinite(m).all():
         raise ValueError(f"{caminho}: {campo} has non-finite values")
+    if m.size and float(np.ptp(m)) == 0.0:
+        raise ValueError(f"{caminho}: {campo} is constant")
     return m
 
 
@@ -180,6 +197,14 @@ def montar_contexto(repo, pasta, usar_nuvem050=True):
     # target: Bolivia then T2 windows
     ids_b, tam_b = cortar(rot["bolivia"], None)
     janelas = {r["window_id"]: r for r in ler_csv(os.path.join(repo, "splits", "t2_janelas.csv"))}
+    caminho_nuvem = os.path.join(repo, "splits", "t2_janelas_nuvem050.csv")
+    if usar_nuvem050 and os.path.exists(caminho_nuvem):
+        for r in ler_csv(caminho_nuvem):
+            if r["window_id"] in janelas:
+                raise ValueError(f"Window {r['window_id']} is in both window tables")
+            if r["map_id"] not in NUVEM_050:
+                raise ValueError(f"Window of a map outside the cloud 0.50 sensitivity analysis: {r['map_id']}")
+            janelas[r["window_id"]] = r
     eventos = {r["map_id"]: r for r in ler_csv(os.path.join(repo, "splits", "t2_eventos.csv"))}
     nuvem = {}
     for mapa, r in eventos.items():
@@ -195,8 +220,8 @@ def montar_contexto(repo, pasta, usar_nuvem050=True):
     if usar_nuvem050:
         faltam = [m for m in NUVEM_050 if not any(r["map_id"] == m for r in janelas.values())]
         if faltam:
-            raise ValueError("No windows cut for the maps of the cloud 0.50 sensitivity analysis: "
-                             + ", ".join(faltam))
+            raise ValueError("No windows cut for the maps of the cloud 0.50 sensitivity analysis (expected in "
+                             "splits/t2_janelas_nuvem050.csv): " + ", ".join(faltam))
     if sorted(c for c, t in zip(rot["t2"]["chaves"], rot["t2"]["tamanhos"]) if t > 0) != esperado_t2:
         raise ValueError("Windows of the T2 set differ from the windows expected from splits/t2_janelas.csv")
     ids_t, tam_t = cortar(rot["t2"], None)
@@ -254,6 +279,10 @@ def montar_contexto(repo, pasta, usar_nuvem050=True):
         raise ValueError(f"Primary windows differ from the registered ones: {dict(contagem)}")
     if int(alvo.attr["prim"][:n_b].sum()) != 15:
         raise ValueError("Bolivia must have 15 chips with scored pixels")
+    if len(ids_s) != 89 or len(set(fonte_ev := [i.split("_")[0] for i in ids_s])) != 10:
+        raise ValueError(f"Source test must have 89 units with scored pixels in 10 events, found {len(ids_s)}")
+    if sum(1 for t in rot["val"]["tamanhos"] if t > 0) != 86:
+        raise ValueError("Validation must have 86 chips with scored pixels")
     ctx["usar_nuvem050"] = usar_nuvem050
     ctx["val_chaves"] = rot["val"]
     return ctx
@@ -278,6 +307,9 @@ def pedidos_exatos(alvo, usar_nuvem050=True, reduzido=False):
     """List of (name, unit mask, pixel filter) for which exact values are computed on the target."""
     sel = selecoes_alvo(alvo, usar_nuvem050)
     pedidos = [("todos", np.ones(alvo.n, dtype=bool), "tudo")]
+    if not reduzido:
+        for conj in ("bolivia", "t2"):
+            pedidos.append((conj, alvo.attr["conjunto"] == conj, "tudo"))
     for nome, mask in sel.items():
         if reduzido and not (nome == "prim" or nome.startswith("prim|")):
             continue
@@ -382,14 +414,19 @@ def estatisticas_universo(uni, m, tau, bins, pedidos, temperatura=None, calib=()
     out["exato"] = {(nome, filtro): ordem.metricas(mask, filtro) for nome, mask, filtro in pedidos}
     pedidos_d = {(n, f): mk for n, mk, f in pedidos}
     dif = 0.0
+    dif_outros = 0.0
     if com_hist:
         for (nome, filtro), ex in out["exato"].items():
             he, hc = (out["he_b"], out["hc_b"]) if filtro == "sem_borda" else (out["he"], out["hc"])
             mask = pedidos_d[(nome, filtro)]
             h = float(N.auroc_from_hist(he[mask].sum(0, dtype=np.int64), hc[mask].sum(0, dtype=np.int64)))
             if not (math.isnan(h) and math.isnan(ex["auroc"])):
-                dif = max(dif, abs(h - ex["auroc"]))
+                if nome in CHECADOS and filtro == "tudo":
+                    dif = max(dif, abs(h - ex["auroc"]))
+                else:
+                    dif_outros = max(dif_outros, abs(h - ex["auroc"]))
     out["dif_hist"] = dif
+    out["dif_hist_outros"] = dif_outros
     if com_hist:
         out["he"], out["hc"] = compactar(out["he"], out["hc"])
         if "he_b" in out:
@@ -432,12 +469,17 @@ def processar_corrida(cod, sem, arquivos, ctx, bins, pedidos, com_tta):
     T = N.fit_temperature(m_v, y_v)
     todos_v = [("todos", np.ones(1, dtype=bool), "tudo")]
     val = estatisticas_universo(uni_v, m_v, tau, bins, todos_v, T, calib=("todos",))
+    taxa_val = float(val["cont"][0][1] / val["cont"][0][0])
+    if taxa_val >= 0.5:
+        raise ValueError(f"Run {cod} s{sem}: validation error rate {taxa_val:.3f}; margins look inverted or broken")
+    r = {"cod": cod, "sem": sem, "q_hat": q_hat, "tau": tau, "T": T, "val": val,
+         "digest": {"val": hashlib.sha256(m_v.tobytes()).hexdigest()}}
     del m_v
-    r = {"cod": cod, "sem": sem, "q_hat": q_hat, "tau": tau, "T": T, "val": val}
     for qual in ("fonte", "alvo"):
         uni = ctx[qual]
         m = margens_universo(arquivos, ctx, qual)
         r[qual] = estatisticas_universo(uni, m, tau, bins, pedidos[qual][0], T, calib=pedidos[qual][1])
+        r["digest"][qual] = hashlib.sha256(m.tobytes()).hexdigest()
         del m
         if com_tta:
             mt = margens_universo(arquivos, ctx, qual, "margem_tta")
@@ -488,6 +530,8 @@ def verificar_corridas(corridas):
         raise ValueError("No run files found")
     for cod in codigos:
         sementes = sorted(corridas[cod])
+        if set(sementes) & SEMENTES_PILOTO:
+            raise ValueError(f"Code {cod} uses a pilot seed: {sorted(set(sementes) & SEMENTES_PILOTO)}")
         if len(sementes) != N_SEMENTES:
             raise ValueError(f"Code {cod} has {len(sementes)} seeds, {N_SEMENTES} expected")
         for s in sementes:
@@ -509,7 +553,8 @@ def montar_pedidos(ctx):
             "alvo": (ped_alvo, calib_alvo, ped_alvo_red)}
 
 
-def processar_tudo(ctx, corridas, bins, com_tta):
+def processar_tudo(ctx, corridas, bins, com_tta, est_diag=None):
+    est_diag = est_diag if est_diag is not None else {}
     pedidos = montar_pedidos(ctx)
     est = {}
     ens = {}
@@ -518,6 +563,13 @@ def processar_tudo(ctx, corridas, bins, com_tta):
             est[(cod, sem)] = processar_corrida(cod, sem, corridas[cod][sem], ctx, bins, pedidos, com_tta)
         ens[cod] = processar_conjunto(cod, sorted(corridas[cod]), corridas[cod], ctx, bins, pedidos)
         log(f"  ensemble {cod} done")
+    for qual in ("val", "fonte", "alvo"):
+        vistos = {}
+        for chave, r in est.items():
+            d = r["digest"][qual]
+            if d in vistos:
+                raise ValueError(f"Runs {vistos[d]} and {chave} have identical {qual} margins")
+            vistos[d] = chave
     maximo = 0.0
     dif = 0.0
     dif_extra = 0.0
@@ -533,7 +585,11 @@ def processar_tudo(ctx, corridas, bins, com_tta):
         for chave in ("fonte", "alvo"):
             maximo = max(maximo, e[chave]["max_abs_m"])
             dif_extra = max(dif_extra, e[chave]["dif_hist"])
-    log(f"  histogram difference of the 15 runs {dif:.2e}; of the TTA and ensemble variants {dif_extra:.2e} (reported only)")
+    dif_outros = max(r[c]["dif_hist_outros"] for r in est.values() for c in ("fonte", "alvo"))
+    log(f"  histogram difference of the pooled sets of the runs {dif:.2e}; of events, leave-one-event-out and "
+        f"boundary subsets {dif_outros:.2e}; of the TTA and ensemble variants {dif_extra:.2e} (the last two only reported)")
+    est_diag["dif_outros"] = dif_outros
+    est_diag["dif_extra"] = dif_extra
     return est, ens, dif, maximo
 
 
@@ -633,16 +689,15 @@ def replicas_corrida(P, ctx, r_fonte, r_alvo, cnt_s, cnt_t, filtro, extras, elig
             out["tgt_igual"] = np.nanmean(ev_auc, axis=0)
             out["tgt_pares"] = np.nansum(np.where(np.isnan(ev_auc), 0.0, ev_auc * w), axis=0) / np.where(
                 np.isnan(ev_auc), 0.0, w).sum(axis=0)
-        for qual, cnt, h_e, h_c, el in (("src", cnt_s, r_fonte[kh], r_fonte[kc], elig_s),
-                                        ("tgt", cnt_t, he, hc, elig_t)):
-            a_u = R.unit_auroc(h_e, h_c)
+        for qual, cnt, a_u, el in (("src", cnt_s, r_fonte["auc_unid"], elig_s),
+                                   ("tgt", cnt_t, r_alvo["auc_unid"][P["idx"]], elig_t)):
             c = cnt.astype(np.float64) * el[None, :]
             with np.errstate(invalid="ignore", divide="ignore"):
                 out[qual + "_macro"] = (c @ np.where(el, a_u, 0.0)) / c.sum(axis=1)
     return out
 
 
-def rodar_cenario(ctx, est, ens, codigos, esp, selecoes, B, elig_s=None, elig_t=None):
+def rodar_cenario(ctx, est, ens, codigos, reg2cod, esp, selecoes, B, elig_s=None, elig_t=None):
     """Replicates of one scenario. Returns the seed draws and, per code, arrays (K, B) per metric."""
     t0 = time.time()
     P = preparar_cenario(ctx, esp, selecoes)
@@ -654,10 +709,13 @@ def rodar_cenario(ctx, est, ens, codigos, esp, selecoes, B, elig_s=None, elig_t=
     else:
         el_t = el_s = None
     rng = R.make_rng()
-    S = R.seed_draws(rng, B, len(codigos), N_SEMENTES)
+    S = {reg: R.seed_draw(rng, B, N_SEMENTES) for reg in ("R1", "R3")}
     sortear = R.two_stage_counts if esp["esquema"] == "dois_estagios" else R.stratified_counts
     cnt_s = sortear(rng, P["est_s"], P["n_s"], B)
     cnt_t = sortear(rng, P["est_t"], P["n_t"], B)
+    if "R2" in reg2cod:
+        S["R2"] = R.seed_draw(rng, B, N_SEMENTES)
+    S = {reg2cod[reg]: v for reg, v in S.items()}
     Rb = defaultdict(lambda: defaultdict(list))
     for cod in codigos:
         for sem in sorted(k[1] for k in est if k[0] == cod):
@@ -724,8 +782,9 @@ def pontos_cenario(est, ens, codigos, esp, ctx, selecoes, elig_s, elig_t):
             acc["ev_auc"].append(a)
             if esp["extras"]:
                 w = np.array([float(x["ne"]) * float(x["nc"]) for x in ev])
-                acc["tgt_igual"].append(float(np.mean(a)))
-                acc["tgt_pares"].append(float((a * w).sum() / w.sum()))
+                ok = ~np.isnan(a)
+                acc["tgt_igual"].append(float(np.mean(a[ok])))
+                acc["tgt_pares"].append(float((a[ok] * w[ok]).sum() / w[ok].sum()))
                 au_t = r["alvo"]["auc_unid"][idx][elig_t[idx]]
                 au_s = r["fonte"]["auc_unid"][elig_s]
                 acc["tgt_macro"].append(float(au_t.mean()) if au_t.size else float("nan"))
@@ -787,10 +846,9 @@ def contar_sinais(ev_r3, ev_r1):
 def analisar_cenario(res, pt, codigos, reg2cod, esp, eventos):
     """Estimates, intervals, p-values and categories of one scenario."""
     S, Rb = res["S"], res["Rb"]
-    posicao = {c: i for i, c in enumerate(codigos)}
 
     def rep(grupo, chave):
-        return media_replicas(Rb[grupo], chave, S[:, posicao[grupo.split(":")[-1]], :])
+        return media_replicas(Rb[grupo], chave, S[grupo.split(":")[-1]])
 
     def ponto(grupo, chave):
         return float(np.mean(pt[grupo][chave], axis=0))
@@ -975,7 +1033,7 @@ def rq3_por_unidade(est, reg2cod, ctx, selecoes):
             resumo[f"{nome}_{reg}"] = {"spearman": float(rho), "p": float(p), "unidades": int(idx.size)}
         for j, u in enumerate(idx):
             linhas.append([nome, uni.ids[u], uni.evento[u], int(uni.tamanhos[u]), float(frac_agua[j])]
-                          + [float(taxas[r][j]) for r in reg2cod])
+                          + [float(taxas[r][j]) for r in REGIMES if r in reg2cod])
     return linhas, resumo
 
 
@@ -1070,7 +1128,8 @@ def escrever_saidas(saida, resultados, meta):
                                        f"{prim['sinais']['positivos']} de {prim['sinais']['n_eventos']}")))
     linhas.append(linha_contraste("S1: Delta_reg alvo - Delta_reg fonte", pool["s1"], (fmt(holm["S1"], 4), "")))
     linhas.append(linha_contraste("S2: erro nao sinalizado R3-R1 (pontos percentuais)", prim["s2"],
-                                  (fmt(holm["S2"], 4), "equivalencia em +-5 pp: " + ("sim" if prim["s2"]["equivalencia_5pp"] else "nao"))))
+                                  (fmt(holm["S2"], 4), "equivalencia em +-5 pp: " + ("sim" if prim["s2"]["equivalencia_5pp"] else "nao")
+                                   + " (IC90 dentro de +-5 pp; nao ajustada por multiplicidade)")))
     linhas.append(linha_contraste("S3: AUGRC R3-R1", prim["s3"], (fmt(holm["S3"], 4), "")))
     for par in ("R2-R1", "R3-R2"):
         if par in pool["delta_reg"]:
@@ -1178,15 +1237,17 @@ def main(argv=None):
     log(f"codes: {len(codigos)}; source units {ctx['fonte'].n}, target units {ctx['alvo'].n}")
 
     bins = N.Bins()
-    for tentativa in range(8):
-        est, ens, dif, maximo = processar_tudo(ctx, corridas, bins, not args.sem_tta)
+    diag = {}
+    for tentativa in range(MAX_REFINOS + 1):
+        est, ens, dif, maximo = processar_tudo(ctx, corridas, bins, not args.sem_tta, diag)
         log(f"histogram check: largest difference {dif:.2e} with {bins}; largest |m| {maximo:.2f}")
         if dif <= N.HIST_TOL:
             break
         bins = N.refine_bins(bins, maximo)
         log(f"difference above {N.HIST_TOL}: new bins {bins}")
     else:
-        raise RuntimeError("Histogram AUROC_e still differs from the exact value after refining the bins")
+        raise RuntimeError(f"Histogram AUROC_e still differs from the exact value after {MAX_REFINOS} refinements "
+                           "of the bins; memory doubles with each one, so decide how to proceed")
 
     reg2cod = ler_chave(args.chave, codigos)
     log("key read: " + ", ".join(f"{r}={reg2cod[r]}" for r in REGIMES if r in reg2cod))
@@ -1196,7 +1257,7 @@ def main(argv=None):
     resultados = {"cenarios": OrderedDict()}
     for nome, esp in especificacoes(ctx).items():
         log(f"scenario {nome}")
-        res = rodar_cenario(ctx, est, ens, codigos, esp, selecoes, args.B, el_s, el_t)
+        res = rodar_cenario(ctx, est, ens, codigos, reg2cod, esp, selecoes, args.B, el_s, el_t)
         pt = pontos_cenario(est, ens, codigos, esp, ctx, selecoes, el_s, el_t)
         resultados["cenarios"][nome] = analisar_cenario(res, pt, codigos, reg2cod, esp, res["P"]["eventos"])
         if nome == "primaria":
@@ -1220,7 +1281,8 @@ def main(argv=None):
             "scripts_sha256": {f: sha256_arquivo(os.path.join(AQUI, f)) for f in
                                ("analise_congelada.py", "nucleo.py", "reamostragem.py", "categorias.py")},
             "versoes": {"python": platform.python_version(), "numpy": np.__version__, "scipy": scipy.__version__},
-            "histograma_dif_maxima": dif}
+            "histograma_dif_maxima": dif, "histograma_dif_outros": diag.get("dif_outros"),
+            "histograma_dif_variantes": diag.get("dif_extra")}
     escrever_saidas(args.saida, resultados, meta)
     log("done")
     return resultados
@@ -1229,7 +1291,6 @@ def main(argv=None):
 def variantes(res, pt, codigos, reg2cod, ens):
     """Single-model MSP against the ensemble of the seeds and against test-time augmentation (secondary)."""
     S, Rb = res["S"], res["Rb"]
-    posicao = {c: i for i, c in enumerate(codigos)}
     out = {}
     for reg, cod in reg2cod.items():
         d = {}
@@ -1237,7 +1298,7 @@ def variantes(res, pt, codigos, reg2cod, ens):
             if grupo not in pt:
                 continue
             ponto = {k: float(np.mean(pt[grupo][k])) for k in ("tgt_auc", "tgt_augrc", "tgt_eaurc", "src_auc")}
-            reps = {k: media_replicas(Rb[grupo], k, S[:, posicao[cod], :]) for k in ("tgt_auc", "tgt_augrc", "src_auc")}
+            reps = {k: media_replicas(Rb[grupo], k, S[cod]) for k in ("tgt_auc", "tgt_augrc", "src_auc")}
             d[rotulo] = {"auroc_e_alvo": valor(ponto["tgt_auc"], reps["tgt_auc"]),
                          "augrc_alvo": valor(ponto["tgt_augrc"], reps["tgt_augrc"]),
                          "eaurc_alvo": ponto["tgt_eaurc"],
@@ -1245,7 +1306,7 @@ def variantes(res, pt, codigos, reg2cod, ens):
             if rotulo != "unico":
                 d[rotulo]["diferenca_auroc_e_alvo_menos_unico"] = contraste(
                     ponto["tgt_auc"], reps["tgt_auc"], float(np.mean(pt[cod]["tgt_auc"])),
-                    media_replicas(Rb[cod], "tgt_auc", S[:, posicao[cod], :]))
+                    media_replicas(Rb[cod], "tgt_auc", S[cod]))
         d["variancia_entre_sementes_auroc_e_alvo"] = ens[cod]["var_alvo"][("prim", "tudo")]["auroc"]
         out[reg] = d
     return out
