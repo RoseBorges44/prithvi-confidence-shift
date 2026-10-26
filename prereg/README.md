@@ -11,3 +11,5 @@ OSF registration: to add (records the commit and SHA-256 of `preregistro.md`).
 | `piloto_lr.md` | Learning-rate grid of the pilot and the rule that picks one value per regime | 2026-10-11 |
 | `piloto_sementes.md` | Pilot with two seeds of the frozen encoder against the released checkpoint, on the validation set only, to estimate the inputs of the minimum detectable effect | 2026-10-12 |
 | `preregistro.md` | Hypotheses, decision rules, data, regimes, metrics, analysis plan, minimum detectable effect, preconditions, sensitivity analyses and deviation policy of the confirmatory study | 2026-10-19 |
+| `desvios.md` | Deviations from `preregistro.md` and the date of the single confirmatory run | from 2026-10-24 |
+| `plano_exploratorio.md` | Exploratory analyses E1 to E6, written after the confirmatory run and before computing any of them | 2026-10-25 |
