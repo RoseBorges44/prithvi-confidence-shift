@@ -13,3 +13,4 @@ OSF registration: to add (records the commit and SHA-256 of `preregistro.md`).
 | `preregistro.md` | Hypotheses, decision rules, data, regimes, metrics, analysis plan, minimum detectable effect, preconditions, sensitivity analyses and deviation policy of the confirmatory study | 2026-10-19 |
 | `desvios.md` | Deviations from `preregistro.md` and the date of the single confirmatory run | from 2026-10-24 |
 | `plano_exploratorio.md` | Exploratory analyses E1 to E6, written after the confirmatory run and before computing any of them | 2026-10-25 |
+| `plano_rq4.md` | Plan of RQ4 (Rio Grande do Sul, 2024-05-06), written before any model output on that area | 2026-10-31 |
