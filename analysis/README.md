@@ -20,6 +20,7 @@ Analysis scripts. Each script is frozen, and its SHA-256 recorded here, before i
 | `r0_referencia.json` | R0 values from week 1, used by precondition 2 and by the R0 test. |
 | `gerador_sintetico.py`, `testes_sinteticos.py` | Synthetic data with known effects and the tests of section 10. |
 | `teste_r0.py` | Reproduction of the R0 values from the week 1 histograms. |
+| `rq4/s2_exportacao.py`, `rq4/teste_s2_exportacao.py` | Rules of the Sentinel-2 export of RQ4 (granule choice, baseline check, grid check, record of the inputs) and their tests; no Earth Engine call. |
 
 ## Input
 
