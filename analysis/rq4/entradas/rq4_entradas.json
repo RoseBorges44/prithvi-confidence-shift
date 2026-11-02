@@ -1,0 +1,281 @@
+{
+  "plano": "prereg/plano_rq4.md, secao 1",
+  "commit_repositorio": "a21b9ecb9e5ff9b345103e77b1420def4c720b3d",
+  "s2_exportacao_sha256": "7f2a1dff405392268020f4ee9cdb5ca1d0495c7e57763755202dca121d6791cf",
+  "data_sensing_utc": "2024-05-06",
+  "candidatos_no_dia": {
+    "22JDM": [
+      {
+        "id": "20240506T133149_20240506T133146_T22JDM",
+        "tile": "22JDM",
+        "time_start_ms": 1715002847364,
+        "nuvem": 36.1933949436589,
+        "n_candidatos": 1
+      }
+    ],
+    "22JCN": [
+      {
+        "id": "20240506T133149_20240506T133146_T22JCN",
+        "tile": "22JCN",
+        "time_start_ms": 1715002836467,
+        "nuvem": 0.0383409477738959,
+        "n_candidatos": 1
+      }
+    ]
+  },
+  "entradas": [
+    {
+      "tile": "22JDM",
+      "id": "20240506T133149_20240506T133146_T22JDM",
+      "sensing_utc": "2024-05-06T13:40:47Z",
+      "nuvem_percentual": 36.1933949436589,
+      "n_candidatos_no_dia": 1,
+      "propriedades": {
+        "system:index": "20240506T133149_20240506T133146_T22JDM",
+        "system:time_start": 1715002847364,
+        "MGRS_TILE": "22JDM",
+        "PRODUCT_ID": "S2B_MSIL1C_20240506T133149_N0510_R081_T22JDM_20240506T150929",
+        "GRANULE_ID": "L1C_T22JDM_A037430_20240506T133146",
+        "CLOUDY_PIXEL_PERCENTAGE": 36.1933949436589,
+        "PROCESSING_BASELINE": "05.10",
+        "SPACECRAFT_NAME": "Sentinel-2B",
+        "SENSING_ORBIT_NUMBER": 81
+      },
+      "colecoes": {
+        "l1c": "COPERNICUS/S2_HARMONIZED",
+        "nuvem": "COPERNICUS/S2_CLOUD_PROBABILITY",
+        "l2a": "COPERNICUS/S2_SR_HARMONIZED"
+      },
+      "arquivos": {
+        "s2": {
+          "bruto": {
+            "arquivo": "22JDM_20240506T133149_20240506T133146_T22JDM_s2.tif",
+            "bytes": 967253997,
+            "sha256": "e9d74bab2ad63eb9ca8134d4178679ec195c969c9bd93f5d4762aa7bed768c92",
+            "altura": 10980,
+            "largura": 9861,
+            "transform": [
+              10.0,
+              0.0,
+              399950.0,
+              0.0,
+              -10.0,
+              6700010.0
+            ]
+          },
+          "canonico": {
+            "arquivo": "canonico/22JDM_20240506T133149_20240506T133146_T22JDM_s2.tif",
+            "bytes": 1317418299,
+            "sha256": "8449fb257d1979a82664dace89709087f407a80ec5da0ebc8ab8f6eb18ce8447"
+          },
+          "deslocamento_pixels": {
+            "coluna": -1,
+            "linha": -1
+          }
+        },
+        "nuvem": {
+          "bruto": {
+            "arquivo": "22JDM_20240506T133149_20240506T133146_T22JDM_nuvem.tif",
+            "bytes": 24826996,
+            "sha256": "5db1be18ed8eef62dcfde669230c6d2497aa7d19312f938d4e00313c91bcb358",
+            "altura": 10980,
+            "largura": 10980,
+            "transform": [
+              10.0,
+              0.0,
+              399960.0,
+              0.0,
+              -10.0,
+              6700000.0
+            ]
+          },
+          "canonico": {
+            "arquivo": "canonico/22JDM_20240506T133149_20240506T133146_T22JDM_nuvem.tif",
+            "bytes": 23401016,
+            "sha256": "bb0176afb5d365d19d87c96f06e9ae806cb79dd013c1e2f2e310759ee07b548a"
+          },
+          "deslocamento_pixels": {
+            "coluna": 0,
+            "linha": 0
+          }
+        },
+        "scl": {
+          "bruto": {
+            "arquivo": "22JDM_20240506T133149_20240506T133146_T22JDM_scl.tif",
+            "bytes": 2972742,
+            "sha256": "a4f6fe66750599386a7bce5caef61730e95a82e7dd2938963e5180b34957506b",
+            "altura": 10980,
+            "largura": 9849,
+            "transform": [
+              10.0,
+              0.0,
+              399950.0,
+              0.0,
+              -10.0,
+              6700010.0
+            ]
+          },
+          "canonico": {
+            "arquivo": "canonico/22JDM_20240506T133149_20240506T133146_T22JDM_scl.tif",
+            "bytes": 1854758,
+            "sha256": "a7d199dd3499fe58f6da23e00810cd7cd4d514844fdc4743c51c56cf2da2f19d"
+          },
+          "deslocamento_pixels": {
+            "coluna": -1,
+            "linha": -1
+          }
+        }
+      },
+      "grade": {
+        "crs": "EPSG:32722",
+        "transform": [
+          10.0,
+          0.0,
+          399960.0,
+          0.0,
+          -10.0,
+          6700000.0
+        ],
+        "altura": 10980,
+        "largura": 10980,
+        "cobertura_s2": {
+          "primeira_coluna_com_dado": 0,
+          "ultima_coluna_com_dado": 9855
+        }
+      },
+      "fracao_pixels_com_6_bandas_zero": 0.21234345606019886,
+      "verificacao_do_deslocamento": {
+        "situacao": "conferido",
+        "b4_bruto_menos_harmonizado": 1000.0,
+        "b4_harmonizado": 1112.9746
+      }
+    },
+    {
+      "tile": "22JCN",
+      "id": "20240506T133149_20240506T133146_T22JCN",
+      "sensing_utc": "2024-05-06T13:40:36Z",
+      "nuvem_percentual": 0.0383409477738959,
+      "n_candidatos_no_dia": 1,
+      "propriedades": {
+        "system:index": "20240506T133149_20240506T133146_T22JCN",
+        "system:time_start": 1715002836467,
+        "MGRS_TILE": "22JCN",
+        "PRODUCT_ID": "S2B_MSIL1C_20240506T133149_N0510_R081_T22JCN_20240506T150929",
+        "GRANULE_ID": "L1C_T22JCN_A037430_20240506T133146",
+        "CLOUDY_PIXEL_PERCENTAGE": 0.0383409477738959,
+        "PROCESSING_BASELINE": "05.10",
+        "SPACECRAFT_NAME": "Sentinel-2B",
+        "SENSING_ORBIT_NUMBER": 81
+      },
+      "colecoes": {
+        "l1c": "COPERNICUS/S2_HARMONIZED",
+        "nuvem": "COPERNICUS/S2_CLOUD_PROBABILITY",
+        "l2a": "COPERNICUS/S2_SR_HARMONIZED"
+      },
+      "arquivos": {
+        "s2": {
+          "bruto": {
+            "arquivo": "22JCN_20240506T133149_20240506T133146_T22JCN_s2.tif",
+            "bytes": 1270963793,
+            "sha256": "a6777ff78bd2fa47d94707f899bfd9b45328f165b70923e705a2dc21c18f46aa",
+            "altura": 10980,
+            "largura": 10981,
+            "transform": [
+              10.0,
+              0.0,
+              299990.0,
+              0.0,
+              -10.0,
+              6800030.0
+            ]
+          },
+          "canonico": {
+            "arquivo": "canonico/22JCN_20240506T133149_20240506T133146_T22JCN_s2.tif",
+            "bytes": 689425940,
+            "sha256": "ed67fbb266d5aab6238cd72a7079ec65159373474af15bf2ecfaf14bed5e0475"
+          },
+          "deslocamento_pixels": {
+            "coluna": -1,
+            "linha": -1
+          }
+        },
+        "nuvem": {
+          "bruto": {
+            "arquivo": "22JCN_20240506T133149_20240506T133146_T22JCN_nuvem.tif",
+            "bytes": 34191401,
+            "sha256": "002ba626a160ac2b9f0b79330010e3942c99585768b5bcf5c6171a131d60adf3",
+            "altura": 10980,
+            "largura": 10981,
+            "transform": [
+              10.0,
+              0.0,
+              299990.0,
+              0.0,
+              -10.0,
+              6800020.0
+            ]
+          },
+          "canonico": {
+            "arquivo": "canonico/22JCN_20240506T133149_20240506T133146_T22JCN_nuvem.tif",
+            "bytes": 35384262,
+            "sha256": "8dba5d1f697a73d8ddcf14e1d09287791cacd0386a82636c89de3f61b4539cdc"
+          },
+          "deslocamento_pixels": {
+            "coluna": -1,
+            "linha": 0
+          }
+        },
+        "scl": {
+          "bruto": {
+            "arquivo": "22JCN_20240506T133149_20240506T133146_T22JCN_scl.tif",
+            "bytes": 5247920,
+            "sha256": "99331620dd40d7b9a1cfd723621b177619637fdb4b888f40750d7a105173495e",
+            "altura": 10980,
+            "largura": 10981,
+            "transform": [
+              10.0,
+              0.0,
+              299990.0,
+              0.0,
+              -10.0,
+              6800030.0
+            ]
+          },
+          "canonico": {
+            "arquivo": "canonico/22JCN_20240506T133149_20240506T133146_T22JCN_scl.tif",
+            "bytes": 3445004,
+            "sha256": "1acd23ae8324e580831543cc5597ae9b6a782b64cd59b8caa96ef003b96ca0d9"
+          },
+          "deslocamento_pixels": {
+            "coluna": -1,
+            "linha": -1
+          }
+        }
+      },
+      "grade": {
+        "crs": "EPSG:32722",
+        "transform": [
+          10.0,
+          0.0,
+          300000.0,
+          0.0,
+          -10.0,
+          6800020.0
+        ],
+        "altura": 10980,
+        "largura": 10980,
+        "cobertura_s2": {
+          "primeira_coluna_com_dado": 0,
+          "ultima_coluna_com_dado": 10979
+        }
+      },
+      "fracao_pixels_com_6_bandas_zero": 0.00010057199544792485,
+      "verificacao_do_deslocamento": {
+        "situacao": "conferido",
+        "b4_bruto_menos_harmonizado": 1000.0,
+        "b4_harmonizado": 682.789
+      }
+    }
+  ],
+  "gerado_utc": "2026-11-02T14:02:06Z"
+}
