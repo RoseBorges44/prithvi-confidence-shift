@@ -21,6 +21,8 @@ Analysis scripts. Each script is frozen, and its SHA-256 recorded here, before i
 | `gerador_sintetico.py`, `testes_sinteticos.py` | Synthetic data with known effects and the tests of section 10. |
 | `teste_r0.py` | Reproduction of the R0 values from the week 1 histograms. |
 | `rq4/s2_exportacao.py`, `rq4/teste_s2_exportacao.py` | Rules of the Sentinel-2 export of RQ4 (granule choice, baseline check, grid check, record of the inputs) and their tests; no Earth Engine call. |
+| `rq4/inventario_referencias.py`, `rq4/teste_inventario_referencias.py` | Inventory of the candidate references of RQ4 (layers, dates in names, classes, area per tile) and its tests; no rasterization, no model output. |
+| `rq4/entradas/` | Record of the Sentinel-2 inputs of RQ4 (granules, grids, SHA-256), as written by the export notebook. |
 
 ## Input
 
