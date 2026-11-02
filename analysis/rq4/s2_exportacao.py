@@ -10,12 +10,12 @@ import datetime as dt
 import numpy as np
 
 DATA = "2024-05-06"                      # sensing date, UTC
-TILES = ("22JDM", "22JCN")
+TILES = ("22JDM", "22JCN", "22JDN")      # 22JDN added on 2026-11-02 (prereg/plano_rq4.md, changes)
 BANDAS = ("B2", "B3", "B4", "B8A", "B11", "B12")
 LADO = 10980                             # pixels of a 10 m granule
 PIXEL = 10.0
 LINHA_BASE_MINIMA = "04.00"              # from this baseline on, L1C values carry an offset of 1000
-CRS_ESPERADO = {"22JDM": "EPSG:32722", "22JCN": "EPSG:32722"}   # UTM zone 22 south
+CRS_ESPERADO = {"22JDM": "EPSG:32722", "22JCN": "EPSG:32722", "22JDN": "EPSG:32722"}   # UTM zone 22 south
 
 
 def dia_utc(ms):

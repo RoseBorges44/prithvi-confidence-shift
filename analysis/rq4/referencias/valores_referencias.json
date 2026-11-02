@@ -1,0 +1,4421 @@
+{
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | poa_admin_bairros": {
+  "nmrop": {
+   "CENTRO": 18,
+   "NOROESTE": 12,
+   "SUL": 10,
+   "LESTE": 8,
+   "CENTRO SUL": 6,
+   "PARTENON": 5,
+   "HUMAITA-NAVEGANTES": 5,
+   "EXTREMO SUL": 5,
+   "GLORIA": 3,
+   "LOMBA DO PINHEIRO": 2,
+   "EIXO BALTAZAR": 2,
+   "CRUZEIRO": 2,
+   "ILHAS": 1,
+   "NORDESTE": 1,
+   "CRISTAL": 1,
+   "RESTINGA": 1,
+   "NORTE": 1
+  },
+  "cdrop": {
+   "OP16": 18,
+   "OP02": 12,
+   "OP15": 10,
+   "OP03": 8,
+   "OP12": 6,
+   "OP07": 5,
+   "OP01": 5,
+   "OP13": 5,
+   "OP09": 3,
+   "OP04": 2,
+   "OP14": 2,
+   "OP10": 2,
+   "OP17": 1,
+   "OP06": 1,
+   "OP11": 1,
+   "OP08": 1,
+   "OP05": 1
+  },
+  "nmrp": {
+   "HUMAITA - NAVEGANTES - ILHAS E NOROESTE": 18,
+   "CENTRO": 18,
+   "CENTRO-SUL E SUL": 16,
+   "LESTE - NORDESTE": 9,
+   "LOMBA DO PINHEIRO - PARTENON": 7,
+   "RESTINGA - EXTREMO SUL": 6,
+   "GLORIA - CRUZEIRO E CRISTAL": 6,
+   "NORTE E EIXO BALTAZAR": 3
+  },
+  "cdrp": {
+   "RP02": 18,
+   "RP01": 18,
+   "RP06": 16,
+   "RP04": 9,
+   "RP07": 7,
+   "RP08": 6,
+   "RP05": 6,
+   "RP03": 3
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | poa_inundacao_1941_475cm": {
+  "dn": {
+   "1": 248
+  },
+  "area_ha": {
+   "0": 221,
+   "2": 4,
+   "1": 3,
+   "537": 1,
+   "62": 1,
+   "17": 1,
+   "8": 1,
+   "199": 1,
+   "1613": 1,
+   "826": 1,
+   "214": 1,
+   "22": 1,
+   "241": 1,
+   "6": 1,
+   "469": 1,
+   "59": 1,
+   "117": 1,
+   "5": 1,
+   "58": 1,
+   "15": 1,
+   "10": 1,
+   "4074": 1,
+   "4773": 1
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | poa_inundacao_1967_313cm": {
+  "dn": {
+   "1": 507
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | poa_inundacao_2015_294cm": {
+  "dn": {
+   "1": 450
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | poa_inundacao_2023_nov_346cm": {
+  "dn": {
+   "1": 424
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | poa_inundacao_2023_set_318cm": {
+  "dn": {
+   "1": 526
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | poa_inundacao_2024_530cm": {
+  "DN": {
+   "1": 478
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | poa_inundacao_simulada_500cm": {
+  "DN": {
+   "1": 254
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | poa_inundacao_simulada_550cm": {
+  "DN": {
+   "1": 227
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | poa_inundacao_simulada_600cm": {
+  "DN": {
+   "1": 396
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | poa_inundacao_simulada_650cm": {
+  "DN": {
+   "1": 220
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | poa_inundacao_simulada_700cm": {
+  "DN": {
+   "1": 312
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | poa_sb_agua_fontes_publicas": {
+  "Name": {
+   "Afonso Lourenço Mariante": 1,
+   "Beco dos Rossato": 1,
+   "Carlos Trein Filho": 1,
+   "Costa do Cerro": 1,
+   "Fábio Luiz Silveira": 1,
+   "Gruta da Glória": 1,
+   "Irmã Teresilda Steffen": 1,
+   "Jabuticabas": 1,
+   "Praça Federico Garcia Lorca": 1,
+   "Fonte Deputado Asterio": 1,
+   "Fonte Prudência": 1
+  },
+  "Coliformes": {
+   "Presença": 8,
+   "<vazio>": 2,
+   "Ausência": 1
+  },
+  "E. Coli": {
+   "Presença": 5,
+   "Ausência": 4,
+   "<vazio>": 2
+  },
+  "N amostras": {
+   "<vazio>": 2,
+   "115.0": 1,
+   "108.0": 1,
+   "145.0": 1,
+   "138.0": 1,
+   "114.0": 1,
+   "132.0": 1,
+   "79.0": 1,
+   "74.0": 1,
+   "126.0": 1
+  },
+  "%PresColif": {
+   "99.1": 2,
+   "<vazio>": 2,
+   "52.2": 1,
+   "19.6": 1,
+   "93.1": 1,
+   "28.0": 1,
+   "84.8": 1,
+   "98.6": 1,
+   "99.2": 1
+  },
+  "%PresEcoli": {
+   "<vazio>": 2,
+   "3.5": 1,
+   "80.6": 1,
+   "74.5": 1,
+   "0.7": 1,
+   "95.6": 1,
+   "5.3": 1,
+   "36.7": 1,
+   "95.9": 1,
+   "74.6": 1
+  },
+  "IniAnalise": {
+   "2005-01-26": 2,
+   "<vazio>": 2,
+   "2011-03-30": 1,
+   "2011-08-24": 1,
+   "2011-12-20": 1,
+   "2005-01-19": 1,
+   "2005-01-11": 1,
+   "2016-05-04": 1,
+   "2017-05-31": 1
+  },
+  "UltAnalise": {
+   "2023-12-28": 3,
+   "2023-12-27": 3,
+   "2023-12-26": 3,
+   "<vazio>": 2
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | poa_sb_agua_saa": {
+  "OBJECTID": {
+   "126": 1,
+   "85": 1,
+   "53": 1,
+   "26": 1,
+   "1": 1,
+   "2561": 1
+  },
+  "Name": {
+   "4.2.14": 1,
+   "3.6.2": 1,
+   "6.1.1": 1,
+   "1.1.1": 1,
+   "2.4.1.4": 1,
+   "7.3": 1
+  },
+  "NIVEL": {
+   "2": 4,
+   "1": 2
+  },
+  "EBAT": {
+   "411": 1,
+   "335": 1,
+   "602": 1,
+   "103": 1,
+   "212": 1,
+   "0": 1
+  },
+  "RESALIM": {
+   "0": 6
+  },
+  "RESDISTR": {
+   "408": 1,
+   "328": 1,
+   "0": 1,
+   "102": 1,
+   "213": 1,
+   "704": 1
+  },
+  "NOMESISTEM": {
+   "BELÉM NOVO": 1,
+   "MENINO DEUS": 1,
+   "ILHA DA PINTADA": 1,
+   "MOINHOS DE VENTO": 1,
+   "SÃO JOÃO": 1,
+   "TRISTEZA": 1
+  },
+  "DATAATUALI": {
+   "<vazio>": 3,
+   "2017-10-02": 1,
+   "2019-08-27": 1,
+   "2021-05-21": 1
+  },
+  "USUARIOATU": {
+   "<vazio>": 3,
+   "cecilia.mossner": 1,
+   "andre.goncalves": 1,
+   "thiago.thomaz": 1
+  },
+  "DATACRIACA": {
+   "<vazio>": 5,
+   "2019-06-11": 1
+  },
+  "USUARIOCRI": {
+   "<vazio>": 5,
+   "andre.goncalves": 1
+  },
+  "OBSERVACOE": {
+   "<vazio>": 6
+  },
+  "NOMESUBSIS": {
+   "EBAT BOA VISTA e RES BOA VISTA (VRP29)": 1,
+   "EBAT CRISTIANO FISCHER e RES SAO JOSE II": 1,
+   "EBAT ILHAS (INLINE)": 1,
+   "EBAT BORDINI e RES BELA VISTA": 1,
+   "EBAT MANOEL ELIAS I e RES MANOEL ELIAS II (VRP53)": 1,
+   "RESERVATORIO BALNEARIOS ESPIRITO SANTO": 1
+  },
+  "SHAPE_AREA": {
+   "0.0": 6
+  },
+  "SHAPE_LEN": {
+   "0.0": 6
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rhguaiba_bacia": {
+  "nome": {
+   "Lago Guaíba": 1
+  },
+  "codigootto": {
+   "0": 1
+  },
+  "nivelotto": {
+   "0": 1
+  },
+  "area": {
+   "2429": 1
+  },
+  "d_geometri": {
+   "<vazio>": 1
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rhguaiba_sentinel2_agua_obs_20240506": {
+  "DN": {
+   "1": 4780
+  },
+  "layer": {
+   "cheias_poa_bd — sentinel_clean_06-05-2024": 4780
+  },
+  "path": {
+   "C:\\gis\\_projects_\\flood_poa\\cheias_poa_bd.gpkg|layername=sentinel_clean_06-05-2024": 4780
+  },
+  "bacia": {
+   "Vacacai": 1513,
+   "Jacui": 1195,
+   "Alto Jacui": 743,
+   "RMPA": 660,
+   "Pardo": 264,
+   "Baixo Jacui": 254,
+   "Taquari": 148,
+   "<vazio>": 3
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rhguaiba_hecras_inundacao_simulada_550cm": {
+  "Name": {
+   "{0.5, Max}": 1
+  },
+  "description": {
+   "descrição: <br>fill-opacity: 0<br>stroke-opacity: 1<br>stroke: #ff0000<br>Count: 250652<br>Length: 7241787.32932<br>Area: 19761906266.9<br>Range Min: 0.5<br>Range Max: Max<br>FID_2: 0<br>Count_2: 1516708<br>Length_2: 14482752.4946<br>Area_2: 20880409166.3<br>Range Min_2: 0.2<br>Range Max_2: Max<br>Name_2: {0.2, Max}": 1
+  },
+  "timestamp": {
+   "<vazio>": 1
+  },
+  "begin": {
+   "<vazio>": 1
+  },
+  "end": {
+   "<vazio>": 1
+  },
+  "altitudeMode": {
+   "<vazio>": 1
+  },
+  "tessellate": {
+   "-1": 1
+  },
+  "extrude": {
+   "0": 1
+  },
+  "visibility": {
+   "-1": 1
+  },
+  "drawOrder": {
+   "<vazio>": 1
+  },
+  "icon": {
+   "<vazio>": 1
+  },
+  "descri____o": {
+   "": 1
+  },
+  "fill_opacity": {
+   "0": 1
+  },
+  "stroke_opacity": {
+   "1": 1
+  },
+  "stroke": {
+   "#ff0000": 1
+  },
+  "Count": {
+   "250652": 1
+  },
+  "Length": {
+   "7241787.32932": 1
+  },
+  "Area": {
+   "19761906266.9": 1
+  },
+  "Range_Min": {
+   "0.5": 1
+  },
+  "Range_Max": {
+   "Max": 1
+  },
+  "FID_2": {
+   "0": 1
+  },
+  "Count_2": {
+   "1516708": 1
+  },
+  "Length_2": {
+   "14482752.4946": 1
+  },
+  "Area_2": {
+   "20880409166.3": 1
+  },
+  "Range_Min_2": {
+   "0.2": 1
+  },
+  "Range_Max_2": {
+   "Max": 1
+  },
+  "Name_2": {
+   "{0.2, Max}": 1
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rs_crise_abrigos_08052024_12h": {
+  "Voluntarios": {
+   "s/ infos": 165,
+   "p/ escala": 13,
+   "Precisando": 10,
+   "Sob controle": 8,
+   "Ñ recebe": 8,
+   "URGENTE": 4,
+   "Precisando c/ incrição": 2
+  },
+  "Doacoes": {
+   "s/ infos": 129,
+   "Precisando": 61,
+   "Sob controle": 11,
+   "URGENTE": 6,
+   "Ñ recebe": 3
+  },
+  "DATA ATUALIZ.": {
+   "<vazio>": 209,
+   "05/05": 1
+  },
+  "CIDADE": {
+   "Porto Alegre": 137,
+   "Canoas": 30,
+   "Cachoeirinha": 10,
+   "Gravataí": 6,
+   "São Leopoldo": 5,
+   "Novo Hamburgo": 5,
+   "Porto Alegre ": 5,
+   "Viamão": 3,
+   "Eldorado do Sul": 2,
+   "Glorinha": 1,
+   "Bom Princípio": 1,
+   "Guaíba": 1,
+   "Dois Irmãos": 1,
+   "Esteio": 1,
+   "Santa Cruz do Sul": 1,
+   "<vazio>": 1
+  },
+  "LINK MAPS": {
+   "<vazio>": 209,
+   "#NAME?": 1
+  },
+  "TIPO DE LOCAL": {
+   "Abrigo": 159,
+   "Ponto de recebimento de doações": 27,
+   "<vazio>": 22,
+   "Abrigo ": 2
+  },
+  "ALAGADO": {
+   "<vazio>": 200,
+   "SIM": 9,
+   "NÃO": 1
+  },
+  "conferir": {
+   "checar endereço": 119,
+   "<vazio>": 87,
+   "duplicado": 2,
+   "nome": 1,
+   "endereço": 1
+  },
+  "fonte": {
+   "<vazio>": 111,
+   "INSERÇÕES DO MÃOS A PARTIR DO SITE SOS": 51,
+   "INSERÇÕES DO GRUPO DE APOIADORES A PARTIR DO MAPA DO FÓRUM DAS PERIFERIAS": 46,
+   "INSERÇÕES DO MÃOS A PARTIR DO SITE SOS e INSERÇÕES DO GRUPO DE APOIADORES A PARTIR DO MAPA DO FÓRUM DAS PERIFERIAS": 1,
+   "INSERÇÃO DO MÃOS E INSERÇÕES DO GRUPO DE APOIADORES A PARTIR DO MAPA DO FÓRUM DAS PERIFERIAS": 1
+  },
+  "CEP": {
+   "<vazio>": 194,
+   "94475-760": 1,
+   "91790-370": 1,
+   "91760-000": 1,
+   "91120-630": 1,
+   "91530-000": 1,
+   "91410-400 ": 1,
+   "90130-060": 1,
+   "90520-310": 1,
+   "95765-000": 1,
+   "90035-191": 1,
+   "91360-000\n": 1,
+   "91780-000": 1,
+   "90619-900": 1,
+   "94965-000": 1,
+   "92025-403": 1,
+   "94475-000": 1
+  },
+  "ATUALIZAÇÃO": {
+   "<vazio>": 197,
+   "05/05 - 14h57min": 3,
+   "05/05 - 13h45min": 2,
+   "06/05 - 11h": 2,
+   "06/05 - 10h": 2,
+   "06/05 - 09hs": 1,
+   "05/05 - 15h46min": 1,
+   "05/05 - 15h49min": 1,
+   "06/05 às 9h30": 1
+  },
+  "PONTO": {
+   "<vazio>": 121,
+   "Abrigo": 80,
+   "Ponto de recebimento de doações": 9
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rmpa_sb_agua_fontes_publicas": {
+  "Name": {
+   "Trianon - Esteio": 1,
+   "Rua Garibaldi - Esteio": 1,
+   "Rua Caturritas - Alvorada": 1,
+   "Paróquia São Vicente de Paulo - Cachoeirinha": 1,
+   "CTG Guapos da Amizade - Cachoeirinha": 1,
+   "Ao lado do BAITA - Viamão": 1,
+   "Praça da Estalagem - Viamão": 1,
+   "Planalto - Viamão": 1,
+   "Augusta - Viamão": 1,
+   "Praça Santa Isabel - Viamão": 1,
+   "Ulbra Canoas": 1,
+   "Vila Rica - Gravataí": 1,
+   "Unidade de Saneamento Canoas": 1,
+   "Parada 68 - Gravataí": 1,
+   "Praça Central - Alvorada": 1,
+   "Igreja Assembléia de Deus - Cachoeirinha": 1,
+   "Vila Eunice Nova - Cachoeirinha": 1,
+   "Vila Regina - Cachoeirinha": 1,
+   "Rótula Guajuviras - Canoas": 1,
+   "EEEM Caetano Gonçalves da Silva - Esteio": 1,
+   "EMEI Olenca - Gravataí": 1,
+   "Vila Augusta - Viamão": 1,
+   "COHAB Blocos - Sapucaia": 1,
+   "COHAB Casas - Sapucaia": 1
+  },
+  "description": {
+   "<vazio>": 24
+  },
+  "timestamp": {
+   "<vazio>": 24
+  },
+  "begin": {
+   "<vazio>": 24
+  },
+  "end": {
+   "<vazio>": 24
+  },
+  "altitudeMode": {
+   "<vazio>": 24
+  },
+  "tessellate": {
+   "-1": 24
+  },
+  "extrude": {
+   "0": 24
+  },
+  "visibility": {
+   "-1": 24
+  },
+  "drawOrder": {
+   "<vazio>": 24
+  },
+  "icon": {
+   "<vazio>": 24
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rs_crise_abrigos_09052024_20h": {
+  "Fonte": {
+   "FSPPA": 199,
+   "Ajuda RS": 147,
+   "SOS RS | Zona Sul": 14
+  },
+  "Geo": {
+   "SIM": 360
+  },
+  "Tipo": {
+   "Abrigo": 173,
+   "sem info": 99,
+   "Centro de doação": 88
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rhguaiba_sentinel2_agua_obs_06052024_validada": {
+  "CD_MUN": {
+   "4300109": 4719
+  },
+  "NM_MUN": {
+   "Agudo": 4719
+  },
+  "SIGLA_UF": {
+   "RS": 4719
+  },
+  "bacia": {
+   "Alto Jacui": 4719
+  },
+  "MUN_KM2": {
+   "534.624": 4719
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rs_crise_abrigos_10052024_13h": {
+  "FONTE DE DADOS": {
+   "FSPPA": 199,
+   "Ajuda RS": 143,
+   "SOS RS | Zona Sul": 15
+  },
+  "CIDADE": {
+   "<vazio>": 251,
+   "Porto Alegre": 70,
+   "Canoas": 12,
+   "São Leopoldo": 5,
+   "Novo Hamburgo": 5,
+   "Gravataí": 5,
+   "Cachoeirinha": 5,
+   "Viamão": 1,
+   "Alvorada": 1,
+   "Bom Princípio": 1,
+   "Porto Alegre ": 1
+  },
+  "TIPO LOCAL": {
+   "Abrigo": 178,
+   "<vazio>": 90,
+   "Centro de doação": 79,
+   "Coleta de doações": 9,
+   "Abrigo de animais": 1
+  },
+  "ALAGADO?": {
+   "<vazio>": 347,
+   "SIM": 8,
+   "NÃO": 2
+  },
+  "Doação sobrando": {
+   "<vazio>": 197,
+   "0": 113,
+   "Não": 33,
+   "Roupas": 2,
+   "Marmitas": 1,
+   "Papel higiênico,Pasta dental,Absorventes,Fralda bebê,Bolachas,Feijão,Água sanitária ou desinfetante líquido,Água,Leite": 1,
+   "Pasta dental,Sabonete,Absorventes,Fraldas descartáveis": 1,
+   "Água": 1,
+   "Roupas Diversas,Calçados": 1,
+   "Sabonete,Pasta dental,Papel higiênico,Fralda Geriátrica,Fralda bebê,Calças": 1,
+   "Pasta dental,Papel higiênico": 1,
+   "Fraldas descartáveis,Roupas Masculino,Escova dental,Pasta dental,Sabonete": 1,
+   "Fralda bebê,Sabonete,Papel higiênico": 1,
+   "Roupas Diversas,Panos de limpeza,kit higiene": 1,
+   "Fraldas descartáveis,kit higiene": 1,
+   "kit higiene": 1
+  },
+  "Tipo": {
+   "Abrigo": 178,
+   "<vazio>": 90,
+   "Doacoes": 88,
+   "Abrigo de animais": 1
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rs_crise_abrigos_10052024_20h": {
+  "TIPO DE LOCAL": {
+   "Abrigo": 387,
+   "Coleta de doações": 97,
+   "Abrigo de animais": 5,
+   "Abrigos,Hotel Pet": 1,
+   "#N/A": 1,
+   "Lar Idosos": 1,
+   "Abrigo de cachoros": 1
+  },
+  "PRECISA DE VOLUNTARIOS": {
+   "<vazio>": 310,
+   "0": 87,
+   "Não": 74,
+   "Sim": 17,
+   "Precisa p/ Escala": 3,
+   "Sim,URGENTE": 1,
+   "Sim,Precisa p/ Escala": 1
+  },
+  "QUANTOS VOLUNTARIOS": {
+   "<vazio>": 310,
+   "0": 162,
+   "5": 1,
+   "8 para hoje a tarde": 1,
+   "3": 1,
+   "4 (Turno noite e madrugada a partir de 11/05. Não tem internação, então não precisa ser profissional).": 1,
+   "Manhã, tarde, noite. Veterinário tarde e noite e pediatra 8h-20h": 1,
+   "50": 1,
+   "Não": 1,
+   "Voluntários para escala": 1,
+   "Voluntários para PET!": 1,
+   "Não precisam": 1,
+   "https://docs.google.com/forms/d/e/1FAIpQLSdtIwlnVMTuw_T1XGjjVhmJdCwpwC0i4EA21A8gFA-ihymMAw/viewform": 1,
+   "30": 1,
+   "não precisa": 1,
+   "não informado, pode chegar que tem demanda": 1,
+   "6 por turno para a limpeza (18 pessoas)\n2 veterinários por turno (6 pessoas)\n3 voluntários para pets por turno (9 por turno)": 1,
+   "PRECISAM DE VOLUNTÁRIOS": 1,
+   "Veterinário": 1,
+   "Precisa de voluntários para domingo (12/05) por escala (manhã e tarde).": 1,
+   "2 em cada escala para Espaço Kids \nEscalas 7h às 13h, 13h às 19h": 1,
+   "Veterinarios para noite": 1,
+   "1 para HOJE (turno das 0h às 7h)": 1
+  },
+  "VAGAS DISPONÍVEIS": {
+   "<vazio>": 310,
+   "0.0": 147,
+   "100.0": 4,
+   "120.0": 3,
+   "1.0": 3,
+   "10.0": 3,
+   "50.0": 2,
+   "30.0": 2,
+   "2.0": 2,
+   "32.0": 2,
+   "20.0": 2,
+   "5.0": 2,
+   "4.0": 1,
+   "8.0": 1,
+   "452.0": 1,
+   "6.0": 1,
+   "48.0": 1,
+   "41.0": 1,
+   "43.0": 1,
+   "15.0": 1,
+   "200.0": 1,
+   "63.0": 1,
+   "400.0": 1
+  },
+  "SOBRE PETS": {
+   "<vazio>": 310,
+   "0": 164,
+   "Não aceitam pets": 1,
+   "potes, ração e casinhas": 1,
+   "Estão lotados de pets": 1,
+   "25 cães + 5 gatos": 1,
+   "sem necessidades": 1,
+   "10/05 - 12:31\nPets\n- Ração (Cachorro e Gato)\n- Anti pulga e carrapato \n- Vermífugo\n- Coleiras\n- Guias\n- Caminhas\n- Comida Pastosa\n- Jornal\n- Mantinhas": 1,
+   "Realizam atendimento gratuito para pets desabrigados e realizam o primeiro atendimento. Também possuem espaço para abrigar e alimentar pets.": 1,
+   "97 cachorros resgatados": 1,
+   "10 chapas de compensados, correntes grossas, Simparic/ Nexgrad para cães grandes e sachê para cachorro, tenda de Rave": 1,
+   "10/05 - 18:10\nQual demanda precisa: \nPETS\n- plaquinha para identificação de pet \n- ⁠sachê cão e gato \n- ⁠Antipulgas cachorro e gatos\n": 1,
+   "Não aceita": 1,
+   "ração": 1,
+   "LOTAÇÃO ESGOTADA\n": 1,
+   "- Roupas de cachorro porte grande e médio \n- Manta de pet": 1,
+   "Atualização 10/5 17:06 - Ração cachorro e gatos \n": 1,
+   "50 gatos já estão abrigados\n": 1,
+   "09/05 - 16:00\n\nRação e medicação para animais de grande porte, especialmente equinos.": 1,
+   "10/05 - 17:30\nRecebendo APENAS animais em risco \n\nQual demanda precisa:\nMateriais de primeiros socorros\nVermifugo\nAntipulgas e carrapatos\nTapete Higiênico\nJornais\nCobertas\nRação de filhotes\nToalhas\nCasinhas\nMaterial de higiene pessoal\n": 1,
+   "N° de abrigos de Pets disponível (para novos): 6 novos": 1
+  },
+  "VAGAS PARA PETS": {
+   "<vazio>": 493
+  },
+  "ATENDIMENTO PARA CRIANÇAS": {
+   "<vazio>": 493
+  },
+  "LOCAL ALAGADO": {
+   "0": 450,
+   "<vazio>": 32,
+   "SIM": 9,
+   "NÃO": 2
+  },
+  "FONTE": {
+   "FSPPA": 198,
+   "SOS RS": 152,
+   "AbrigaRS": 29,
+   "30/12/1899 00:00:00": 28,
+   "Prefeitura de Eldorado": 26,
+   "Curicaca/Uergs": 24,
+   "SOS RS | Zona Sul": 15,
+   "Prefeitura de São Leopoldo": 13,
+   "SAS - Prefeitura de São Leopoldo": 4,
+   "<vazio>": 1,
+   "05/10/2024 17:03:49": 1,
+   "05/10/2024 16:33:39": 1,
+   "05/10/2024 16:32:10": 1
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rs_crise_abrigos_11052024_13h": {
+  "TIPO DE LOCAL": {
+   "Abrigo": 271,
+   "0": 119,
+   "Coleta de doações": 97,
+   "Cozinha": 8,
+   "Abrigo de animais": 7,
+   "Abrigos, Hotel Pet": 1,
+   "Cozinha, Coleta de doações": 1
+  },
+  "O QUE ESTÁ FALTANDO": {
+   "<vazio>": 323,
+   "0": 68,
+   "Abrigos": 43,
+   "Centro de Coleta de Doações": 21,
+   "Abrigos,Centro de Coleta de Doações": 11,
+   "Cozinha,Centro de Coleta de Doações": 5,
+   "Abrigo de Cachorros": 4,
+   "Abrigos,Hotel Pet": 4,
+   "Centro de Coleta de Doações,Abrigos": 3,
+   "Abrigos,Cozinha": 2,
+   "Hotel Pet,Abrigos": 2,
+   "Hotel Pet": 2,
+   "Centro de Coleta de Doações,Hotel Pet": 1,
+   "Abrigos,Hotel Pet,Centro de Coleta de Doações": 1,
+   "Abrigos,Cozinha,Centro de Coleta de Doações": 1,
+   "Abrigo Infantil Especiais": 1,
+   "Centro de Coleta de Doações,abrigo ,Cozinha": 1,
+   "Cozinha": 1,
+   "Abrigos,triagem": 1,
+   "Abrigos,Abrigo de Cachorros": 1,
+   "Abrigos,Centro de Coleta de Doações,Abrigo de Cachorros": 1,
+   "Cozinha,Abrigos": 1,
+   "triagem,Cozinha,Centro de Coleta de Doações,Hotel Pet": 1,
+   "Abrigos,Centro de Coleta de Doações,Crianças": 1,
+   "Abrigos,Crianças,Atípicas": 1,
+   "Centro de Coleta de Doações,Cozinha": 1,
+   "Hotel Pet,Abrigo de Cachorros": 1,
+   "Lar Idosos": 1
+  },
+  "O QUE ESTÁ SOBRANDO": {
+   "<vazio>": 323,
+   "0": 68,
+   "Abrigos": 43,
+   "Centro de Coleta de Doações": 21,
+   "Abrigos,Centro de Coleta de Doações": 11,
+   "Cozinha,Centro de Coleta de Doações": 5,
+   "Abrigo de Cachorros": 4,
+   "Abrigos,Hotel Pet": 4,
+   "Centro de Coleta de Doações,Abrigos": 3,
+   "Abrigos,Cozinha": 2,
+   "Hotel Pet,Abrigos": 2,
+   "Hotel Pet": 2,
+   "Centro de Coleta de Doações,Hotel Pet": 1,
+   "Abrigos,Hotel Pet,Centro de Coleta de Doações": 1,
+   "Abrigos,Cozinha,Centro de Coleta de Doações": 1,
+   "Abrigo Infantil Especiais": 1,
+   "Centro de Coleta de Doações,abrigo ,Cozinha": 1,
+   "Cozinha": 1,
+   "Abrigos,triagem": 1,
+   "Abrigos,Abrigo de Cachorros": 1,
+   "Abrigos,Centro de Coleta de Doações,Abrigo de Cachorros": 1,
+   "Cozinha,Abrigos": 1,
+   "triagem,Cozinha,Centro de Coleta de Doações,Hotel Pet": 1,
+   "Abrigos,Centro de Coleta de Doações,Crianças": 1,
+   "Abrigos,Crianças,Atípicas": 1,
+   "Centro de Coleta de Doações,Cozinha": 1,
+   "Hotel Pet,Abrigo de Cachorros": 1,
+   "Lar Idosos": 1
+  },
+  "PESSOAS ABRIGADAS": {
+   "<vazio>": 323,
+   "0.0": 145,
+   "100.0": 4,
+   "20.0": 3,
+   "120.0": 3,
+   "50.0": 3,
+   "10.0": 2,
+   "5.0": 2,
+   "1.0": 2,
+   "2.0": 2,
+   "4.0": 2,
+   "32.0": 2,
+   "6.0": 1,
+   "452.0": 1,
+   "8.0": 1,
+   "48.0": 1,
+   "43.0": 1,
+   "41.0": 1,
+   "200.0": 1,
+   "63.0": 1,
+   "22.0": 1,
+   "400.0": 1,
+   "30.0": 1
+  },
+  "SOBRE PETS": {
+   "<vazio>": 323,
+   "0": 164,
+   "5": 1,
+   "8 para hoje a tarde": 1,
+   "3": 1,
+   "4 - Urgente - (Turno noite e madrugada a partir de 11/05. Não tem internação, então não precisa ser profissional).": 1,
+   "Manhã, tarde, noite. Veterinário tarde e noite e pediatra 8h-20h": 1,
+   "+50": 1,
+   "Não": 1,
+   "Voluntários para escala": 1,
+   "Voluntários para PET!": 1,
+   "Não precisam": 1,
+   "https://docs.google.com/forms/d/e/1FAIpQLSdtIwlnVMTuw_T1XGjjVhmJdCwpwC0i4EA21A8gFA-ihymMAw/viewform": 1,
+   "30": 1,
+   "não informado, pode chegar que tem demanda": 1,
+   "6 por turno para a limpeza (18 pessoas)\n2 veterinários por turno (6 pessoas)\n3 voluntários para pets por turno (9 por turno)": 1,
+   "Veterinário": 1,
+   "2 em cada escala para Espaço Kids \nEscalas 7h às 13h, 13h às 19h": 1,
+   "Veterinarios para noite": 1
+  },
+  "VAGAS PARA PETS": {
+   "<vazio>": 504
+  },
+  "ATENDIMENTO PARA CRIANÇAS": {
+   "<vazio>": 504
+  },
+  "LOCAL ALAGADO": {
+   "0": 493,
+   "SIM": 9,
+   "NÃO": 2
+  },
+  "FONTE": {
+   "FSPPA": 201,
+   "SOS RS": 162,
+   "AbrigaRS": 32,
+   "Prefeitura de Eldorado": 30,
+   "Prefeitura de São Leopoldo": 27,
+   "Curicaca/Uergs": 27,
+   "SOS RS | Zona Sul": 15,
+   "Cientistas pelo RS": 6,
+   "SAS - Prefeitura de São Leopoldo": 4
+  },
+  "CIDADE": {
+   "Porto Alegre": 221,
+   "São Leopoldo": 86,
+   "Canoas": 46,
+   "Gravataí": 36,
+   "Pelotas": 32,
+   "Cachoeirinha": 20,
+   "Novo Hamburgo": 13,
+   "Guaíba": 11,
+   "Viamão": 7,
+   "Eldorado do Sul": 6,
+   "Sertão Santana": 4,
+   "Alvorada": 2,
+   "Camaquã": 2,
+   "Mariana Pimentel": 2,
+   "Esteio": 2,
+   "Glorinha": 2,
+   "Gramado": 2,
+   "Porto Alegrre": 2,
+   "Sentinela do Sul": 2,
+   "Porto Alegre ": 1,
+   "Bom Princípio": 1,
+   "Estância Velha": 1,
+   "Canela": 1,
+   "Dois Irmãos": 1,
+   "Sapiranga": 1
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rs_crise_abrigos_11052024_18h": {
+  "TIPO DE LOCAL": {
+   "Abrigo": 322,
+   "Coleta de doações": 126,
+   "Abrigo (a confirmar)": 99,
+   "Abrigo de animais": 16,
+   "Cozinha": 7,
+   "Abrigos, Cozinha": 1,
+   "Abrigo, Abrigo de Animais": 1,
+   "Abrigo e Coleta de doações": 1,
+   "Abrigos, Hotel Pet": 1
+  },
+  "O QUE ESTÁ SOBRANDO": {
+   "<vazio>": 380,
+   "0": 120,
+   "Não": 60,
+   "Ração de cachorros": 2,
+   "Água": 1,
+   "Roupas": 1,
+   "Pasta dental,Papel higiênico": 1,
+   "Roupas Femininas,Roupas Masculino,Água,Cesta básica": 1,
+   "Roupas Femininas,Fraldas descartáveis,Papel higiênico,Cesta básica": 1,
+   "Roupas Femininas,Cobertores,Água": 1,
+   "Fraldas descartáveis,kit higiene": 1,
+   "Escova dental": 1,
+   "Água,Leite,Suco": 1,
+   "Água,Roupa,Leite,Arroz": 1,
+   "Sabonete,Pasta dental,Papel higiênico,Fralda bebê,Fralda Geriátrica,Calças": 1,
+   "Fralda bebê,Leite,Cobertores": 1
+  },
+  "PRECISA DE VOLUNTARIOS": {
+   "<vazio>": 380,
+   "0": 89,
+   "Não": 86,
+   "Sim": 16,
+   "Precisa p/ Escala": 1,
+   "Sim,URGENTE": 1,
+   "Sim,Precisa p/ Escala": 1
+  },
+  "QUANTOS VOLUNTARIOS": {
+   "<vazio>": 380,
+   "0": 175,
+   "Manhã, tarde, noite. Veterinário tarde e noite e pediatra 8h-20h": 1,
+   "+50": 1,
+   "Técnico em enfermagem - noite": 1,
+   "https://docs.google.com/forms/d/e/1FAIpQLSdtIwlnVMTuw_T1XGjjVhmJdCwpwC0i4EA21A8gFA-ihymMAw/viewform": 1,
+   "30 PRA HOJE E AMANHÃ": 1,
+   "30": 1,
+   "não informado, pode chegar que tem demanda": 1,
+   "6 por turno para a limpeza (18 pessoas)\n2 veterinários por turno (6 pessoas)\n3 voluntários para pets por turno (9 por turno)": 1,
+   "2 em cada escala para Espaço Kids \nEscalas 7h às 13h, 13h às 19h": 1,
+   "Veterinarios para noite": 1,
+   "Não precisa": 1,
+   "8 para hoje a tarde": 1,
+   "5": 1,
+   "Não": 1,
+   "Não precisam": 1,
+   "3": 1,
+   "4 Urgente (Turno noite e madrugada a partir de 12/05. Não tem internação, então não precisa ser profissional\n": 1,
+   "Voluntários para escala": 1,
+   "6": 1
+  },
+  "VAGAS DISPONÍVEIS": {
+   "<vazio>": 380,
+   "0.0": 157,
+   "100.0": 4,
+   "20.0": 3,
+   "50.0": 3,
+   "30.0": 2,
+   "2.0": 2,
+   "10.0": 2,
+   "120.0": 2,
+   "5.0": 2,
+   "4.0": 2,
+   "1.0": 2,
+   "41.0": 1,
+   "15.0": 1,
+   "43.0": 1,
+   "63.0": 1,
+   "32.0": 1,
+   "6.0": 1,
+   "3.0": 1,
+   "452.0": 1,
+   "200.0": 1,
+   "8.0": 1,
+   "46.0": 1,
+   "22.0": 1,
+   "400.0": 1
+  },
+  "VAGAS DISPONÍVEIS PARA PETS": {
+   "<vazio>": 380,
+   "0.0": 194
+  },
+  "INFORMAÇÕES SOBRE PETS": {
+   "<vazio>": 380,
+   "0": 167,
+   "-": 3,
+   "Abrigados: 28 cães + 5 gatos": 1,
+   "sem necessidades": 1,
+   "N° de pets abrigados: 33 cachorros, 10 gatos e 1 tartaruga": 1,
+   "N° de pets abrigados: 45": 1,
+   "11/05 - 17:23\nN° de pets abrigados: 50 cachorros 20 gatos\nN° de vagas para novos pets: 0\nAceitam pets sem tutores? Não ": 1,
+   "11/05 - 18:10\nN° de pets abrigados: 20 cachorros, 10 gatos": 1,
+   "Atualização 10/5 17:06 - Ração cachorro e gatos \n": 1,
+   "Estão lotados de pets": 1,
+   "- ⁠Cefalexina 500mg\n- ⁠cobertor/mantas\n- ⁠petisco": 1,
+   "09/05 - 16:00\n\nRação e medicação para animais de grande porte, especialmente equinos.": 1,
+   "-\n\n": 1,
+   "veterinário, Água para limpeza, água sanitária, termômetros de resposta rápida urgente, casa para cachorro GRANDE, expandimos para água potável e suco de caixinha\n": 1,
+   "10/05 - 12:31\nPets\n- Ração (Cachorro e Gato)\n- Anti pulga e carrapato \n- Vermífugo\n- Coleiras\n- Guias\n- Caminhas\n- Comida Pastosa\n- Jornal\n- Mantinhas": 1,
+   "ração": 1,
+   "50 gatos já estão abrigados\n": 1,
+   "Não aceitam pets": 1,
+   "11/05 - 17:31\nAceita novos apenas com tutor, que vai buscar depois\nQual demanda precisa:\nGeral:\n-Fralda grande porte\n-Algodão\n-Lenço umedecido\n-Jornal\n\n": 1,
+   "Realizam atendimento gratuito para pets desabrigados e realizam o primeiro atendimento. Também possuem espaço para abrigar e alimentar pets.": 1,
+   "70 cachorros resgatados\n\nPRECISAM DE VOLUNTÁRIOS:\nVoluntário - noite\nVeterinário  - noite\nLar temporário\n": 1,
+   "11/05 - 18:00\nPara os animais: lonas grossas, mantas, sachê para cachorros": 1,
+   "Não aceita": 1,
+   "11/05 - 15:30\nN° de pets abrigados: 30\nN° de vagas para novos pets: Não \nAceitam pets sem tutores? Não\n": 1,
+   "11/05 - 13:02\nRação pra cachorro\n": 1,
+   "11/05 - 11:35\nQual demanda precisa:\nCobertas \nJornais\nTapete higiênico\nPotes\nBolsas térmicas (para agua quente)\nInsumos (material hospitalar nosso esta acabando, poderia ser pix ou passamos uma lista)\nSaches (prioridade)\nMedicamento humano pressat 5mg\n\nPrecisa de água? Não, estão com abastecimento de água e possuem também filtros.\n\nPossui carro para buscar materiais? Não possuem, precisam de auxílio quanto a transporte": 1
+  },
+  "SITUAÇÃO": {
+   "0": 557,
+   "DUPLICADO": 17
+  },
+  "FONTE": {
+   "FSPPA": 201,
+   "SOS RS": 171,
+   "Prefeitura de Novo Hamburgo": 51,
+   "Curicaca/Uergs": 36,
+   "AbrigaRS": 33,
+   "Prefeitura de Eldorado": 30,
+   "Prefeitura de São Leopoldo": 29,
+   "SOS RS | Zona Sul": 19,
+   "SAS - Prefeitura de São Leopoldo": 4
+  },
+  "CIDADE": {
+   "Porto Alegre": 234,
+   "São Leopoldo": 90,
+   "Novo Hamburgo": 60,
+   "Canoas": 47,
+   "Gravataí": 37,
+   "Pelotas": 33,
+   "Cachoeirinha": 20,
+   "Guaíba": 11,
+   "Viamão": 7,
+   "Eldorado do Sul": 6,
+   "Sertão Santana": 4,
+   "Porto Alegrre": 3,
+   "Estância Velha": 3,
+   "Gramado": 2,
+   "Sentinela do Sul": 2,
+   "Alvorada": 2,
+   "Glorinha": 2,
+   "Esteio": 2,
+   "Camaquã": 2,
+   "Mariana Pimentel": 2,
+   "Bom Princípio": 1,
+   "Dois Irmãos": 1,
+   "Sapiranga": 1,
+   "Porto Alegre ": 1,
+   "Canela": 1
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rhguaiba_hecras_severidade_simulada_20240506": {
+  "Severidade": {
+   "1": 20743,
+   "2": 18875,
+   "3": 2655
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rhguaiba_sentinel2_lama_obs_20240506": {
+  "DN": {
+   "0.0": 103,
+   "<vazio>": 5
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rmpa_sb_drenagem_comporta": {
+  "id": {
+   "<vazio>": 14
+  },
+  "id_cbs": {
+   "<vazio>": 14
+  },
+  "nm_cbs": {
+   "<vazio>": 14
+  },
+  "c1_m3/s": {
+   "<vazio>": 14
+  },
+  "Número": {
+   "<vazio>": 14
+  },
+  "Nome": {
+   "<vazio>": 14
+  },
+  "COORD_X": {
+   "<vazio>": 14
+  },
+  "COORD_Y": {
+   "<vazio>": 14
+  },
+  "Name": {
+   "1": 1,
+   "2": 1,
+   "3": 1,
+   "4": 1,
+   "5": 1,
+   "6": 1,
+   "7": 1,
+   "8": 1,
+   "9": 1,
+   "10": 1,
+   "11": 1,
+   "12": 1,
+   "13": 1,
+   "14": 1
+  },
+  "Status_07_05": {
+   "": 11,
+   "Falha": 3
+  },
+  "Status_06_05": {
+   "": 13,
+   "Falha": 1
+  },
+  "Status_08_05": {
+   "": 11,
+   "Falha": 3
+  },
+  "Status_09_05": {
+   "": 11,
+   "Falha": 3
+  },
+  "Status_10_05": {
+   "": 11,
+   "Falha": 3
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rs_crise_abrigos_13052024_09h": {
+  "TIPO DE LOCAL": {
+   "Abrigo": 297,
+   "Abrigo (a confirmar)": 134,
+   "Coleta de doações": 112,
+   "Coleta de Doações": 16,
+   "Abrigo de animais": 11,
+   "Cozinha": 9,
+   "Abrigo e Coleta de doações": 4,
+   "Abrigo mulheres e crianças": 2,
+   "Abrigos,Cozinha": 1,
+   "Abrigos,Hotel Pet": 1,
+   "Abrigos": 1,
+   "Hotel Pet": 1,
+   "Coleta de Doações,Doador": 1,
+   "Abrigo, Abrigo de Animais": 1,
+   "Abrigo de Cachorros": 1,
+   "Abrigo de Cachorros,Hotel Pet": 1,
+   "Abrigo,Abrigo de Cachorros": 1,
+   "<vazio>": 1
+  },
+  "O QUE ESTÁ SOBRANDO": {
+   "<vazio>": 325,
+   "0": 150,
+   "Não": 99,
+   "Escova dental": 2,
+   "Roupas Femininas,Roupas Masculino,Água": 1,
+   "Roupas Femininas,Calçados": 1,
+   "Cobertores,Ração de cachorros": 1,
+   "Água,Bolachas,Leite,Sabonete,Pasta dental,Papel higiênico,Fraldas descartáveis": 1,
+   "Água,Roupa,Leite,Arroz": 1,
+   "Roupas Diversas": 1,
+   "Sabonete,Pasta dental,Fraldas descartáveis,Absorventes": 1,
+   "Roupas": 1,
+   "Roupa": 1,
+   "Pasta dental,Absorventes,Escova dental": 1,
+   "Fraldas descartáveis,Papel higiênico,Água,Roupas": 1,
+   "Roupas Femininas,Cobertores,Água": 1,
+   "Fraldas descartáveis,kit higiene": 1,
+   "Cobertores,Roupas,Calçados,Cesta básica,Fraldas descartáveis,Fralda Geriátrica,Colchão,Ração de cachorros,kit higiene,Água,Roupa infantil": 1,
+   "Ração de cachorros": 1,
+   "Água": 1,
+   "Água,Leite,Suco": 1,
+   "Fralda bebê": 1,
+   "Maçã": 1
+  },
+  "PRECISA DE VOLUNTARIOS": {
+   "<vazio>": 325,
+   "0": 125,
+   "Não": 117,
+   "Sim": 22,
+   "Precisa p/ Escala": 4,
+   "Sim,URGENTE": 1,
+   "Sim,Precisa p/ Escala": 1
+  },
+  "VAGAS DISPONÍVEIS": {
+   "<vazio>": 325,
+   "0.0": 225,
+   "20.0": 5,
+   "10.0": 3,
+   "50.0": 3,
+   "100.0": 3,
+   "120.0": 2,
+   "30.0": 2,
+   "12.0": 2,
+   "3.0": 2,
+   "32.0": 2,
+   "1.0": 2,
+   "5.0": 2,
+   "2.0": 2,
+   "41.0": 1,
+   "70.0": 1,
+   "4.0": 1,
+   "452.0": 1,
+   "77.0": 1,
+   "8.0": 1,
+   "40.0": 1,
+   "22.0": 1,
+   "15.0": 1,
+   "33.0": 1,
+   "200.0": 1,
+   "43.0": 1,
+   "13.0": 1,
+   "400.0": 1,
+   "38.0": 1
+  },
+  "VAGAS DISPONÍVEIS PARA PETS": {
+   "<vazio>": 325,
+   "0.0": 269,
+   "5.0": 1
+  },
+  "FONTE": {
+   "SOS RS": 209,
+   "Fórum Social das Periferias de Porto Alegre": 191,
+   "Prefeitura de Novo Hamburgo": 52,
+   "Curicaca/UERGS": 34,
+   "Prefeitura de Eldorado": 29,
+   "Coletivo Meio": 27,
+   "Prefeitura de São Leopoldo": 26,
+   "SOS RS | Zona Sul": 20,
+   "SAS - Prefeitura de São Leopoldo": 4,
+   "Abriga RS": 2,
+   "<vazio>": 1
+  },
+  "CIDADE": {
+   "Porto Alegre": 263,
+   "São Leopoldo": 86,
+   "Novo Hamburgo": 60,
+   "Canoas": 49,
+   "Gravataí": 36,
+   "Caxias do Sul": 27,
+   "Cachoeirinha": 20,
+   "Guaíba": 11,
+   "Viamão": 7,
+   "Eldorado do Sul": 6,
+   "Sertão Santana": 4,
+   "Estância Velha": 3,
+   "Alvorada": 3,
+   "Glorinha": 2,
+   "Mariana Pimentel": 2,
+   "Camaquã": 2,
+   "Esteio": 2,
+   "Gramado": 2,
+   "Pelotas": 2,
+   "Sentinela do Sul": 2,
+   "Bom Princípio": 1,
+   "Porto Alegre ": 1,
+   "Dois Irmãos": 1,
+   "Canela": 1,
+   "Sapiranga": 1,
+   "<vazio>": 1
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rs_crise_abrigos_14052024_22h": {
+  "TIPO DE LOCAL": {
+   "Abrigo": 251,
+   "Doações": 183,
+   "Abrigo (a confirmar)": 108,
+   "Abrigo de animais": 33,
+   "Cozinha": 25
+  },
+  "O QUE ESTÁ SOBRANDO": {
+   "<vazio>": 483,
+   "Não": 89,
+   "Água potável (baixa)": 2,
+   "Roupas Diversas (baixa)": 2,
+   "Xarope Para Gripe (baixa)": 1,
+   "Roupas para adultos (baixa)": 1,
+   "Escova dental": 1,
+   "Fraldas (baixa),Roupa Feminina (baixa)": 1,
+   "Fraldas descartáveis,kit higiene": 1,
+   "Antibiótico - Profilaxia Cães (baixa),Ração Cachorro (baixa)": 1,
+   "Ração  (baixa)": 1,
+   "Escova De Dentes (baixa)": 1,
+   "Roupas Femininas P (baixa),Roupas Masculinas P (baixa),Arroz (baixa),Água Sanitária (baixa),Água Mineral (baixa)": 1,
+   "Remédios básicos (baixa)": 1,
+   "Camiseta Manga Curta (baixa),Fralda M (baixa),Calçados Infantis (baixa),Calça Jeans Feminina (baixa)": 1,
+   "Mamadeira (baixa),Bicos (baixa)": 1,
+   "Termômetro (baixa),Pasta de dente (baixa),Pasta De Dente (baixa)": 1,
+   "Caneta Insulina Glargin (glargina) (baixa),Caneta Insulina Tresiba (degludeca) (baixa),Caneta Novorapid Flexpen Asparte (baixa),Caneta Insulina Lispro Humalog ( (baixa),Escova de dentes (baixa),Absorvente (baixa),Sabonetes (baixa),Pasta De Dente (baixa),Fralda Geriátrica ( Xg) (baixa)": 1,
+   "Cesta Básica (baixa),Água potável (baixa),Ração  (baixa),Calçado Feminino (baixa)": 1,
+   "Galão De Água Vazio (baixa),Maçã (baixa),Água potável (baixa)": 1,
+   "Alimentos Não Perecíveis (baixa),Roupas (baixa)": 1,
+   "Leite (baixa),Sabonetes (baixa),Papel higiênico (baixa),Fraldas (baixa),Fralda M (baixa),Absorvente (baixa),Cotonete (baixa),Pasta de dente (baixa),Água potável (baixa),Lenço Umedecido (baixa)": 1,
+   "Roupas Femininas,Cobertores,Água": 1,
+   "Sabonetes (baixa),Papel higiênico (baixa),Calça Jeans Feminina (baixa),Fraldas Bebê (baixa),Fralda Geriátrica (baixa),Pasta De Dente (baixa)": 1,
+   "Roupa Infantil (todas Idades) (baixa),Toalha de Banho (baixa),Roupa De Cama E Banho (baixa),Roupa Feminina (inverno E Verão) (baixa),Roupa Masculina (inverno E Verão) (baixa),Roupas de Camas  (baixa),Leite (baixa),Água (baixa)": 1,
+   "Fralda bebê": 1,
+   "Cobertores": 1,
+   "Ração de cachorros": 1
+  },
+  "VAGAS DISPONÍVEIS": {
+   "<vazio>": 497,
+   "0": 60,
+   "20": 4,
+   "15": 3,
+   "100": 3,
+   "50": 3,
+   "10": 2,
+   "12": 2,
+   "5": 2,
+   "30": 2,
+   "3": 2,
+   "120": 2,
+   "32": 2,
+   "1": 2,
+   "70": 1,
+   "13": 1,
+   "43": 1,
+   "2": 1,
+   "41": 1,
+   "200": 1,
+   "400": 1,
+   "452": 1,
+   "4": 1,
+   "8": 1,
+   "33": 1,
+   "40": 1,
+   "30/12/1899": 1,
+   "22": 1
+  },
+  "VAGAS DISPONÍVEIS PARA PETS": {
+   "<vazio>": 433,
+   "não": 122,
+   "sim": 45
+  },
+  "INFORMAÇÕES SOBRE PETS": {
+   "<vazio>": 570,
+   "-": 4,
+   "Não aceita pets": 1,
+   "12/05 13:00\nPara os animais: ração, coleiras, cordas/guias, mantas/cobertas": 1,
+   "12/05 - 21:00\nDemandas:\nFlorais em spray para acalmar os gatos\n\nN° de pets abrigados: 20 cachorros, 10 gatos\n": 1,
+   "12/05 - 23:28\nTapete higiênico \nCorrente para amarrar os cães(ferro)\nAreia para gato\nPapelão\nJornal \nPalet\nPipeto para cães grandes(+10kg)": 1,
+   "11/05 - 18:48\n- insumos pra internação e medicamentos veterinários (prioritário)\n- saches\n\nPrecisa de água? Não, estão com abastecimento de água e possuem também filtros.\n\nPossui carro para buscar materiais? Não possuem, precisam de auxílio quanto a transporte": 1,
+   "12/05 - 15:36\nAceita novos apenas com tutor, que vai buscar depois\nQual demanda precisa:\nGeral:\n-Fralda grande porte\n-Algodão\n-Lenço umedecido\n-Jornal\n\n": 1,
+   "Abrigados: 28 cães + 5 gatos": 1,
+   "Não aceita": 1,
+   "11/05 - 23:59\nEstão lotados\nPETS:\nSimparic (10kg a 20kg)": 1,
+   "Não aceitam pets": 1,
+   "Atualização 10/5 17:06 - Ração cachorro e gatos \n": 1,
+   "Nº de Abrigados:\n+-80 pets\nDemandas:\nAntipulgas porte grande \nsaquinho para necessidades dos pets": 1,
+   "12/05 - 12:00\n\nN° de pets abrigados: 33 cachorros, 10 gatos e 1 tartaruga\nN° de vagas para novos pets: 0\nAceitam pets sem tutores? Não \n\nRemédio antipulga para pets": 1,
+   "sem necessidades": 1,
+   "10/05, 14:55\nQual demanda precisa:\nRoupas para pets todos os tamanhos.": 1,
+   "13/05 15:30\nAnimais: LOTAÇÃO ESGOTADA\n\n🚨Ala Veterinária🚨 \nLuva 6,5 e 8,0 estéril\nAvental cirúrgico\nCompressa cirúrgica\nGaze pct 500un\nLuvas descartáveis\nCampos plásticos\nLâmina bisturi 15 e 20\nFios nylon 0, 2-0, 3-0 e 4-0\nFios poliglecaprone 0, 2-0, 3-0, 4-0\nSevoflurano ou Isoflurano\nPropofol\nMetadona/Morfina\nButorfanol/beniv\nAgenoxi\nMeloxican injetável\nLidocaina sem vaso\nBupivacaina sem vaso\nCateter 20, 22 e 24\nEquipos\nRinger lactato\nTraqueotubos do 3 ao 10\nTapete higiênico\nAtropina\nEfedrina\nAdrenalina\nAmpicilina\nShotapen\n": 1,
+   "Realizam atendimento gratuito para pets desabrigados e realizam o primeiro atendimento. Também possuem espaço para abrigar e alimentar pets.": 1,
+   "09/05 - 16:00\n\nRação e medicação para animais de grande porte, especialmente equinos.": 1,
+   "11/05 - 17:23\nN° de pets abrigados: 50 cachorros 20 gatos\nN° de vagas para novos pets: 0\nAceitam pets sem tutores? Não ": 1,
+   "12/05 - 19:45\n\nNº de Abrigados atualmente: em nossa clínica 29 / em lares temporários 18 \n\nNº Vagas Disponíveis p/ novos pets: atualmente não temos vagas. Mas libera praticamente todos os dias, pois doamos ou encaminhamos os saudáveis para lares temporários ": 1,
+   "12/05 - 11:00\nN° de pets abrigados: 30\nN° de vagas para novos pets: Não \nAceitam pets sem tutores? Não\n": 1,
+   "10/05 - 12:31\nPets\n- Ração (Cachorro e Gato)\n- Anti pulga e carrapato \n- Vermífugo\n- Coleiras\n- Guias\n- Caminhas\n- Comida Pastosa\n- Jornal\n- Mantinhas": 1,
+   "12/05 - 15:45\n200 Pets abrigados\n\nQual demanda precisa:\nPrecisa de 100 voluntários\nMaterial de construção\nVeterinários voluntários\nVoluntários de construção pallets\nCompensado\nTapume\nTelha flexível\nMedicamentos veterinários\nGuias para cachorros\nCaixa de transporte": 1,
+   "50 gatos já estão abrigados\n": 1,
+   "veterinário, Água para limpeza, água sanitária, termômetros de resposta rápida urgente, casa para cachorro GRANDE, expandimos para água potável e suco de caixinha\n": 1,
+   "-\n\n": 1
+  },
+  "SITUAÇÃO": {
+   "<vazio>": 572,
+   "Ativo": 15,
+   "Alagado": 9,
+   "NÃO": 2,
+   "Desativado": 2
+  },
+  "FONTE": {
+   "SOS RS": 316,
+   "Fórum Social das Periferias de Porto Alegre": 142,
+   "Prefeitura de Novo Hamburgo": 37,
+   "Prefeitura de Eldorado": 28,
+   "Coletivo Meio": 27,
+   "Prefeitura de São Leopoldo": 20,
+   "Fórum Social das Periferias": 16,
+   "Curicaca/UERGS": 7,
+   "SAS - Prefeitura de São Leopoldo": 4,
+   "SOS RS | Zona Sul": 2,
+   "<vazio>": 1
+  },
+  "CIDADE": {
+   "Porto Alegre": 269,
+   "São Leopoldo": 85,
+   "Novo Hamburgo": 63,
+   "Canoas": 48,
+   "Gravataí": 35,
+   "Caxias do Sul": 27,
+   "Cachoeirinha": 20,
+   "Guaíba": 11,
+   "Viamão": 7,
+   "Eldorado do Sul": 6,
+   "Sertão Santana": 4,
+   "Alvorada": 3,
+   "Estância Velha": 3,
+   "Camaquã": 2,
+   "Gramado": 2,
+   "Sentinela do Sul": 2,
+   "Mariana Pimentel": 2,
+   "Glorinha": 2,
+   "Esteio": 2,
+   "Pelotas": 1,
+   "Sapiranga": 1,
+   "Dois Irmãos": 1,
+   "<vazio>": 1,
+   "Bom Princípio": 1,
+   "Porto Alegre ": 1,
+   "Canela": 1
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rs_crise_abrigos_15052024_22h": {
+  "TIPO DE LOCAL": {
+   "Abrigo": 257,
+   "Abrigo (a confirmar)": 158,
+   "Centro de Coleta de Doações": 158,
+   "Abrigo e Centro de coleta de doações": 27,
+   "Abrigo de animais": 18,
+   "Cozinha comunitária": 9,
+   "Abrigo mulheres e crianças": 6
+  },
+  "QUANTOS VOLUNTARIOS": {
+   "<vazio>": 560,
+   "0": 48,
+   "4 voluntários para o turno das 18h às 23h": 2,
+   "8 para hoje a tarde": 1,
+   "Por escala:\n7:00 às 13:00\n13:00 às 19:00\n19:00 às 01:00\n01:00 às 07:00\nInscrição chegar no local": 1,
+   "3": 1,
+   "PRECISA DE VOLUNTÁRIOS!": 1,
+   "https://docs.google.com/forms/d/e/1FAIpQLSdtIwlnVMTuw_T1XGjjVhmJdCwpwC0i4EA21A8gFA-ihymMAw/viewform": 1,
+   "2: 1 com carro para buscar e levar materiais (manhã e tarde) e 1 técnico de enfermagem": 1,
+   "Técnico em enfermagem - noite": 1,
+   "precisamos de voluntários turnos madrugada e manhã": 1,
+   "2 em cada escala para Espaço Kids \nEscalas 7h às 13h, 13h às 19h": 1,
+   "4 Urgente (Turno noite e madrugada a partir de 12/05. Não tem internação, então não precisa ser profissional\n": 1,
+   "Não precisa": 1,
+   "10": 1,
+   "para separar roupas": 1,
+   "Manhã, tarde, noite. Veterinário tarde e noite e pediatra 8h-20h": 1,
+   "100": 1,
+   "não informado, pode chegar que tem demanda": 1,
+   "Psicólogos": 1,
+   "5": 1,
+   "Veterinarios para noite": 1,
+   "Por escala, precisamos de 3 veterinários e 6 não veterinários": 1,
+   "20 até 18h de 12/5 domingo": 1,
+   "25 - Urgente!": 1,
+   "15": 1
+  },
+  "VAGAS DISPONÍVEIS": {
+   "<vazio>": 540,
+   "0": 54,
+   "15": 3,
+   "50": 3,
+   "100": 3,
+   "120": 2,
+   "30": 2,
+   "10": 2,
+   "32": 2,
+   "1": 2,
+   "20": 2,
+   "22": 2,
+   "43": 1,
+   "13": 1,
+   "40": 1,
+   "70": 1,
+   "4": 1,
+   "8": 1,
+   "2": 1,
+   "33": 1,
+   "3": 1,
+   "200": 1,
+   "400": 1,
+   "452": 1,
+   "41": 1,
+   "30/12/1899": 1,
+   "5": 1,
+   "12": 1
+  },
+  "ACEITA PETS": {
+   "<vazio>": 371,
+   "não": 185,
+   "sim": 77
+  },
+  "INFORMAÇÕES SOBRE PETS": {
+   "<vazio>": 610,
+   "-": 4,
+   "Não aceitam pets": 1,
+   "sem necessidades": 1,
+   "Realizam atendimento gratuito para pets desabrigados e realizam o primeiro atendimento. Também possuem espaço para abrigar e alimentar pets.": 1,
+   "12/05 - 23:28\nTapete higiênico \nCorrente para amarrar os cães(ferro)\nAreia para gato\nPapelão\nJornal \nPalet\nPipeto para cães grandes(+10kg)": 1,
+   "12/05 - 12:00\n\nN° de pets abrigados: 33 cachorros, 10 gatos e 1 tartaruga\nN° de vagas para novos pets: 0\nAceitam pets sem tutores? Não \n\nRemédio antipulga para pets": 1,
+   "10/05, 14:55\nQual demanda precisa:\nRoupas para pets todos os tamanhos.": 1,
+   "12/05 - 11:00\nN° de pets abrigados: 30\nN° de vagas para novos pets: Não \nAceitam pets sem tutores? Não\n": 1,
+   "13/05 15:30\nAnimais: LOTAÇÃO ESGOTADA\n\n🚨Ala Veterinária🚨 \nLuva 6,5 e 8,0 estéril\nAvental cirúrgico\nCompressa cirúrgica\nGaze pct 500un\nLuvas descartáveis\nCampos plásticos\nLâmina bisturi 15 e 20\nFios nylon 0, 2-0, 3-0 e 4-0\nFios poliglecaprone 0, 2-0, 3-0, 4-0\nSevoflurano ou Isoflurano\nPropofol\nMetadona/Morfina\nButorfanol/beniv\nAgenoxi\nMeloxican injetável\nLidocaina sem vaso\nBupivacaina sem vaso\nCateter 20, 22 e 24\nEquipos\nRinger lactato\nTraqueotubos do 3 ao 10\nTapete higiênico\nAtropina\nEfedrina\nAdrenalina\nAmpicilina\nShotapen\n": 1,
+   "12/05 - 21:00\nDemandas:\nFlorais em spray para acalmar os gatos\n\nN° de pets abrigados: 20 cachorros, 10 gatos\n": 1,
+   "-\n\n": 1,
+   "12/05 - 15:36\nAceita novos apenas com tutor, que vai buscar depois\nQual demanda precisa:\nGeral:\n-Fralda grande porte\n-Algodão\n-Lenço umedecido\n-Jornal\n\n": 1,
+   "50 gatos já estão abrigados\n": 1,
+   "veterinário, Água para limpeza, água sanitária, termômetros de resposta rápida urgente, casa para cachorro GRANDE, expandimos para água potável e suco de caixinha\n": 1,
+   "12/05 - 15:45\n200 Pets abrigados\n\nQual demanda precisa:\nPrecisa de 100 voluntários\nMaterial de construção\nVeterinários voluntários\nVoluntários de construção pallets\nCompensado\nTapume\nTelha flexível\nMedicamentos veterinários\nGuias para cachorros\nCaixa de transporte": 1,
+   "11/05 - 23:59\nEstão lotados\nPETS:\nSimparic (10kg a 20kg)": 1,
+   "Não aceita": 1,
+   "11/05 - 17:23\nN° de pets abrigados: 50 cachorros 20 gatos\nN° de vagas para novos pets: 0\nAceitam pets sem tutores? Não": 1,
+   "12/05 - 19:45\n\nNº de Abrigados atualmente: em nossa clínica 29 / em lares temporários 18 \n\nNº Vagas Disponíveis p/ novos pets: atualmente não temos vagas. Mas libera praticamente todos os dias, pois doamos ou encaminhamos os saudáveis para lares temporários": 1,
+   "09/05 - 16:00\n\nRação e medicação para animais de grande porte, especialmente equinos.": 1
+  },
+  "SITUAÇÃO": {
+   "<vazio>": 598,
+   "Ativo": 19,
+   "Alagado": 9,
+   "Desativado": 7
+  },
+  "FONTE": {
+   "SOS RS": 364,
+   "Fórum Social das Periferias de Porto Alegre": 129,
+   "Prefeitura de Novo Hamburgo": 36,
+   "Coletivo Meio": 27,
+   "Prefeitura de Eldorado": 27,
+   "Prefeitura de São Leopoldo": 16,
+   "Fórum Social das Periferias": 15,
+   "#N/A": 9,
+   "Curicaca/UERGS": 4,
+   "SAS - Prefeitura de São Leopoldo": 4,
+   "SOS RS | Zona Sul": 2
+  },
+  "CIDADE": {
+   "Porto Alegre": 284,
+   "São Leopoldo": 85,
+   "Novo Hamburgo": 66,
+   "Canoas": 57,
+   "Gravataí": 35,
+   "Caxias do Sul": 27,
+   "Cachoeirinha": 20,
+   "Guaíba": 12,
+   "Viamão": 8,
+   "Eldorado do Sul": 6,
+   "Sertão Santana": 4,
+   "Estância Velha": 3,
+   "Bento Gonçalves": 3,
+   "Esteio": 3,
+   "Alvorada": 3,
+   "Gramado": 2,
+   "Mariana Pimentel": 2,
+   "Sentinela do Sul": 2,
+   "Glorinha": 2,
+   "Camaquã": 2,
+   "Dois Irmãos": 1,
+   "Balneário Pinhal": 1,
+   "Bom Princípio": 1,
+   "Sapiranga": 1,
+   "Capão da Canoa": 1,
+   "Canela": 1,
+   "Santa Maria": 1
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rs_crise_abrigos_17052024_21h": {
+  "TIPO DE LOCAL": {
+   "Abrigo (detalhes a confirmar)": 278,
+   "Abrigo": 253,
+   "Centro de Coleta de Doações": 159,
+   "Abrigo e Centro de coleta de doações": 25,
+   "Abrigo de animais": 17,
+   "Cozinha comunitária": 9,
+   "Abrigo mulheres e crianças": 3
+  },
+  "QUANTOS VOLUNTARIOS": {
+   "<vazio>": 677,
+   "0": 43,
+   "3": 2,
+   "4 voluntários para o turno das 18h às 23h": 2,
+   "8 para hoje a tarde": 1,
+   "4 Urgente (Turno noite e madrugada a partir de 12/05. Não tem internação, então não precisa ser profissional\n": 1,
+   "para separar roupas": 1,
+   "5": 1,
+   "Por escala:\n7:00 às 13:00\n13:00 às 19:00\n19:00 às 01:00\n01:00 às 07:00\nInscrição chegar no local": 1,
+   "Manhã, tarde, noite. Veterinário tarde e noite e pediatra 8h-20h": 1,
+   "https://docs.google.com/forms/d/e/1FAIpQLSdtIwlnVMTuw_T1XGjjVhmJdCwpwC0i4EA21A8gFA-ihymMAw/viewform": 1,
+   "Técnico em enfermagem - noite": 1,
+   "20 até 18h de 12/5 domingo": 1,
+   "25 - Urgente!": 1,
+   "não informado, pode chegar que tem demanda": 1,
+   "2: 1 com carro para buscar e levar materiais (manhã e tarde) e 1 técnico de enfermagem": 1,
+   "precisamos de voluntários turnos madrugada e manhã": 1,
+   "Psicólogos": 1,
+   "PRECISA DE VOLUNTÁRIOS!": 1,
+   "Veterinarios para noite": 1,
+   "Não precisa": 1,
+   "100": 1,
+   "15": 1,
+   "10": 1
+  },
+  "VAGAS DISPONÍVEIS": {
+   "<vazio>": 660,
+   "0": 49,
+   "10": 3,
+   "15": 3,
+   "4": 2,
+   "50": 2,
+   "20": 2,
+   "120": 2,
+   "22": 2,
+   "452": 1,
+   "30/12/1899": 1,
+   "8": 1,
+   "70": 1,
+   "41": 1,
+   "100": 1,
+   "40": 1,
+   "43": 1,
+   "13": 1,
+   "200": 1,
+   "33": 1,
+   "5": 1,
+   "30": 1,
+   "1": 1,
+   "400": 1,
+   "2": 1,
+   "32": 1,
+   "3": 1,
+   "12": 1
+  },
+  "ACEITA PETS": {
+   "<vazio>": 362,
+   "não": 276,
+   "sim": 106
+  },
+  "INFORMAÇÕES SOBRE PETS": {
+   "<vazio>": 724,
+   "-": 4,
+   "Não aceitam pets": 2,
+   "12/05 - 15:36\nAceita novos apenas com tutor, que vai buscar depois\nQual demanda precisa:\nGeral:\n-Fralda grande porte\n-Algodão\n-Lenço umedecido\n-Jornal\n\n": 1,
+   "11/05 - 23:59\nEstão lotados\nPETS:\nSimparic (10kg a 20kg)": 1,
+   "sem necessidades": 1,
+   "Realizam atendimento gratuito para pets desabrigados e realizam o primeiro atendimento. Também possuem espaço para abrigar e alimentar pets.": 1,
+   "12/05 - 23:28\nTapete higiênico \nCorrente para amarrar os cães(ferro)\nAreia para gato\nPapelão\nJornal \nPalet\nPipeto para cães grandes(+10kg)": 1,
+   "12/05 - 12:00\n\nN° de pets abrigados: 33 cachorros, 10 gatos e 1 tartaruga\nN° de vagas para novos pets: 0\nAceitam pets sem tutores? Não \n\nRemédio antipulga para pets": 1,
+   "Não aceita": 1,
+   "10/05, 14:55\nQual demanda precisa:\nRoupas para pets todos os tamanhos.": 1,
+   "12/05 - 11:00\nN° de pets abrigados: 30\nN° de vagas para novos pets: Não \nAceitam pets sem tutores? Não\n": 1,
+   "13/05 15:30\nAnimais: LOTAÇÃO ESGOTADA\n\n🚨Ala Veterinária🚨 \nLuva 6,5 e 8,0 estéril\nAvental cirúrgico\nCompressa cirúrgica\nGaze pct 500un\nLuvas descartáveis\nCampos plásticos\nLâmina bisturi 15 e 20\nFios nylon 0, 2-0, 3-0 e 4-0\nFios poliglecaprone 0, 2-0, 3-0, 4-0\nSevoflurano ou Isoflurano\nPropofol\nMetadona/Morfina\nButorfanol/beniv\nAgenoxi\nMeloxican injetável\nLidocaina sem vaso\nBupivacaina sem vaso\nCateter 20, 22 e 24\nEquipos\nRinger lactato\nTraqueotubos do 3 ao 10\nTapete higiênico\nAtropina\nEfedrina\nAdrenalina\nAmpicilina\nShotapen\n": 1,
+   "12/05 - 21:00\nDemandas:\nFlorais em spray para acalmar os gatos\n\nN° de pets abrigados: 20 cachorros, 10 gatos\n": 1,
+   "09/05 - 16:00\n\nRação e medicação para animais de grande porte, especialmente equinos.": 1,
+   "veterinário, Água para limpeza, água sanitária, termômetros de resposta rápida urgente, casa para cachorro GRANDE, expandimos para água potável e suco de caixinha\n": 1,
+   "12/05 - 15:45\n200 Pets abrigados\n\nQual demanda precisa:\nPrecisa de 100 voluntários\nMaterial de construção\nVeterinários voluntários\nVoluntários de construção pallets\nCompensado\nTapume\nTelha flexível\nMedicamentos veterinários\nGuias para cachorros\nCaixa de transporte": 1
+  },
+  "SITUAÇÃO": {
+   "<vazio>": 694,
+   "Ativo": 28,
+   "Alagado": 11,
+   "Desativado": 11
+  },
+  "FONTE": {
+   "SOS RS": 452,
+   "Fórum Social das Periferias de Porto Alegre": 117,
+   "<vazio>": 57,
+   "Prefeitura de Novo Hamburgo": 35,
+   "Coletivo Meio": 27,
+   "Prefeitura de Eldorado": 24,
+   "Fórum Social das Periferias": 18,
+   "Prefeitura de São Leopoldo": 6,
+   "SAS - Prefeitura de São Leopoldo": 4,
+   "SOS RS | Zona Sul": 2,
+   "Curicaca/UERGS": 2
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rhguaiba-sinosgravatai_sentinel2_agua_obs_20240508": {
+  "DN": {
+   "1": 6959
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rhguaiba-sinosgravatai_sentinel2_agua_obs_08052024_validada": {},
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | poa_pontos_nivel": {
+  "Local": {
+   "Sarandi": 67,
+   "Cidade_Baixa": 30,
+   "Santa Rosa de Lima": 22,
+   "Santa Maria Goretti": 14,
+   "Menino_Deus": 13,
+   "Sao_joao": 10,
+   "Floresta": 9,
+   "Ipanema": 9,
+   "Vila Assuncao": 8,
+   "São João": 8,
+   "Jardim Floresta": 6,
+   "Sao_Geraldo": 6,
+   "Beira rio": 3,
+   "Centro_Historico": 3,
+   "Jardim São Pedro": 2,
+   "Praia_belas": 2,
+   "Anchieta": 1,
+   "Subestacao menido deus": 1,
+   "Rua pastor Neri Lemos": 1,
+   "parque": 1,
+   "Fase": 1,
+   "praia de belas": 1,
+   "Praia_Belas": 1
+  },
+  "Data": {
+   "09/05/2024": 80,
+   "12/05/2024": 43,
+   "08/05/2024": 40,
+   "05/05/2024": 29,
+   "06/05/2024": 27
+  },
+  "Nivel_G_m": {
+   "4.95": 80,
+   "4.65": 43,
+   "5.06": 40,
+   "5.29": 29,
+   "5.33": 27
+  },
+  "Grupo": {
+   "GPDEN/IPH/UFRGS": 219
+  },
+  "Equipe": {
+   "Zambrano; Maciel; Ruoso": 120,
+   "Zambrano; Ruoso; Maciel": 43,
+   "Gonzales-avila; Michel; Kobiyama": 29,
+   "Zambrano; Ruoso; Kobiyama": 27
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rs_crise_abrigos_21052024_21h": {
+  "TIPO DE LOCAL (classificação UFRGS)": {
+   "Abrigo de pessoas": 212,
+   "Centro de Coleta de Doações": 143,
+   "Ainda não classificado": 140,
+   "Centro de Coleta de Doações (ainda não classificado)": 134,
+   "Mais de uma atividade": 48,
+   "Abrigo de animais, hotel ou hospital PET": 29,
+   "Não identificado": 11,
+   "Cozinha": 9
+  },
+  "ESPECIFICAÇÃO DE LOCAL AGRUPADO (categoria) (classificação UFRGS)": {
+   "Instituição religiosa ou espiritual": 152,
+   "Ainda não classificado": 134,
+   "Empresa": 120,
+   "Estado": 114,
+   "Associação comunitária, quilombo, centro social comunitário": 42,
+   "Não identificado": 29,
+   "CTG": 29,
+   "Clube social ou sociedade cultural": 25,
+   "Clube ou centro esportivo, ginásio de esportes": 19,
+   "ONG": 17,
+   "Associação profissional, sindicato, cooperativa": 16,
+   "PETS - Hospital, Clínica, Abrigo, Loja": 15,
+   "Grupo S": 13,
+   "Condomínio residencial": 1
+  },
+  "QUANTOS VOLUNTARIOS": {
+   "<vazio>": 660,
+   "0": 42,
+   "4 voluntários para o turno das 18h às 23h": 2,
+   "4 Urgente (Turno noite e madrugada a partir de 12/05. Não tem internação, então não precisa ser profissional\n": 1,
+   "100": 1,
+   "8 para hoje a tarde": 1,
+   "Técnico em enfermagem - noite": 1,
+   "precisamos de voluntários turnos madrugada e manhã": 1,
+   "10": 1,
+   "Por escala:\n7:00 às 13:00\n13:00 às 19:00\n19:00 às 01:00\n01:00 às 07:00\nInscrição chegar no local": 1,
+   "5": 1,
+   "20 até 18h de 12/5 domingo": 1,
+   "25 - Urgente!": 1,
+   "3": 1,
+   "15": 1,
+   "Manhã, tarde, noite. Veterinário tarde e noite e pediatra 8h-20h": 1,
+   "não informado, pode chegar que tem demanda": 1,
+   "Veterinarios para noite": 1,
+   "2: 1 com carro para buscar e levar materiais (manhã e tarde) e 1 técnico de enfermagem": 1,
+   "https://docs.google.com/forms/d/e/1FAIpQLSdtIwlnVMTuw_T1XGjjVhmJdCwpwC0i4EA21A8gFA-ihymMAw/viewform": 1,
+   "para separar roupas": 1,
+   "PRECISA DE VOLUNTÁRIOS!": 1,
+   "Psicólogos": 1,
+   "Não precisa": 1,
+   "Não precisam": 1
+  },
+  "VAGAS DISPONÍVEIS": {
+   "<vazio>": 643,
+   "0.0": 50,
+   "15.0": 3,
+   "10.0": 3,
+   "120.0": 2,
+   "20.0": 2,
+   "5.0": 2,
+   "22.0": 2,
+   "50.0": 2,
+   "32.0": 1,
+   "2.0": 1,
+   "200.0": 1,
+   "40.0": 1,
+   "8.0": 1,
+   "41.0": 1,
+   "43.0": 1,
+   "70.0": 1,
+   "13.0": 1,
+   "1.0": 1,
+   "4.0": 1,
+   "30.0": 1,
+   "12.0": 1,
+   "400.0": 1,
+   "452.0": 1,
+   "3.0": 1,
+   "100.0": 1
+  },
+  "ACEITA PETS": {
+   "<vazio>": 345,
+   "não": 273,
+   "sim": 107,
+   "45430": 1
+  },
+  "INFORMAÇÕES SOBRE PETS": {
+   "<vazio>": 708,
+   "-": 4,
+   "12/05 - 15:36\nAceita novos apenas com tutor, que vai buscar depois\nQual demanda precisa:\nGeral:\n-Fralda grande porte\n-Algodão\n-Lenço umedecido\n-Jornal\n\n": 1,
+   "12/05 - 15:45\n200 Pets abrigados\n\nQual demanda precisa:\nPrecisa de 100 voluntários\nMaterial de construção\nVeterinários voluntários\nVoluntários de construção pallets\nCompensado\nTapume\nTelha flexível\nMedicamentos veterinários\nGuias para cachorros\nCaixa de transporte": 1,
+   "13/05 15:30\nAnimais: LOTAÇÃO ESGOTADA\n\n🚨Ala Veterinária🚨 \nLuva 6,5 e 8,0 estéril\nAvental cirúrgico\nCompressa cirúrgica\nGaze pct 500un\nLuvas descartáveis\nCampos plásticos\nLâmina bisturi 15 e 20\nFios nylon 0, 2-0, 3-0 e 4-0\nFios poliglecaprone 0, 2-0, 3-0, 4-0\nSevoflurano ou Isoflurano\nPropofol\nMetadona/Morfina\nButorfanol/beniv\nAgenoxi\nMeloxican injetável\nLidocaina sem vaso\nBupivacaina sem vaso\nCateter 20, 22 e 24\nEquipos\nRinger lactato\nTraqueotubos do 3 ao 10\nTapete higiênico\nAtropina\nEfedrina\nAdrenalina\nAmpicilina\nShotapen\n": 1,
+   "sem necessidades": 1,
+   "veterinário, Água para limpeza, água sanitária, termômetros de resposta rápida urgente, casa para cachorro GRANDE, expandimos para água potável e suco de caixinha\n": 1,
+   "12/05 - 12:00\n\nN° de pets abrigados: 33 cachorros, 10 gatos e 1 tartaruga\nN° de vagas para novos pets: 0\nAceitam pets sem tutores? Não \n\nRemédio antipulga para pets": 1,
+   "12/05 - 23:28\nTapete higiênico \nCorrente para amarrar os cães(ferro)\nAreia para gato\nPapelão\nJornal \nPalet\nPipeto para cães grandes(+10kg)": 1,
+   "12/05 - 21:00\nDemandas:\nFlorais em spray para acalmar os gatos\n\nN° de pets abrigados: 20 cachorros, 10 gatos\n": 1,
+   "09/05 - 16:00\n\nRação e medicação para animais de grande porte, especialmente equinos.": 1,
+   "Não aceitam pets": 1,
+   "Não aceita": 1,
+   "12/05 - 11:00\nN° de pets abrigados: 30\nN° de vagas para novos pets: Não \nAceitam pets sem tutores? Não\n": 1,
+   "11/05 - 23:59\nEstão lotados\nPETS:\nSimparic (10kg a 20kg)": 1,
+   "Realizam atendimento gratuito para pets desabrigados e realizam o primeiro atendimento. Também possuem espaço para abrigar e alimentar pets.": 1
+  },
+  "FONTE": {
+   "SOS RS": 447,
+   "Fórum Social das Periferias de Porto Alegre": 112,
+   "<vazio>": 51,
+   "Prefeitura de Novo Hamburgo": 35,
+   "Coletivo Meio": 27,
+   "Prefeitura de Eldorado": 23,
+   "Fórum Social das Periferias": 18,
+   "Prefeitura de São Leopoldo": 5,
+   "SAS - Prefeitura de São Leopoldo": 4,
+   "SOS RS | Zona Sul": 2,
+   "CD89442424": 1,
+   "Curicaca/UERGS": 1
+  },
+  "CIDADE": {
+   "<vazio>": 725,
+   "-29.89440985": 1
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rs_crise_abrigos_22052024_21h": {
+  "TIPO DE LOCAL (classificação UFRGS)": {
+   "Ainda não classificado": 314,
+   "Abrigo de pessoas": 205,
+   "Centro de Coleta de Doações": 139,
+   "Mais de uma atividade": 49,
+   "Abrigo de animais, hotel ou hospital PET": 28,
+   "Não identificado": 11,
+   "Cozinha": 9
+  },
+  "ESPECIFICAÇÃO DE LOCAL AGRUPADO (categoria) (classificação UFRGS)": {
+   "Ainda não classificado": 177,
+   "Instituição religiosa ou espiritual": 153,
+   "Estado": 112,
+   "Empresa": 112,
+   "Associação comunitária, quilombo, centro social comunitário": 41,
+   "CTG": 29,
+   "Não identificado": 28,
+   "Clube social ou sociedade cultural": 24,
+   "Clube ou centro esportivo, ginásio de esportes": 19,
+   "ONG": 17,
+   "Associação profissional, sindicato, cooperativa": 15,
+   "PETS - Hospital, Clínica, Abrigo, Loja": 14,
+   "Grupo S": 13,
+   "Condomínio residencial": 1
+  },
+  "QUANTOS VOLUNTARIOS": {
+   "<vazio>": 691,
+   "0": 40,
+   "4 voluntários para o turno das 18h às 23h": 2,
+   "4 Urgente (Turno noite e madrugada a partir de 12/05. Não tem internação, então não precisa ser profissional\n": 1,
+   "100": 1,
+   "Técnico em enfermagem - noite": 1,
+   "precisamos de voluntários turnos madrugada e manhã": 1,
+   "Atendimento Terapeutico": 1,
+   "8 para hoje a tarde": 1,
+   "Precisam de psicológico/médico para portador de HIV que está sem a medicação! Precisa com urgencia.": 1,
+   "Por escala:\n7:00 às 13:00\n13:00 às 19:00\n19:00 às 01:00\n01:00 às 07:00\nInscrição chegar no local": 1,
+   "3": 1,
+   "5": 1,
+   "20 até 18h de 12/5 domingo": 1,
+   "15": 1,
+   "Médico para receituário e diagnósticos": 1,
+   "Manhã, tarde, noite. Veterinário tarde e noite e pediatra 8h-20h": 1,
+   "não informado, pode chegar que tem demanda": 1,
+   "Veterinarios para noite": 1,
+   "2: 1 com carro para buscar e levar materiais (manhã e tarde) e 1 técnico de enfermagem": 1,
+   "https://docs.google.com/forms/d/e/1FAIpQLSdtIwlnVMTuw_T1XGjjVhmJdCwpwC0i4EA21A8gFA-ihymMAw/viewform": 1,
+   "para separar roupas": 1,
+   "Psicólogos": 1,
+   "Não precisa": 1,
+   "Não precisam": 1
+  },
+  "ACEITA PETS": {
+   "<vazio>": 389,
+   "não": 266,
+   "sim": 99,
+   "18/05/2024 19:08:01": 1
+  },
+  "INFORMAÇÕES SOBRE PETS": {
+   "<vazio>": 739,
+   "-": 4,
+   "12/05 - 15:36\nAceita novos apenas com tutor, que vai buscar depois\nQual demanda precisa:\nGeral:\n-Fralda grande porte\n-Algodão\n-Lenço umedecido\n-Jornal\n\n": 1,
+   "12/05 - 12:00\n\nN° de pets abrigados: 33 cachorros, 10 gatos e 1 tartaruga\nN° de vagas para novos pets: 0\nAceitam pets sem tutores? Não \n\nRemédio antipulga para pets": 1,
+   "13/05 15:30\nAnimais: LOTAÇÃO ESGOTADA\n\n🚨Ala Veterinária🚨 \nLuva 6,5 e 8,0 estéril\nAvental cirúrgico\nCompressa cirúrgica\nGaze pct 500un\nLuvas descartáveis\nCampos plásticos\nLâmina bisturi 15 e 20\nFios nylon 0, 2-0, 3-0 e 4-0\nFios poliglecaprone 0, 2-0, 3-0, 4-0\nSevoflurano ou Isoflurano\nPropofol\nMetadona/Morfina\nButorfanol/beniv\nAgenoxi\nMeloxican injetável\nLidocaina sem vaso\nBupivacaina sem vaso\nCateter 20, 22 e 24\nEquipos\nRinger lactato\nTraqueotubos do 3 ao 10\nTapete higiênico\nAtropina\nEfedrina\nAdrenalina\nAmpicilina\nShotapen\n": 1,
+   "12/05 - 15:45\n200 Pets abrigados\n\nQual demanda precisa:\nPrecisa de 100 voluntários\nMaterial de construção\nVeterinários voluntários\nVoluntários de construção pallets\nCompensado\nTapume\nTelha flexível\nMedicamentos veterinários\nGuias para cachorros\nCaixa de transporte": 1,
+   "sem necessidades": 1,
+   "veterinário, Água para limpeza, água sanitária, termômetros de resposta rápida urgente, casa para cachorro GRANDE, expandimos para água potável e suco de caixinha\n": 1,
+   "12/05 - 21:00\nDemandas:\nFlorais em spray para acalmar os gatos\n\nN° de pets abrigados: 20 cachorros, 10 gatos\n": 1,
+   "Não aceitam pets": 1,
+   "Não aceita": 1,
+   "12/05 - 11:00\nN° de pets abrigados: 30\nN° de vagas para novos pets: Não \nAceitam pets sem tutores? Não\n": 1,
+   "11/05 - 23:59\nEstão lotados\nPETS:\nSimparic (10kg a 20kg)": 1,
+   "Realizam atendimento gratuito para pets desabrigados e realizam o primeiro atendimento. Também possuem espaço para abrigar e alimentar pets.": 1
+  },
+  "FONTE": {
+   "SOS RS": 510,
+   "Fórum Social das Periferias de Porto Alegre": 104,
+   "<vazio>": 36,
+   "Prefeitura de Novo Hamburgo": 32,
+   "Coletivo Meio": 27,
+   "Prefeitura de Eldorado": 24,
+   "Fórum Social das Periferias": 13,
+   "SAS - Prefeitura de São Leopoldo": 4,
+   "Prefeitura de São Leopoldo": 2,
+   "CD89442424": 1,
+   "SOS RS | Zona Sul": 1,
+   "Curicaca/UERGS": 1
+  },
+  "CIDADE": {
+   "<vazio>": 754,
+   "-29.89440985": 1
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rs_crise_abrigos_23052024_21h": {
+  "TIPO DE LOCAL (VALIDADO UFRGS)": {
+   "Ainda não classificado": 423,
+   "Abrigo de pessoas": 202,
+   "Centro de Coleta/Dist. de Doações": 150,
+   "Mais de uma atividade": 47,
+   "Abrigo de animais, hotel ou hospital PET": 37,
+   "Não identificado": 11,
+   "Cozinha": 10,
+   "Abrigo de pessoas, Cozinha": 2,
+   "Cozinha, Centro de Coleta/Dist. de Doações": 2,
+   "Abrigo de pessoas, Centro de Coleta/Dist. de Doações": 1,
+   "Abrigo de pessoas, Abrigo de animais": 1,
+   "Centro de Triagem, Centro de Coleta/Dist. de doações": 1,
+   "Centro de Coleta/Dist. De Doações, Hotel Pet": 1
+  },
+  "QUANTOS VOLUNTÁRIOS": {
+   "<vazio>": 887,
+   "Precisam de psicológico/médico para portador de HIV que está sem a medicação! Precisa com urgencia.": 1
+  },
+  "ACEITA PETS": {
+   "não": 465,
+   "<vazio>": 270,
+   "sim": 153
+  },
+  "INFORMAÇÕES SOBRE PETS": {
+   "<vazio>": 881,
+   "-": 6,
+   "Foco pessoas": 1
+  },
+  "FONTE": {
+   "SOS RS": 642,
+   "Fórum Social das Periferias de Porto Alegre": 85,
+   "Prefeitura de Novo Hamburgo": 33,
+   "Coletivo Meio": 31,
+   "Prefeitura de Eldorado": 29,
+   "SOS RS | Zona Sul": 15,
+   "Prefeitura de Porto Alegre": 15,
+   "Voluntários Novo Hamburgo": 11,
+   "Prefeitura de São Leopoldo": 11,
+   "Curicaca/UERGS": 10,
+   "SAS - Prefeitura de São Leopoldo": 4,
+   "Curicaca | UERGS": 1,
+   "Abriga RS": 1
+  },
+  "CIDADE": {
+   "<vazio>": 415,
+   "POA": 253,
+   "Canoas": 79,
+   "São Leopoldo": 59,
+   "Caxias do Sul": 31,
+   "Novo Hamburgo": 15,
+   "Gravataí": 11,
+   "Viamão": 8,
+   "Cachoeirinha": 5,
+   "Alvorada": 4,
+   "Santa Maria": 2,
+   "Balneário Pinhal": 1,
+   "Barra do Ribeiro": 1,
+   "Cerro Grande do Sul": 1,
+   "Igrejinha": 1,
+   "Santo Antônio da Patrulha": 1,
+   "Pelotas": 1
+  },
+  "TIPO DE LOCAL (simples)": {
+   "Não identificado": 434,
+   "Abrigo de pessoas": 204,
+   "Centro de doações": 152,
+   "Mais de uma atividade": 47,
+   "Abrigo de animais": 37,
+   "Cozinha": 14
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rs_crise_barragens_20240524": {
+  "Codigo_SNISB": {
+   "<vazio>": 5,
+   "2951.0": 1,
+   "4161.0": 1,
+   "4222.0": 1,
+   "4303.0": 1,
+   "2993.0": 1,
+   "4384.0": 1,
+   "4446.0": 1,
+   "4455.0": 1,
+   "4511.0": 1,
+   "4745.0": 1,
+   "4785.0": 1,
+   "5158.0": 1,
+   "4348.0": 1,
+   "5219.0": 1,
+   "6124.0": 1,
+   "12299.0": 1,
+   "6421.0": 1,
+   "20546.0": 1,
+   "20547.0": 1,
+   "20548.0": 1,
+   "17114.0": 1,
+   "20554.0": 1,
+   "20555.0": 1,
+   "27392.0": 1,
+   "23889.0": 1,
+   "31409.0": 1,
+   "31412.0": 1,
+   "31413.0": 1,
+   "31414.0": 1
+  },
+  "Obs": {
+   "Checar localizacao": 19,
+   "Conferir codigo": 10,
+   "Obter codigo": 5
+  },
+  "Monitoramento": {
+   "ANEEL": 19,
+   "SEMA": 15
+  },
+  "Latitude": {
+   "<vazio>": 15,
+   "-29.08869": 1,
+   "-29.0167": 1,
+   "-29.18833": 1,
+   "-29.3411": 1,
+   "-29.05": 1,
+   "-29.0836": 1,
+   "-29.0728": 1,
+   "-29.0083": 1,
+   "-29.2683": 1,
+   "-29.4472": 1,
+   "-29.5011": 1,
+   "-30.49417": 1,
+   "-30.225": 1,
+   "-30.07369": 1,
+   "-29.2994": 1,
+   "-29.3267": 1,
+   "-29.3153": 1,
+   "-30.0845": 1,
+   "-29.18653": 1
+  },
+  "Longitude": {
+   "<vazio>": 15,
+   "-51.05178": 1,
+   "-51.5": 1,
+   "-51.445": 1,
+   "-50.7008": 1,
+   "-51.6667": 1,
+   "-52.2081": 1,
+   "-50.2081": 1,
+   "-51.3792": 1,
+   "-50.7467": 1,
+   "-53.2806": 1,
+   "-51.0022": 1,
+   "-54.33167": 1,
+   "-52.93972": 1,
+   "-50.86181": 1,
+   "-50.5697": 1,
+   "-50.6178": 1,
+   "-50.6806": 1,
+   "-51.11261": 1,
+   "-51.26625": 1
+  },
+  "SITU_3_5_24": {
+   "<vazio>": 21,
+   "Atenção": 5,
+   "Alerta": 4,
+   "Emergência": 4
+  },
+  "SITU_4_5_24": {
+   "<vazio>": 22,
+   "Alerta": 5,
+   "Atenção": 5,
+   "Emergência": 2
+  },
+  "SITU_5_5_24": {
+   "<vazio>": 16,
+   "Atenção": 7,
+   "Emergência": 6,
+   "Alerta": 5
+  },
+  "SITU_6_5_24": {
+   "Atenção": 15,
+   "<vazio>": 11,
+   "Emergência": 6,
+   "Alerta": 2
+  },
+  "SITU_7_5_24": {
+   "<vazio>": 14,
+   "Atenção": 13,
+   "Emergência": 5,
+   "Alerta": 2
+  },
+  "SITU_8_5_24": {
+   "<vazio>": 16,
+   "Atenção": 12,
+   "Emergência": 5,
+   "Alerta": 1
+  },
+  "SITU_9_5_24": {
+   "<vazio>": 16,
+   "Atenção": 11,
+   "Emergência": 6,
+   "Alerta": 1
+  },
+  "SITU_10_5_24": {
+   "<vazio>": 20,
+   "Atenção": 9,
+   "Emergência": 3,
+   "Alerta": 2
+  },
+  "SITU_11_5_24": {
+   "<vazio>": 20,
+   "Atenção": 8,
+   "Alerta": 3,
+   "Emergência": 3
+  },
+  "SITU_12_5_24": {
+   "<vazio>": 18,
+   "Atenção": 9,
+   "Alerta": 5,
+   "Emergência": 2
+  },
+  "SITU_13_5_24": {
+   "<vazio>": 17,
+   "Atenção": 9,
+   "Alerta": 6,
+   "Emergência": 2
+  },
+  "SITU_14_5_24": {
+   "<vazio>": 17,
+   "Atenção": 9,
+   "Alerta": 6,
+   "Emergência": 2
+  },
+  "SITU_15_5_24": {
+   "<vazio>": 16,
+   "Atenção": 10,
+   "Alerta": 6,
+   "Emergência": 2
+  },
+  "SITU_16_5_24": {
+   "<vazio>": 18,
+   "Atenção": 8,
+   "Alerta": 6,
+   "Emergência": 2
+  },
+  "SITU_17_5_24": {
+   "<vazio>": 18,
+   "Atenção": 8,
+   "Alerta": 6,
+   "Emergência": 2
+  },
+  "SITU_18_5_24": {
+   "<vazio>": 19,
+   "Atenção": 8,
+   "Alerta": 6,
+   "Emergência": 1
+  },
+  "SITU_19_5_24": {
+   "<vazio>": 19,
+   "Atenção": 8,
+   "Alerta": 6,
+   "Emergência": 1
+  },
+  "SITU_20_5_24": {
+   "<vazio>": 21,
+   "Alerta": 6,
+   "Atenção": 6,
+   "Emergência": 1
+  },
+  "SITU_21_5_24": {
+   "<vazio>": 17,
+   "Atenção": 9,
+   "Alerta": 7,
+   "Emergência": 1
+  },
+  "SITU_22_5_24": {
+   "<vazio>": 17,
+   "Atenção": 9,
+   "Alerta": 7,
+   "Emergência": 1
+  },
+  "SITU_23_5_24": {
+   "<vazio>": 16,
+   "Atenção": 10,
+   "Alerta": 7,
+   "Emergência": 1
+  },
+  "SITU_24_5_24": {
+   "<vazio>": 16,
+   "Atenção": 9,
+   "Alerta": 8,
+   "Emergência": 1
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rmpa_crise_sb_etas_20240524": {
+  "Região": {
+   "Região Metropolitana de Porto Alegre": 20
+  },
+  "NM_MUN": {
+   "Porto Alegre": 6,
+   "Canoas": 3,
+   "São Leopoldo": 2,
+   "Viamão": 2,
+   "Novo Hamburgo": 1,
+   "Cachoeirinha": 1,
+   "Alvorada": 1,
+   "Esteio": 1,
+   "Glorinha": 1,
+   "Gravataí": 1,
+   "Nova Santa Rita": 1
+  },
+  "Prestador": {
+   "Companhia Rio-Grandense de Saneamento": 11,
+   "Departamento Municipal de Água e Esgotos": 6,
+   "Serviço Municipal de Água e Esgotos": 2,
+   "Serviços de Água e Esgoto de Novo Hamburgo\t": 1
+  },
+  "Sigla_do_Prestador": {
+   "CORSAN": 11,
+   "DMAE": 6,
+   "SEMAE": 2,
+   "COMUSA": 1
+  },
+  "Abrangência_do_Prestador": {
+   "Regional": 11,
+   "Local": 9
+  },
+  "Name": {
+   "ETA Parcial": 8,
+   "<vazio>": 6,
+   "ETA Falha": 3,
+   "ETA Total": 2,
+   "Em construção": 1
+  },
+  "Link da última notícia para atualização do Status": {
+   "<vazio>": 11,
+   "https://www.corsan.com.br/com-estacao-de-tratamento-rio-branco-inundada-corsan-redimensiona-operacao-da-eta-niteroi-em-canoas": 2,
+   "https://expansao.co/captacao-de-agua-e-retomada-em-novo-hamburgo/": 1,
+   "https://www.riopreto.sp.gov.br/3431/": 1,
+   "https://www.correiodopovo.com.br/not%C3%ADcias/cidades/abastecimento-de-%C3%A1gua-%C3%A9-retomado-em-s%C3%A3o-leopoldo-e-9-bairros-j%C3%A1-t%C3%AAm-%C3%A1gua-nas-torneiras-1.1492714": 1,
+   "https://www.fab.mil.br/noticias/mostra/42549/TODOS%20PELO%20SUL%20-%20Esta%C3%A7%C3%A3o%20de%20tratamento%20de%20%C3%A1gua%20%C3%A9%20instalada%20na%20Base%20A%C3%A9rea%20de%20Canoas": 1,
+   "https://www.corsan.com.br/atualizacao-corsan-das-condicoes-de-abastecimento-15h30-664168bc86c7b": 1,
+   "https://www.viamao.rs.gov.br/portal/noticias/0/3/8724/construcao-da-estacao-de-tratamento-de-agua-em-itapua-avanca": 1,
+   "https://www.corsan.com.br/reforma-da-estacao-de-tratamento-de-agua-de-viamao": 1
+  },
+  "Forma de captação": {
+   "Superficial": 14,
+   "<vazio>": 6
+  },
+  "Nome": {
+   "ETA Moinhos de Vento": 1,
+   "ETA São João": 1,
+   "ETA Menino Deus": 1,
+   "ETA Ilhas": 1,
+   "ETA Belém Novo": 1,
+   "ETA Tristeza": 1,
+   "ETA Novo Hamburgo": 1,
+   "ETA1 - Semae": 1,
+   "ETA 2 - Estação de Tratamento de Água Imperatriz Leopoldina": 1,
+   "Usina Hidráulica da CORSAN Alvorada/RS": 1,
+   "ETA Cachoeirinha": 1,
+   "ETA Rio Branco": 1,
+   "Estação de Tratamento de Água (ETA) Niterói": 1,
+   "ETA Base Aérea": 1,
+   "ETA Esteio-Sapucaia": 1,
+   "ETA Glorinha": 1,
+   "ETA Gravataí": 1,
+   "CORSAN - ETA Nova Santa Rita": 1,
+   "ETA Alvorada Viamão": 1,
+   "Corsan ETA Fiuza Viamão": 1
+  },
+  "Sistemas integrados (se houver)": {
+   "<vazio>": 17,
+   "Sistema Integrado Alvorada-Viamão": 1,
+   "Sistema integrado Esteio-Sapucaia": 1,
+   "Sistema Integrado Cachoeirinha – Gravataí": 1
+  },
+  "Bairros Atendidos": {
+   "<vazio>": 11,
+   "Bairros de Novo Hamburgo": 1,
+   "Boa Vista, Urano, Eldorado, Solo Sagrado, Santo Antônio, Alto Alegre, Diniz, Maceno, Anchieta, Centro, Redentora, Caparroz, Jardim do Bosque, Elmaz, Seyon e adjacências": 1,
+   "Água Verde, Do Salto, Escola Agrícola, Salto Weissbach, Passo Manso, Velha, Velha Grande, Velha Pequena, Velha Central, Vila Nova, Fidélis, Fortaleza, Fortaleza Alta, Itoupava Norte, Tribess, Nova Esperança, Badenfurt, Itoupava Central, Itoupava Seca, Itoupavazinha, Salto do Norte e Testo Salto": 1,
+   "Bairros de Alvorada e Viamão (exceto centro de Viamão)": 1,
+   "Bairros de Cachoeirinha": 1,
+   "São Luiz, Mathias Velho, Harmonia, Mato Grande, Fátima e Rio Branco": 1,
+   "Centro, Guajuviras, Igará, Parque Universitário, Niterói, Rio Branco, Fátima": 1,
+   "Bairros de Esteio e de Sapucaia": 1,
+   "Parte do centro de viamão": 1
+  },
+  "Status_07_05": {
+   "<vazio>": 14,
+   "Falha": 4,
+   "Parcial": 2
+  },
+  "Status_08_05": {
+   "<vazio>": 14,
+   "Parcial": 4,
+   "Falha": 2
+  },
+  "Status_09_05": {
+   "<vazio>": 14,
+   "Parcial": 4,
+   "Falha": 2
+  },
+  "Status_13_05": {
+   "<vazio>": 11,
+   "Parcial": 6,
+   "Falha": 2,
+   "Total": 1
+  },
+  "Status_14_05": {
+   "<vazio>": 9,
+   "Parcial": 6,
+   "Falha": 4,
+   "Total": 1
+  },
+  "lat": {
+   "-30.02629036": 1,
+   "-30.01324297": 1,
+   "-30.06270153": 1,
+   "-30.01373223": 1,
+   "-30.21001622": 1,
+   "-30.09920041": 1,
+   "-29.71004": 1,
+   "-29.76995": 1,
+   "-29.76079": 1,
+   "-29.99901": 1,
+   "-29.9539": 1,
+   "-29.95313": 1,
+   "-29.9642": 1,
+   "-29.93764": 1,
+   "-29.84232": 1,
+   "-29.85662": 1,
+   "-29.96064": 1,
+   "-29.85708": 1,
+   "-30.23065": 1,
+   "-30.09322": 1
+  },
+  "long": {
+   "-51.20581629": 1,
+   "-51.18527185": 1,
+   "-51.22385406": 1,
+   "-51.2599297": 1,
+   "-51.17776416": 1,
+   "-51.2534659": 1,
+   "-51.1273": 1,
+   "-51.13481": 1,
+   "-51.11585": 1,
+   "-51.03403": 1,
+   "-51.09407": 1,
+   "-51.20145": 1,
+   "-51.16526": 1,
+   "-51.15893": 1,
+   "-51.17987": 1,
+   "-50.79621": 1,
+   "-50.93511": 1,
+   "-51.27419": 1,
+   "-51.05057": 1,
+   "-51.02021": 1
+  },
+  "Endereço": {
+   "<vazio>": 6,
+   "Av. Cel. Travassos, 287 - Rondônia, Novo Hamburgo - RS, 93415-000": 1,
+   "Av. João Corrêa, 81 - São José, São Leopoldo - RS, 93030-220": 1,
+   "Av. Imperatriz Leopoldina, 2501 - São José, São Leopoldo - RS": 1,
+   "R. Barbosa Neto, 581 - Maria Regina, Alvorada - RS": 1,
+   "Avenida - R. Papa João XXIII, 558 - Vila Cachoeirinha, Cachoeirinha - RS, 94910-170": 1,
+   "Bairro Fátima, Canoas - RS": 1,
+   "R. Itamar Mattos de Maia, 22 - Niterói, Canoas - RS, 92130": 1,
+   "R. Augusto Severo, 1700 - Nossa Sra. das Gracas, Canoas - RS, 92110-390": 1,
+   "R. Carmem Miranda, 510 - Novo Esteio, Esteio - RS, 93270-670": 1,
+   "Estr. Passo do Portão, 3546, Glorinha - RS, 94380-000": 1,
+   "Morada Gaúcha, Gravataí - RS, 94195": 1,
+   "Av. Santa Rita, 1064, Nova Santa Rita - RS, 92480-000": 1,
+   "Av. da Figueira, 25 - Itapuã, Viamão - RS": 1,
+   "Rod. Cel. Acrísio Martins Prates, 530 - Fiuza, Viamão - RS, 94430-265": 1
+  },
+  "Capacidade": {
+   "<vazio>": 12,
+   "600 l/s": 2,
+   "1500 l/s": 1,
+   "270 l/s": 1,
+   "1700 l/s": 1,
+   "80 l/s": 1,
+   "550 l/s": 1,
+   "50 l/s": 1
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | poa_sb_bacias_ebaps": {
+  "Name": {
+   "EBAP 1 - Rodoviária": 1,
+   "EBAP 2 - São João": 1,
+   "EBAP 3 - São Pedro": 1,
+   "EBAP 4 - Cairú/Parque Náutico": 1,
+   "EBAP 5 - Humaitá/Adelino Machado Souza": 1,
+   "EBAP 6 - BR-116/Trevo": 1,
+   "EBAP 7 - Silvio Brum": 1,
+   "EBAP 8 - Vila Farrapos": 1,
+   "EBAP 9 - Sarandí": 1,
+   "EBAP 10 - Dique Sarandí/Abilio Fernandes": 1,
+   "EBAP 11A - Tristeza Sul/Coronel Claudino": 1,
+   "EBAP 11B - Tristeza Norte/Icaraí": 1,
+   "EBAP 12 - Beira-Rio/Parque Gigante": 1,
+   "EBAP 13 - Parque Marinha": 1,
+   "EBAP 14 - Polícia Federal": 1,
+   "EBAP 15 - Renascença/Érico": 1,
+   "EBAP 16 - Rótula das Cuias": 1,
+   "EBAP 17 - Siqueira Campos/Mauá": 1,
+   "EBAP 18 - Mauá/Centro": 1,
+   "EBAP 19 - Santa Terezinha/Vila Planetário": 1,
+   "EBAP 20 - Vila Minuano": 1,
+   "EBAP 21 - Asa Branca": 1,
+   "EBAP 22 - Trincheira Ceará": 1
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rmpa_sb_drenagem_diques": {
+  "nm": {
+   "<vazio>": 40,
+   "CA": 4,
+   "SL": 1,
+   "NH": 1,
+   "dique_polder_V": 1,
+   "CH": 1,
+   "dique_polder_VI": 1,
+   "dique_canoas_1": 1,
+   "dique_canoas_2": 1,
+   "dique_canoas_3": 1
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rmpa_crise_sb_ebaps_20240524": {
+  "NM_MUN": {
+   "Porto Alegre": 23,
+   "Canoas": 6,
+   "São Leopoldo": 5,
+   "Novo Hamburgo": 2,
+   "Cachoeirinha": 2
+  },
+  "SG_MUN": {
+   "PA": 23,
+   "CA": 6,
+   "SL": 5,
+   "NH": 2,
+   "CH": 2
+  },
+  "Nome_1": {
+   "CB": 21,
+   "CB 01": 1,
+   "CB 02": 1,
+   "CB 03": 1,
+   "CB 04": 1,
+   "CB 05": 1,
+   "CB 06": 1,
+   "CB 09": 1,
+   "CB 10": 1,
+   "CB 11A": 1,
+   "CB 11B": 1,
+   "CB 12": 1,
+   "CB 13": 1,
+   "CB 14": 1,
+   "CB 15": 1,
+   "CB 16": 1,
+   "CB 17": 1,
+   "CB 18": 1
+  },
+  "Endereco": {
+   "<vazio>": 38
+  },
+  "Situ_2024_05_01": {
+   "APURAR": 38
+  },
+  "Situ_2024_05_02": {
+   "APURAR": 38
+  },
+  "Situ_2024_05_03": {
+   "APURAR": 34,
+   "Inoperante": 4
+  },
+  "Situ_2024_05_04": {
+   "APURAR": 37,
+   "Parcial": 1
+  },
+  "Situ_2024_05_05": {
+   "APURAR": 38
+  },
+  "Situ_2024_05_06": {
+   "APURAR": 15,
+   "Operante": 13,
+   "Inoperante": 10
+  },
+  "Situ_2024_05_07": {
+   "APURAR": 38
+  },
+  "Situ_2024_05_08": {
+   "Inoperante": 18,
+   "APURAR": 15,
+   "Operante": 5
+  },
+  "Situ_2024_05_09": {
+   "Inoperante": 18,
+   "APURAR": 15,
+   "Operante": 5
+  },
+  "Situ_2024_05_10": {
+   "APURAR": 15,
+   "Inoperante": 15,
+   "Operante": 8
+  },
+  "Situ_2024_05_11": {
+   "Inoperante": 16,
+   "APURAR": 15,
+   "Operante": 7
+  },
+  "Situ_2024_05_12": {
+   "Inoperante": 16,
+   "APURAR": 15,
+   "Operante": 7
+  },
+  "Situ_2024_05_13": {
+   "Inoperante": 16,
+   "APURAR": 15,
+   "Operante": 7
+  },
+  "Situ_2024_05_14": {
+   "Inoperante": 16,
+   "APURAR": 15,
+   "Operante": 7
+  },
+  "Situ_2024_05_15": {
+   "APURAR": 15,
+   "Inoperante": 14,
+   "Operante": 9
+  },
+  "Situ_2024_05_16": {
+   "APURAR": 15,
+   "Inoperante": 14,
+   "Operante": 9
+  },
+  "Situ_2024_05_17": {
+   "APURAR": 15,
+   "Inoperante": 14,
+   "Operante": 9
+  },
+  "Situ_2024_05_18": {
+   "APURAR": 15,
+   "Inoperante": 14,
+   "Operante": 9
+  },
+  "Situ_2024_05_19": {
+   "APURAR": 15,
+   "Inoperante": 14,
+   "Operante": 9
+  },
+  "Situ_2024_05_20": {
+   "APURAR": 15,
+   "Inoperante": 14,
+   "Operante": 9
+  },
+  "Situ_2024_05_21": {
+   "APURAR": 15,
+   "Inoperante": 13,
+   "Operante": 10
+  },
+  "Situ_2024_05_22": {
+   "APURAR": 15,
+   "Inoperante": 13,
+   "Operante": 10
+  },
+  "Situ_2024_05_23": {
+   "APURAR": 15,
+   "Inoperante": 13,
+   "Operante": 9,
+   "Parcial": 1
+  },
+  "Situ_2024_05_24": {
+   "APURAR": 15,
+   "Inoperante": 12,
+   "Operante": 11
+  },
+  "Situ_2024_05_25": {
+   "APURAR": 38
+  },
+  "Situ_2024_05_26": {
+   "APURAR": 38
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rs_crise_abrigos_24052024_20h": {
+  "TIPO DE LOCAL (VALIDADO UFRGS)": {
+   "Abrigo ou Centro de doações (a confirmar)\n": 465,
+   "Abrigo de pessoas": 204,
+   "Centro de Coleta/Dist. de Doações": 150,
+   "Mais de uma atividade": 51,
+   "Abrigo de animais, hotel ou hospital PET": 37,
+   "Cozinha": 12
+  },
+  "QUANTOS VOLUNTÁRIOS": {
+   "<vazio>": 918,
+   "Precisam de psicológico/médico para portador de HIV que está sem a medicação! Precisa com urgencia.": 1
+  },
+  "ACEITA PETS": {
+   "não": 477,
+   "<vazio>": 283,
+   "sim": 159
+  },
+  "INFORMAÇÕES SOBRE PETS": {
+   "<vazio>": 912,
+   "-": 6,
+   "Foco pessoas": 1
+  },
+  "FONTE": {
+   "SOS RS": 660,
+   "Fórum Social das Periferias de Porto Alegre": 85,
+   "Prefeitura de Novo Hamburgo": 45,
+   "Coletivo Meio": 36,
+   "Prefeitura de Eldorado": 29,
+   "SOS RS | Zona Sul": 15,
+   "Prefeitura de Porto Alegre": 14,
+   "Curicaca/UERGS": 13,
+   "Prefeitura de São Leopoldo": 11,
+   "Curicaca | UERGS": 6,
+   "SAS - Prefeitura de São Leopoldo": 4,
+   "Abriga RS": 1
+  },
+  "CIDADE": {
+   "<vazio>": 430,
+   "POA": 255,
+   "Canoas": 80,
+   "São Leopoldo": 59,
+   "Caxias do Sul": 36,
+   "Novo Hamburgo": 16,
+   "Gravataí": 11,
+   "Viamão": 10,
+   "Cachoeirinha": 6,
+   "Alvorada": 4,
+   "Porto Alegre": 3,
+   "Santa Maria": 2,
+   "Pelotas": 2,
+   "Balneário Pinhal": 1,
+   "Igrejinha": 1,
+   "Cerro Grande do Sul": 1,
+   "Barra do Ribeiro": 1,
+   "Santo Antônio da Patrulha": 1
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rhguaiba_planet-skysat_inundacao_obs_20240506": {
+  "Id": {
+   "1": 6076
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | analise_ada_inundacao_20240506": {
+  "DN": {
+   "1.0": 18473,
+   "<vazio>": 6
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rs_crise_municipios_20240527": {
+  "sigla_uf": {
+   "RS": 499
+  },
+  "dec_57614": {
+   "Situação de emergência": 320,
+   "Não incluídos": 131,
+   "Estado de calamidade pública": 46,
+   "<vazio>": 2
+  },
+  "dec_57626": {
+   "Situação de emergência": 340,
+   "Não incluídos": 79,
+   "Estado de calamidade pública": 78,
+   "<vazio>": 2
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rhguaiba_deslizamentos_20240506_v20240607": {
+  "Campo": {
+   "2024-05-07": 963,
+   "2024-05-15": 596,
+   "<vazio>": 221,
+   "2024-05-04": 167,
+   "2024-06-01": 109,
+   "2024-05-21": 5,
+   "2024-05-20": 1
+  },
+  "Resoluçã": {
+   "0,5": 1239,
+   "0,3": 596,
+   "0,9": 227
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rs_crise_patrimonio_cultural": {
+  "Esfera": {
+   "Estadual": 28,
+   "Municipal": 8,
+   "Estadual ": 5,
+   "estadual": 4,
+   "Municipal ": 3,
+   "ESTADUAL": 3,
+   "MUNICIPAL": 1
+  },
+  "NomeCidade": {
+   "PORTO ALEGRE": 41,
+   "CANOAS": 2,
+   "ARROIO DOS RATOS": 1,
+   "MONTENEGRO": 1,
+   "RIO PARDO": 1,
+   "SÃO LEOPOLDO": 1,
+   "CERRO BRANCO": 1,
+   "ESTEIO": 1,
+   "CAXIAS DO SUL": 1,
+   "NOVO HAMBURGO": 1,
+   "BENTO GONÇALVES": 1
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rhguaiba_deslizamentos_20240506_v20240625": {
+  "Campo": {
+   "2024-05-21": 2605,
+   "2024-05-15": 2047,
+   "2024-05-07": 963,
+   "<vazio>": 221,
+   "2024-05-04": 167,
+   "2024-06-01": 106,
+   "2024-06-07": 20,
+   "2024-05-20": 18
+  },
+  "Resoluçã": {
+   "0,5": 5301,
+   "0,3": 596,
+   "0,9": 250
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rhguaiba_deslizamentos_20240506_v20240802": {
+  "Campo": {
+   "2024-05-21": 2557,
+   "2024-06-30": 2319,
+   "2024-06-04": 2024,
+   "2024-05-15": 2001,
+   "2024-05-07": 946,
+   "2024-06-29": 585,
+   "<vazio>": 168,
+   "2024-05-04": 167,
+   "2024-06-13": 162,
+   "2024-06-10": 111,
+   "2024-06-01": 104,
+   "2024-06-07": 20,
+   "2024-05-20": 15
+  },
+  "Resolucao": {
+   "0,5": 5894,
+   "2,0": 4352,
+   "0,3": 582,
+   "0,9": 351
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rhguaiba_deslizamentos_20240506_v20241027": {
+  "Campo": {
+   "2024-06-30": 2811,
+   "2024-06-04": 2634,
+   "2024-05-21": 2536,
+   "2024-05-15": 1564,
+   "2024-06-09": 1208,
+   "2024-05-07": 1072,
+   "2024-08-31": 1060,
+   "2024-07-26": 958,
+   "2024-06-29": 515,
+   "2024-08-05": 235,
+   "2024-05-04": 152,
+   "2024-06-13": 131,
+   "<vazio>": 129,
+   "2024-06-01": 126,
+   "2024-07-21": 87,
+   "2024-06-10": 81,
+   "2024-08-15": 25,
+   "2024-08-21": 20,
+   "2024-06-07": 17,
+   "2024-05-20": 14,
+   "1899-12-30": 1
+  },
+  "Resolucao": {
+   "2,0": 7983,
+   "0,5": 5718,
+   "5,0": 1061,
+   "0,3": 338,
+   "0,9": 276
+  }
+ },
+ "ufrgs | ufrgs/cheias_rhguaiba_2024_db_v14.gpkg | rmpa_sb_drenagem_polderes": {
+  "id": {
+   "1": 1,
+   "2": 1,
+   "3": 1,
+   "4": 1,
+   "5": 1,
+   "6": 1,
+   "7": 1,
+   "8": 1,
+   "9": 1,
+   "10": 1
+  },
+  "polder": {
+   "Mathias Velho": 1,
+   "Rio Branco": 1,
+   "Aeroporto - Centro Histórico": 1,
+   "Praia de Belas - Cidade Baixa": 1,
+   "Menino Deus": 1,
+   "Cachoeirinha": 1,
+   "Sarandi - FIERGS": 1,
+   "Vicentina": 1,
+   "Cristal": 1,
+   "Campina - Brás": 1
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | P00_sensor_footprint": {
+  "obj_type_a": {
+   "1": 13
+  },
+  "or_src_id": {
+   "1": 1,
+   "3": 1,
+   "4": 1,
+   "13": 1,
+   "2": 1,
+   "5": 1,
+   "6": 1,
+   "7": 1,
+   "8": 1,
+   "11": 1,
+   "10": 1,
+   "9": 1,
+   "12": 1
+  },
+  "SHAPE_Length": {
+   "573821.7807584655": 2,
+   "608097.4193614263": 1,
+   "826129.5415023831": 1,
+   "164687.26280940775": 1,
+   "58374.64009592615": 1,
+   "52784.46411334636": 1,
+   "54122.47234823297": 1,
+   "55455.662672582366": 1,
+   "43397.69077599603": 1,
+   "49989.64723074708": 1,
+   "51632.8601057922": 1,
+   "47200.25137873158": 1
+  },
+  "SHAPE_Area": {
+   "15465861819.37078": 2,
+   "20200446931.144917": 1,
+   "42446523658.91213": 1,
+   "1694801776.7170148": 1,
+   "199185451.67063904": 1,
+   "161545073.0": 1,
+   "177783678.71737978": 1,
+   "170373375.875": 1,
+   "97329834.0": 1,
+   "136648526.0": 1,
+   "147482256.0": 1,
+   "137495182.0": 1
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | P00_data_source": {
+  "source_name": {
+   "45": 4,
+   "56": 3,
+   "74": 3,
+   "44": 1,
+   "8": 1,
+   "997": 1,
+   "55": 1,
+   "75": 1,
+   "90": 1,
+   "88": 1,
+   "89": 1,
+   "91": 1
+  },
+  "src_date": {
+   "08/05/2024": 3,
+   "07/05/2024": 3,
+   "04/02/2024": 3,
+   "06/05/2024": 2,
+   "Not Applicable": 2,
+   "07/05/2024\r\n": 1,
+   "14/03/2024": 1,
+   "2023": 1,
+   "2019": 1,
+   "2020": 1,
+   "2024": 1
+  },
+  "source_tm": {
+   "Not Applicable": 6,
+   "T13:40:00Z": 3,
+   "T13:30:00Z": 3,
+   "T13:22:00Z": 2,
+   "T13:31:00Z": 1,
+   "T22:07:00Z": 1,
+   "T20:36:00Z": 1,
+   "T13:15:00Z": 1,
+   "T13:24:00Z": 1
+  },
+  "sensor_gsd": {
+   "0.5 m": 8,
+   "10 m": 4,
+   "Not Applicable": 3,
+   "3 m": 1,
+   "20 m": 1,
+   "100 m": 1,
+   "30 m": 1
+  },
+  "eventphase": {
+   "2": 9,
+   "1": 8,
+   "997": 2
+  },
+  "src_id": {
+   "994": 1,
+   "997": 1,
+   "1": 1,
+   "2": 1,
+   "3": 1,
+   "4": 1,
+   "5": 1,
+   "6": 1,
+   "7": 1,
+   "8": 1,
+   "9": 1,
+   "10": 1,
+   "11": 1,
+   "12": 1,
+   "13": 1,
+   "995": 1,
+   "982": 1,
+   "981": 1,
+   "983": 1
+  },
+  "_linhas": [
+   {
+    "source_name": "44",
+    "src_date": "Not Applicable",
+    "source_tm": "Not Applicable",
+    "sensor_gsd": "Not Applicable",
+    "eventphase": "1",
+    "src_id": "994"
+   },
+   {
+    "source_name": "997",
+    "src_date": "Not Applicable",
+    "source_tm": "Not Applicable",
+    "sensor_gsd": "Not Applicable",
+    "eventphase": "997",
+    "src_id": "997"
+   },
+   {
+    "source_name": "56",
+    "src_date": "06/05/2024",
+    "source_tm": "T13:31:00Z",
+    "sensor_gsd": "10 m",
+    "eventphase": "2",
+    "src_id": "1"
+   },
+   {
+    "source_name": "8",
+    "src_date": "06/05/2024",
+    "source_tm": "T20:36:00Z",
+    "sensor_gsd": "3 m",
+    "eventphase": "2",
+    "src_id": "2"
+   },
+   {
+    "source_name": "56",
+    "src_date": "08/05/2024",
+    "source_tm": "T13:22:00Z",
+    "sensor_gsd": "10 m",
+    "eventphase": "2",
+    "src_id": "3"
+   },
+   {
+    "source_name": "55",
+    "src_date": "08/05/2024",
+    "source_tm": "T22:07:00Z",
+    "sensor_gsd": "20 m",
+    "eventphase": "2",
+    "src_id": "4"
+   },
+   {
+    "source_name": "45",
+    "src_date": "04/02/2024",
+    "source_tm": "T13:30:00Z",
+    "sensor_gsd": "0.5 m",
+    "eventphase": "1",
+    "src_id": "5"
+   },
+   {
+    "source_name": "45",
+    "src_date": "04/02/2024",
+    "source_tm": "T13:30:00Z",
+    "sensor_gsd": "0.5 m",
+    "eventphase": "1",
+    "src_id": "6"
+   },
+   {
+    "source_name": "45",
+    "src_date": "04/02/2024",
+    "source_tm": "T13:30:00Z",
+    "sensor_gsd": "0.5 m",
+    "eventphase": "1",
+    "src_id": "7"
+   },
+   {
+    "source_name": "45",
+    "src_date": "07/05/2024",
+    "source_tm": "T13:15:00Z",
+    "sensor_gsd": "0.5 m",
+    "eventphase": "2",
+    "src_id": "8"
+   },
+   {
+    "source_name": "74",
+    "src_date": "07/05/2024",
+    "source_tm": "T13:40:00Z",
+    "sensor_gsd": "0.5 m",
+    "eventphase": "2",
+    "src_id": "9"
+   },
+   {
+    "source_name": "74",
+    "src_date": "07/05/2024\r\n",
+    "source_tm": "T13:40:00Z",
+    "sensor_gsd": "0.5 m",
+    "eventphase": "2",
+    "src_id": "10"
+   },
+   {
+    "source_name": "74",
+    "src_date": "07/05/2024",
+    "source_tm": "T13:40:00Z",
+    "sensor_gsd": "0.5 m",
+    "eventphase": "2",
+    "src_id": "11"
+   },
+   {
+    "source_name": "75",
+    "src_date": "08/05/2024",
+    "source_tm": "T13:24:00Z",
+    "sensor_gsd": "0.5 m",
+    "eventphase": "2",
+    "src_id": "12"
+   },
+   {
+    "source_name": "56",
+    "src_date": "14/03/2024",
+    "source_tm": "T13:22:00Z",
+    "sensor_gsd": "10 m",
+    "eventphase": "1",
+    "src_id": "13"
+   },
+   {
+    "source_name": "90",
+    "src_date": "2023",
+    "source_tm": "Not Applicable",
+    "sensor_gsd": "10 m",
+    "eventphase": "1",
+    "src_id": "995"
+   },
+   {
+    "source_name": "88",
+    "src_date": "2019",
+    "source_tm": "Not Applicable",
+    "sensor_gsd": "100 m",
+    "eventphase": "1",
+    "src_id": "982"
+   },
+   {
+    "source_name": "89",
+    "src_date": "2020",
+    "source_tm": "Not Applicable",
+    "sensor_gsd": "30 m",
+    "eventphase": "1",
+    "src_id": "981"
+   },
+   {
+    "source_name": "91",
+    "src_date": "2024",
+    "source_tm": "Not Applicable",
+    "sensor_gsd": "Not Applicable",
+    "eventphase": "997",
+    "src_id": "983"
+   }
+  ]
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | P08DDA_DamageAssessmentP": {
+  "event_type": {
+   "1": 119626
+  },
+  "det_method": {
+   "1": 119626
+  },
+  "notation": {
+   "2": 117677,
+   "4": 1946,
+   "3": 3
+  },
+  "damage_gra": {
+   "2": 116277,
+   "1": 3301,
+   "3": 47,
+   "4": 1
+  },
+  "aoi_id": {
+   "2": 75059,
+   "3": 42377,
+   "4": 2190
+  },
+  "or_src_id": {
+   "5": 75059,
+   "6": 42377,
+   "994": 2190
+  },
+  "dmg_src_id": {
+   "9": 74919,
+   "10": 42377,
+   "12": 2190,
+   "8": 140
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | P08DDA_DamageAssessmentL": {
+  "event_type": {
+   "1": 9682
+  },
+  "det_method": {
+   "1": 9682
+  },
+  "notation": {
+   "3": 9682
+  },
+  "damage_gra": {
+   "1": 9682
+  },
+  "aoi_id": {
+   "3": 6313,
+   "2": 2863,
+   "4": 506
+  },
+  "or_src_id": {
+   "6": 6313,
+   "5": 2863,
+   "994": 506
+  },
+  "dmg_src_id": {
+   "10": 6313,
+   "9": 2820,
+   "12": 506,
+   "8": 43
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | P04FLDEL01_FloodExtent": {
+  "flood_type": {
+   "1": 936
+  },
+  "det_method": {
+   "2": 936
+  },
+  "notation": {
+   "4": 936
+  },
+  "source_date": {
+   "06/05/2024": 936
+  },
+  "aoi_id": {
+   "01": 936
+  },
+  "or_src_id": {
+   "1": 891,
+   "2": 45
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | P00_aoi": {
+  "emsn_id": {
+   "EMSN194": 4
+  },
+  "fwc_type": {
+   "1": 4
+  },
+  "aoi_id": {
+   "01": 1,
+   "02": 1,
+   "03": 1,
+   "04": 1
+  },
+  "locality": {
+   "Porto Alegre": 1,
+   "Canoas": 1,
+   "Porto Alegre North": 1,
+   "Porto Alegre South": 1
+  },
+  "country": {
+   "Brazil": 4
+  },
+  "glide_no": {
+   "FL-2024-000063-BRA": 4
+  },
+  "prod_type": {
+   "P08": 3,
+   "P04, P06, P14": 1
+  },
+  "SHAPE_Length": {
+   "177419.26718430387": 1,
+   "55110.48157653707": 1,
+   "49686.698056788366": 1,
+   "50888.966642469764": 1
+  },
+  "SHAPE_Area": {
+   "1083362547.3672993": 1,
+   "168096567.76064667": 1,
+   "134111983.98783019": 1,
+   "149077976.19260707": 1
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | P04FLDEL02_FloodExtent": {
+  "flood_type": {
+   "1": 922
+  },
+  "det_method": {
+   "2": 922
+  },
+  "notation": {
+   "4": 922
+  },
+  "source_date": {
+   "08/05/2024": 922
+  },
+  "aoi_id": {
+   "01": 922
+  },
+  "or_src_id": {
+   "3": 911,
+   "4": 11
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | P06TMFL_FloodTempEvolution_02052024": {
+  "flood_type": {
+   "1": 4565
+  },
+  "det_method": {
+   "4": 4565
+  },
+  "notation": {
+   "4": 4565
+  },
+  "date_time": {
+   "02/05/2024 T22:00:00Z": 4565
+  },
+  "event_date": {
+   "30/04/2024": 4565
+  },
+  "aoi_id": {
+   "01": 4565
+  },
+  "or_src_id": {
+   "1, 2, 3, 4, 981, 982, 983": 4565
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | P06TMFL_FloodTempEvolution_04052024": {
+  "flood_type": {
+   "1": 4219
+  },
+  "det_method": {
+   "4": 4219
+  },
+  "notation": {
+   "4": 4219
+  },
+  "date_time": {
+   "04/05/2024 T22:00:00Z": 4219
+  },
+  "event_date": {
+   "30/04/2024": 4219
+  },
+  "aoi_id": {
+   "01": 4219
+  },
+  "or_src_id": {
+   "1, 2, 3, 4, 981, 982, 983": 4219
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | P06TMFL_FloodTempEvolution_06052024": {
+  "flood_type": {
+   "1": 3935
+  },
+  "det_method": {
+   "4": 3935
+  },
+  "notation": {
+   "4": 3935
+  },
+  "date_time": {
+   "06/05/2024 T22:00:00Z": 3935
+  },
+  "event_date": {
+   "30/04/2024": 3935
+  },
+  "aoi_id": {
+   "01": 3935
+  },
+  "or_src_id": {
+   "1, 2, 3, 4, 981, 982, 983": 3935
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | P06TMFL_FloodTempEvolution_08052024": {
+  "flood_type": {
+   "1": 4086
+  },
+  "det_method": {
+   "4": 4086
+  },
+  "notation": {
+   "4": 4086
+  },
+  "date_time": {
+   "08/05/2024 T22:00:00Z": 4086
+  },
+  "event_date": {
+   "30/04/2024": 4086
+  },
+  "aoi_id": {
+   "01": 4086
+  },
+  "or_src_id": {
+   "1, 2, 3, 4, 981, 982, 983": 4086
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | P06TMFL_FloodTempEvolution_10052024": {
+  "flood_type": {
+   "1": 4377
+  },
+  "det_method": {
+   "4": 4377
+  },
+  "notation": {
+   "4": 4377
+  },
+  "date_time": {
+   "10/05/2024 T22:00:00Z": 4377
+  },
+  "event_date": {
+   "30/04/2024": 4377
+  },
+  "aoi_id": {
+   "01": 4377
+  },
+  "or_src_id": {
+   "1, 2, 3, 4, 981, 982, 983": 4377
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | P06TMFL_FloodTempEvolution_30042024": {
+  "flood_type": {
+   "1": 4750
+  },
+  "det_method": {
+   "4": 4750
+  },
+  "notation": {
+   "4": 4750
+  },
+  "date_time": {
+   "30/04/2024 T22:00:00Z": 4750
+  },
+  "event_date": {
+   "30/04/2024": 4750
+  },
+  "aoi_id": {
+   "01": 4750
+  },
+  "or_src_id": {
+   "1, 2, 3, 4, 981, 982, 983": 4750
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | P06TMFL01_MaxFloodExtent": {
+  "flood_type": {
+   "1": 4421
+  },
+  "det_method": {
+   "4": 4421
+  },
+  "notation": {
+   "4": 4421
+  },
+  "event_date": {
+   "30/04/2024": 4421
+  },
+  "aoi_id": {
+   "01": 4421
+  },
+  "or_src_id": {
+   "1, 2, 3, 4, 981, 982, 983": 4421
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | fras_aux_pppp": {
+  "_linhas": []
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | fras_aux_ppppp": {
+  "_linhas": []
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | fras_aux_testRaster": {
+  "_linhas": []
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | fras_aux_zzz": {
+  "_linhas": []
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | fras_blk_pppp": {
+  "_linhas": []
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | fras_blk_ppppp": {
+  "_linhas": []
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | fras_blk_testRaster": {
+  "_linhas": []
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | fras_blk_zzz": {
+  "_linhas": []
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | fras_bnd_pppp": {
+  "_linhas": []
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | fras_bnd_ppppp": {
+  "_linhas": []
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | fras_bnd_testRaster": {
+  "_linhas": []
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | fras_bnd_zzz": {
+  "_linhas": []
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | fras_ras_pppp": {
+  "_linhas": []
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | fras_ras_ppppp": {
+  "_linhas": []
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | fras_ras_testRaster": {
+  "_linhas": []
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/GDB/EMSN194_STD_UTM22S_v01.gdb | fras_ras_zzz": {
+  "_linhas": []
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/Geojson/EMSN194_STD_AOI01_P00_aoi_v01.geojson | EMSN194_STD_AOI01_P00_aoi_v01": {
+  "emsn_id": {
+   "EMSN194": 1
+  },
+  "fwc_type": {
+   "STD": 1
+  },
+  "aoi_id": {
+   "01": 1
+  },
+  "locality": {
+   "Porto Alegre": 1
+  },
+  "country": {
+   "Brazil": 1
+  },
+  "glide_no": {
+   "FL-2024-000063-BRA": 1
+  },
+  "prod_type": {
+   "P04, P06, P14": 1
+  },
+  "SHAPE_Leng": {
+   "177419.267184": 1
+  },
+  "SHAPE_Area": {
+   "1083362547.37": 1
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/Geojson/EMSN194_STD_AOI02_P00_aoi_v01.geojson | EMSN194_STD_AOI02_P00_aoi_v01": {
+  "emsn_id": {
+   "EMSN194": 1
+  },
+  "fwc_type": {
+   "STD": 1
+  },
+  "aoi_id": {
+   "02": 1
+  },
+  "locality": {
+   "Canoas": 1
+  },
+  "country": {
+   "Brazil": 1
+  },
+  "glide_no": {
+   "FL-2024-000063-BRA": 1
+  },
+  "prod_type": {
+   "P08": 1
+  },
+  "SHAPE_Leng": {
+   "55110.4815765": 1
+  },
+  "SHAPE_Area": {
+   "168096567.761": 1
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/Geojson/EMSN194_STD_AOI03_P00_aoi_v01.geojson | EMSN194_STD_AOI03_P00_aoi_v01": {
+  "emsn_id": {
+   "EMSN194": 1
+  },
+  "fwc_type": {
+   "STD": 1
+  },
+  "aoi_id": {
+   "03": 1
+  },
+  "locality": {
+   "Porto Alegre North": 1
+  },
+  "country": {
+   "Brazil": 1
+  },
+  "glide_no": {
+   "FL-2024-000063-BRA": 1
+  },
+  "prod_type": {
+   "P08": 1
+  },
+  "SHAPE_Leng": {
+   "49686.6980568": 1
+  },
+  "SHAPE_Area": {
+   "134111983.988": 1
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/Geojson/EMSN194_STD_AOI04_P00_aoi_v01.geojson | EMSN194_STD_AOI04_P00_aoi_v01": {
+  "emsn_id": {
+   "EMSN194": 1
+  },
+  "fwc_type": {
+   "STD": 1
+  },
+  "aoi_id": {
+   "04": 1
+  },
+  "locality": {
+   "Porto Alegre South": 1
+  },
+  "country": {
+   "Brazil": 1
+  },
+  "glide_no": {
+   "FL-2024-000063-BRA": 1
+  },
+  "prod_type": {
+   "P08": 1
+  },
+  "SHAPE_Leng": {
+   "50888.9666425": 1
+  },
+  "SHAPE_Area": {
+   "149077976.193": 1
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/Geojson/P04/AOI/EMSN194_STD_AOI01_P00_aoi_v01.geojson | EMSN194_STD_AOI01_P00_aoi_v01": {
+  "emsn_id": {
+   "EMSN194": 1
+  },
+  "fwc_type": {
+   "STD": 1
+  },
+  "aoi_id": {
+   "01": 1
+  },
+  "locality": {
+   "Porto Alegre": 1
+  },
+  "country": {
+   "Brazil": 1
+  },
+  "glide_no": {
+   "FL-2024-000063-BRA": 1
+  },
+  "prod_type": {
+   "P04, P06, P14": 1
+  },
+  "SHAPE_Leng": {
+   "177419.267184": 1
+  },
+  "SHAPE_Area": {
+   "1083362547.37": 1
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/Geojson/P04/EMSN194_STD_AOI01_P04FLDEL01_FloodExtent_v01.geojson | EMSN194_STD_AOI01_P04FLDEL01_FloodExtent_v01": {
+  "flood_type": {
+   "Inland flood": 936
+  },
+  "det_method": {
+   "Semi-automatic extraction": 936
+  },
+  "notation": {
+   "Rain": 936
+  },
+  "source_dat": {
+   "06/05/2024": 936
+  },
+  "aoi_id": {
+   "01": 936
+  },
+  "or_src_id": {
+   "1": 891,
+   "2": 45
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/Geojson/P04/EMSN194_STD_AOI01_P04FLDEL02_FloodExtent_v01.geojson | EMSN194_STD_AOI01_P04FLDEL02_FloodExtent_v01": {
+  "flood_type": {
+   "Inland flood": 922
+  },
+  "det_method": {
+   "Semi-automatic extraction": 922
+  },
+  "notation": {
+   "Rain": 922
+  },
+  "source_dat": {
+   "08/05/2024": 922
+  },
+  "aoi_id": {
+   "01": 922
+  },
+  "or_src_id": {
+   "3": 911,
+   "4": 11
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/Geojson/P06/EMSN194_STD_AOI01_P06TMFL_FloodTempEvolution_02052024_v01.geojson | EMSN194_STD_AOI01_P06TMFL_FloodTempEvolution_02052024_v01": {
+  "flood_type": {
+   "Inland flood": 4565
+  },
+  "det_method": {
+   "Modelling": 4565
+  },
+  "notation": {
+   "Rain": 4565
+  },
+  "date_time": {
+   "02/05/2024 T22:00:00Z": 4565
+  },
+  "event_date": {
+   "30/04/2024": 4565
+  },
+  "aoi_id": {
+   "01": 4565
+  },
+  "or_src_id": {
+   "1, 2, 3, 4, 981, 982, 983": 4565
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/Geojson/P06/EMSN194_STD_AOI01_P06TMFL_FloodTempEvolution_04052024_v01.geojson | EMSN194_STD_AOI01_P06TMFL_FloodTempEvolution_04052024_v01": {
+  "flood_type": {
+   "Inland flood": 4219
+  },
+  "det_method": {
+   "Modelling": 4219
+  },
+  "notation": {
+   "Rain": 4219
+  },
+  "date_time": {
+   "04/05/2024 T22:00:00Z": 4219
+  },
+  "event_date": {
+   "30/04/2024": 4219
+  },
+  "aoi_id": {
+   "01": 4219
+  },
+  "or_src_id": {
+   "1, 2, 3, 4, 981, 982, 983": 4219
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/Geojson/P06/EMSN194_STD_AOI01_P06TMFL_FloodTempEvolution_06052024_v01.geojson | EMSN194_STD_AOI01_P06TMFL_FloodTempEvolution_06052024_v01": {
+  "flood_type": {
+   "Inland flood": 3935
+  },
+  "det_method": {
+   "Modelling": 3935
+  },
+  "notation": {
+   "Rain": 3935
+  },
+  "date_time": {
+   "06/05/2024 T22:00:00Z": 3935
+  },
+  "event_date": {
+   "30/04/2024": 3935
+  },
+  "aoi_id": {
+   "01": 3935
+  },
+  "or_src_id": {
+   "1, 2, 3, 4, 981, 982, 983": 3935
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/Geojson/P06/EMSN194_STD_AOI01_P06TMFL_FloodTempEvolution_08052024_v01.geojson | EMSN194_STD_AOI01_P06TMFL_FloodTempEvolution_08052024_v01": {
+  "flood_type": {
+   "Inland flood": 4086
+  },
+  "det_method": {
+   "Modelling": 4086
+  },
+  "notation": {
+   "Rain": 4086
+  },
+  "date_time": {
+   "08/05/2024 T22:00:00Z": 4086
+  },
+  "event_date": {
+   "30/04/2024": 4086
+  },
+  "aoi_id": {
+   "01": 4086
+  },
+  "or_src_id": {
+   "1, 2, 3, 4, 981, 982, 983": 4086
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/Geojson/P06/EMSN194_STD_AOI01_P06TMFL_FloodTempEvolution_10052024_v01.geojson | EMSN194_STD_AOI01_P06TMFL_FloodTempEvolution_10052024_v01": {
+  "flood_type": {
+   "Inland flood": 4377
+  },
+  "det_method": {
+   "Modelling": 4377
+  },
+  "notation": {
+   "Rain": 4377
+  },
+  "date_time": {
+   "10/05/2024 T22:00:00Z": 4377
+  },
+  "event_date": {
+   "30/04/2024": 4377
+  },
+  "aoi_id": {
+   "01": 4377
+  },
+  "or_src_id": {
+   "1, 2, 3, 4, 981, 982, 983": 4377
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/Geojson/P06/EMSN194_STD_AOI01_P06TMFL_FloodTempEvolution_30042024_v01.geojson | EMSN194_STD_AOI01_P06TMFL_FloodTempEvolution_30042024_v01": {
+  "flood_type": {
+   "Inland flood": 4750
+  },
+  "det_method": {
+   "Modelling": 4750
+  },
+  "notation": {
+   "Rain": 4750
+  },
+  "date_time": {
+   "30/04/2024 T22:00:00Z": 4750
+  },
+  "event_date": {
+   "30/04/2024": 4750
+  },
+  "aoi_id": {
+   "01": 4750
+  },
+  "or_src_id": {
+   "1, 2, 3, 4, 981, 982, 983": 4750
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/Geojson/P06/EMSN194_STD_AOI01_P06TMFL_MaxFloodExtent_v01.geojson | EMSN194_STD_AOI01_P06TMFL_MaxFloodExtent_v01": {
+  "flood_type": {
+   "Inland flood": 4421
+  },
+  "det_method": {
+   "Modelling": 4421
+  },
+  "notation": {
+   "Rain": 4421
+  },
+  "event_date": {
+   "30/04/2024": 4421
+  },
+  "aoi_id": {
+   "01": 4421
+  },
+  "or_src_id": {
+   "1, 2, 3, 4, 981, 982, 983": 4421
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/Geojson/P082/EMSN194_STD_AOI02_P082DDA_DamageAssessmentL_v01.geojson | EMSN194_STD_AOI02_P082DDA_DamageAssessmentL_v01": {
+  "event_type": {
+   "Flood": 2863
+  },
+  "det_method": {
+   "Photo-interpretation": 2863
+  },
+  "notation": {
+   "Impact on transportation": 2863
+  },
+  "damage_gra": {
+   "Possible damage": 2863
+  },
+  "aoi_id": {
+   "2": 2863
+  },
+  "or_src_id": {
+   "5": 2863
+  },
+  "dmg_src_id": {
+   "9": 2820,
+   "8": 43
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/Geojson/P082/EMSN194_STD_AOI02_P082DDA_DamageAssessmentP_v01.geojson | EMSN194_STD_AOI02_P082DDA_DamageAssessmentP_v01": {
+  "event_type": {
+   "Flood": 75059
+  },
+  "det_method": {
+   "Photo-interpretation": 75059
+  },
+  "notation": {
+   "Impact on buildings": 73903,
+   "Impact on industrial facilities": 1153,
+   "Impact on transportation": 3
+  },
+  "damage_gra": {
+   "Damaged": 73942,
+   "Possible damage": 1070,
+   "Destroyed": 47
+  },
+  "aoi_id": {
+   "2": 75059
+  },
+  "or_src_id": {
+   "5": 75059
+  },
+  "dmg_src_id": {
+   "9": 74919,
+   "8": 140
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/Geojson/P082/EMSN194_STD_AOI03_P082DDA_DamageAssessmentL_v01.geojson | EMSN194_STD_AOI03_P082DDA_DamageAssessmentL_v01": {
+  "event_type": {
+   "Flood": 6313
+  },
+  "det_method": {
+   "Photo-interpretation": 6313
+  },
+  "notation": {
+   "Impact on transportation": 6313
+  },
+  "damage_gra": {
+   "Possible damage": 6313
+  },
+  "aoi_id": {
+   "3": 6313
+  },
+  "or_src_id": {
+   "6": 6313
+  },
+  "dmg_src_id": {
+   "10": 6313
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/Geojson/P082/EMSN194_STD_AOI03_P082DDA_DamageAssessmentP_v01.geojson | EMSN194_STD_AOI03_P082DDA_DamageAssessmentP_v01": {
+  "event_type": {
+   "Flood": 42377
+  },
+  "det_method": {
+   "Photo-interpretation": 42377
+  },
+  "notation": {
+   "Impact on buildings": 41584,
+   "Impact on industrial facilities": 793
+  },
+  "damage_gra": {
+   "Damaged": 40615,
+   "Possible damage": 1761,
+   "No visible damage": 1
+  },
+  "aoi_id": {
+   "3": 42377
+  },
+  "or_src_id": {
+   "6": 42377
+  },
+  "dmg_src_id": {
+   "10": 42377
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/Geojson/P082/EMSN194_STD_AOI04_P082DDA_DamageAssessmentL_v01.geojson | EMSN194_STD_AOI04_P082DDA_DamageAssessmentL_v01": {
+  "event_type": {
+   "Flood": 506
+  },
+  "det_method": {
+   "Photo-interpretation": 506
+  },
+  "notation": {
+   "Impact on transportation": 506
+  },
+  "damage_gra": {
+   "Possible damage": 506
+  },
+  "aoi_id": {
+   "4": 506
+  },
+  "or_src_id": {
+   "994": 506
+  },
+  "dmg_src_id": {
+   "12": 506
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/Geojson/P082/EMSN194_STD_AOI04_P082DDA_DamageAssessmentP_v01.geojson | EMSN194_STD_AOI04_P082DDA_DamageAssessmentP_v01": {
+  "event_type": {
+   "Flood": 2190
+  },
+  "det_method": {
+   "Photo-interpretation": 2190
+  },
+  "notation": {
+   "Impact on buildings": 2190
+  },
+  "damage_gra": {
+   "Damaged": 1720,
+   "Possible damage": 470
+  },
+  "aoi_id": {
+   "4": 2190
+  },
+  "or_src_id": {
+   "994": 2190
+  },
+  "dmg_src_id": {
+   "12": 2190
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/IntermediateResults/P14IAAP/EMSN194_STD_AOI01_P14IAAP_LULC_01_v01.geojson | EMSN194_STD_AOI01_P14IAAP_LULC_01_v01": {
+  "obj_type": {
+   "3-Natural and semi-naturals areas": 2812,
+   "4-Wetlands": 742,
+   "1-Artificial surfaces": 667,
+   "2-Agricultural areas": 219
+  },
+  "info": {
+   "3100-Forests": 1739,
+   "3200-Herbaceous vegetation associations (natural grassland, moors...)": 1059,
+   "4000-Wetlands": 742,
+   "1121-Discontinuous dense urban fabric (S.L. : 50% -  80%)": 667,
+   "2400-Complex and mixed cultivation patterns": 219,
+   "3300-Open spaces with little or no vegetation (beaches, dunes, bare rocks, glaciers)": 14
+  },
+  "det_meth": {
+   "Not Applicable": 4440
+  },
+  "cd_value": {
+   "Not Applicable": 4440
+  },
+  "aoi_id": {
+   "01": 4440
+  },
+  "or_src_id": {
+   "982": 4440
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/IntermediateResults/P14IAAP/EMSN194_STD_AOI01_P14IAAP_LULC_02_v01.geojson | EMSN194_STD_AOI01_P14IAAP_LULC_02_v01": {
+  "obj_type": {
+   "3-Natural and semi-naturals areas": 2869,
+   "4-Wetlands": 778,
+   "1-Artificial surfaces": 649,
+   "2-Agricultural areas": 213
+  },
+  "info": {
+   "3100-Forests": 1419,
+   "3200-Herbaceous vegetation associations (natural grassland, moors...)": 1041,
+   "4000-Wetlands": 778,
+   "1121-Discontinuous dense urban fabric (S.L. : 50% -  80%)": 649,
+   "3300-Open spaces with little or no vegetation (beaches, dunes, bare rocks, glaciers)": 409,
+   "2400-Complex and mixed cultivation patterns": 213
+  },
+  "det_meth": {
+   "Not Applicable": 4509
+  },
+  "cd_value": {
+   "Not Applicable": 4509
+  },
+  "aoi_id": {
+   "01": 4509
+  },
+  "or_src_id": {
+   "982": 4509
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/IntermediateResults/P14IAAP/EMSN194_STD_AOI01_P14IAAP_builtupA_01_v01.geojson | EMSN194_STD_AOI01_P14IAAP_builtupA_01_v01": {
+  "bua_Type": {
+   "Built up area": 564
+  },
+  "obj_type": {
+   "Unknown": 564
+  },
+  "NAM": {
+   "Unknown": 564
+  },
+  "info": {
+   "Not Applicable": 564
+  },
+  "FUN": {
+   "Fully Functional": 564
+  },
+  "det_meth": {
+   "Semi-automatic extraction": 564
+  },
+  "aoi_id": {
+   "01": 564
+  },
+  "or_src_id": {
+   "995": 564
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/IntermediateResults/P14IAAP/EMSN194_STD_AOI01_P14IAAP_builtupA_02_v01.geojson | EMSN194_STD_AOI01_P14IAAP_builtupA_02_v01": {
+  "bua_Type": {
+   "Built up area": 526
+  },
+  "obj_type": {
+   "Unknown": 526
+  },
+  "NAM": {
+   "Unknown": 526
+  },
+  "info": {
+   "Not Applicable": 526
+  },
+  "FUN": {
+   "Fully Functional": 526
+  },
+  "det_meth": {
+   "Semi-automatic extraction": 526
+  },
+  "aoi_id": {
+   "01": 526
+  },
+  "or_src_id": {
+   "995": 526
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/IntermediateResults/P14IAAP/EMSN194_STD_AOI01_P14IAAP_transportationA_01_v01.geojson | EMSN194_STD_AOI01_P14IAAP_transportationA_01_v01": {
+  "obj_type": {
+   "Harbours, waterways, dams and other waterworks ": 15,
+   "Airfield": 11
+  },
+  "NAM": {
+   "Unknown": 26
+  },
+  "info": {
+   "Harbours": 15,
+   "Airfield runways": 11
+  },
+  "TRS": {
+   "Not Applicable": 26
+  },
+  "RST": {
+   "Not Applicable": 26
+  },
+  "LOC": {
+   "Not Applicable": 26
+  },
+  "FUN": {
+   "Unknown": 15,
+   "Fully Functional": 11
+  },
+  "HAF": {
+   "Unknown": 26
+  },
+  "det_meth": {
+   "Not Applicable": 26
+  },
+  "aoi_id": {
+   "1": 26
+  },
+  "or_src_id": {
+   "994": 26
+  },
+  "SHAPE_Leng": {
+   "437.564443394": 2,
+   "6992.23087418": 2,
+   "489.790972238": 2,
+   "10339.5336537": 2,
+   "475.769513835": 1,
+   "961.937203698": 1,
+   "714.176083534": 1,
+   "980.0": 1,
+   "34601.94525270001": 1,
+   "394.207033923": 1,
+   "3440.77233585": 1,
+   "180.92975917": 1,
+   "269.789706942": 1,
+   "1240.78429702": 1,
+   "1154.40612949": 1,
+   "653.619734816": 1,
+   "13.1714533059": 1,
+   "43.7914620667": 1,
+   "84.5588818937": 1,
+   "6341.34389337": 1,
+   "661.574561978": 1,
+   "2199.11517057": 1
+  },
+  "SHAPE_Area": {
+   "2059.82666016": 2,
+   "124160.175962": 2,
+   "2510.75482631": 2,
+   "93252.5543677": 2,
+   "1423.17871094": 1,
+   "9718.6690414": 1,
+   "4118.35249514": 1,
+   "11800.0": 1,
+   "2361874.975": 1,
+   "2957.90213952": 1,
+   "34072.1449208": 1,
+   "519.121263381": 1,
+   "1795.69580078": 1,
+   "26086.6908518": 1,
+   "15780.5452778": 1,
+   "11017.5981183": 1,
+   "2.7197515592": 1,
+   "119.824315909": 1,
+   "100.953333011": 1,
+   "89162.4216991": 1,
+   "6761.21165323": 1,
+   "38431.32338590001": 1
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/IntermediateResults/P14IAAP/EMSN194_STD_AOI01_P14IAAP_transportationA_02_v01.geojson | EMSN194_STD_AOI01_P14IAAP_transportationA_02_v01": {
+  "obj_type": {
+   "215": 11,
+   "213": 10
+  },
+  "d_obj_type": {
+   "Harbours, waterways, dams and other waterworks ": 11,
+   "Airfield": 10
+  },
+  "NAM": {
+   "Unknown": 21
+  },
+  "info": {
+   "Harbours": 11,
+   "Airfield runways": 10
+  },
+  "TRS": {
+   "Not Applicable": 21
+  },
+  "RST": {
+   "Not Applicable": 21
+  },
+  "LOC": {
+   "Not Applicable": 21
+  },
+  "FUN": {
+   "Unknown": 11,
+   "Fully Functional": 10
+  },
+  "HAF": {
+   "Unknown": 21
+  },
+  "det_meth": {
+   "Not Applicable": 21
+  },
+  "aoi_id": {
+   "01": 21
+  },
+  "or_src_id": {
+   "994": 21
+  },
+  "SHAPE_Leng": {
+   "10159.241301": 2,
+   "6998.49717045": 2,
+   "623.62600668": 2,
+   "13.1714533059": 1,
+   "1759.54440708": 1,
+   "2760.46123157": 1,
+   "6372.09972074": 1,
+   "84.5588818937": 1,
+   "725.695077453": 1,
+   "1000.0": 1,
+   "581.310873769": 1,
+   "4437.67503891": 1,
+   "35044.4349871": 1,
+   "180.92975917": 1,
+   "269.789706942": 1,
+   "1405.22797356": 1,
+   "43.7914620667": 1,
+   "69.0146460869": 1
+  },
+  "SHAPE_Area": {
+   "106849.485316": 2,
+   "126389.257279": 2,
+   "4288.46194983": 2,
+   "2.7197515592": 1,
+   "27537.6733848": 1,
+   "46738.3160513": 1,
+   "91361.1085009": 1,
+   "100.953333011": 1,
+   "4985.4196167": 1,
+   "11900.0": 1,
+   "4091.19196583": 1,
+   "48606.6842179": 1,
+   "2542692.91009": 1,
+   "519.121263381": 1,
+   "1795.69580078": 1,
+   "36621.2327794": 1,
+   "119.824315909": 1,
+   "297.681794215": 1
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/IntermediateResults/P14IAAP/EMSN194_STD_AOI01_P14IAAP_transportationL_01_v01.geojson | EMSN194_STD_AOI01_P14IAAP_transportationL_01_v01": {
+  "obj_type": {
+   "Highways, Streets and Roads": 9319,
+   "Airfield": 144,
+   "Railways": 94,
+   "Harbours, waterways, dams and other waterworks ": 29
+  },
+  "NAM": {
+   "Unknown": 9586
+  },
+  "info": {
+   "Local Road": 7170,
+   "Secondary Road": 977,
+   "Cart Track": 455,
+   "Highways": 428,
+   "Primary Road": 289,
+   "Airfield runways": 144,
+   "Long-distance railways": 83,
+   "Harbours": 29,
+   "Railway Yard": 11
+  },
+  "TRS": {
+   "Road": 9319,
+   "Not Applicable": 144,
+   "Railway": 94,
+   "Maritime": 29
+  },
+  "RST": {
+   "Unknown": 9348,
+   "Not Applicable": 238
+  },
+  "LOC": {
+   "Unknown": 9442,
+   "Not Applicable": 144
+  },
+  "FUN": {
+   "Unknown": 9586
+  },
+  "det_meth": {
+   "Not Applicable": 9586
+  },
+  "aoi_id": {
+   "01": 9586
+  },
+  "or_src_id": {
+   "994": 9586
+  }
+ },
+ "emsn194 | emsn194/geodata/GeospatialData/IntermediateResults/P14IAAP/EMSN194_STD_AOI01_P14IAAP_transportationL_02_v01.geojson | EMSN194_STD_AOI01_P14IAAP_transportationL_02_v01": {
+  "obj_type": {
+   "Highways, Streets and Roads": 15978,
+   "Railways": 403,
+   "Harbours, waterways, dams and other waterworks ": 155,
+   "Airfield": 146
+  },
+  "NAM": {
+   "Unknown": 16682
+  },
+  "info": {
+   "Local Road": 11535,
+   "Secondary Road": 1801,
+   "Cart Track": 1258,
+   "Highways": 874,
+   "Primary Road": 510,
+   "Long-distance railways": 380,
+   "Harbours": 155,
+   "Airfield runways": 146,
+   "Railway Yard": 23
+  },
+  "TRS": {
+   "Road": 15978,
+   "Railway": 403,
+   "Maritime": 155,
+   "Aeronautical": 146
+  },
+  "RST": {
+   "Unknown": 16133,
+   "Not Applicable": 549
+  },
+  "LOC": {
+   "Unknown": 16536,
+   "Not Applicable": 146
+  },
+  "FUN": {
+   "Unknown": 16682
+  },
+  "det_meth": {
+   "Not Applicable": 16682
+  },
+  "aoi_id": {
+   "01": 16682
+  },
+  "or_src_id": {
+   "994": 16682
+  }
+ }
+}

@@ -1,0 +1,41 @@
+{
+  "plano": "prereg/plano_rq4.md, secao 2",
+  "commit_repositorio": "3544a4ae071c623cca35fe0f1c8481f5ced8be2e",
+  "inventario_sha256": "2b94c809c558d9af4a32989122aaa241d116737e73ad47af9a5ba2dc0692a639",
+  "arquivos": {
+    "emsn194/EMSN194_Reporting.zip": {
+      "url": "https://riskandrecovery.emergency.copernicus.eu/download/EMSN194/EMSN194_Reporting.zip/",
+      "bytes": 44611,
+      "sha256": "27611c5604bf1e76d5b40162a6a74e722cf9f0745380a7538a3a269901daf349"
+    },
+    "emsn194/EMSN194_GeospatialData.zip": {
+      "url": "https://riskandrecovery.emergency.copernicus.eu/download/EMSN194/EMSN194_GeospatialData.zip/",
+      "bytes": 41760735,
+      "sha256": "7d61dc66b3440db52ae89a33b415ac2273078278792636a11a37873573db8877"
+    },
+    "emsn194/EMSN194_AOIs.kml": {
+      "url": "https://riskandrecovery.emergency.copernicus.eu/kml/EMSN194/",
+      "bytes": 9968,
+      "sha256": "f79d596ce2f000f6d4a90ef4c8bc1afd914ced1cd8d2f274d0d2c645281c6f77"
+    },
+    "ufrgs/cheias_rhguaiba_2024_db_v14.gpkg": {
+      "url": "https://zenodo.org/api/records/14617475/files/cheias_rhguaiba_2024_db_v14.gpkg/content",
+      "bytes": 217591808,
+      "sha256": "0d2eabcd4b3d555a6537fed29407006b14081e302c6c52cdcccc790df6afb40c",
+      "md5_zenodo": "cebaaac39d02cb096741f0961981cf06"
+    },
+    "ufrgs/cheias_rhguaiba_2024_db_v14_glossario.csv": {
+      "url": "https://zenodo.org/api/records/14617475/files/cheias_rhguaiba_2024_db_v14_glossario.csv/content",
+      "bytes": 12209,
+      "sha256": "5548e27f4be4dcfaea42455698b0c7a041f747c07064476aea0b3911cd3e1769",
+      "md5_zenodo": "5aeba4c504f625101e974b26f6311ae1"
+    }
+  },
+  "emsr720_metadados": true,
+  "versoes": {
+    "geopandas": "1.2.0",
+    "pyogrio": "0.13.0",
+    "shapely": "2.2.0"
+  },
+  "gerado_utc": "2026-11-02T19:16:29Z"
+}
