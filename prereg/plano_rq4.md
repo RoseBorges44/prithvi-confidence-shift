@@ -40,4 +40,6 @@ If no same-day reference can be obtained for a tile, that tile is reported only 
 
 ## Changes to this plan
 
-None yet.
+**2026-11-02, before any model output on Rio Grande do Sul. Export grid (section 1, "Bands and grid").** The first export showed that Earth Engine crops an export to the footprint of the image, rounded outward to the 10 m grid, and not to the requested 109,800 m square. The files came out as 10980 x 9861 (22JDM, L1C), 10980 x 9849 (22JDM, scene classification) and 10980 x 10981 (22JCN, all three layers), some of them starting one pixel before the granule grid. All files are on the same 10 m lattice as band B2 of the granule (origins differ from the canonical origin by whole pixels), so each file is placed on the full 10980 x 10980 grid of its granule by a whole-pixel offset, without resampling or changing any value: missing pixels are 0 (no data), 255 for the cloud probability, and pixels outside the grid are cropped. The raw export and the placed file are both kept, each with its SHA-256. The window rule of section 1 is applied to the placed grid.
+
+**2026-11-02, before any model output. Coverage of 22JDM (section 1, "Scenes").** On 2024-05-06 the L1C image of 22JDM has data only in columns 0 to 9860 (easting up to about 498,550 m); the strip to the east, about 11 km wide, has no data, and the scene classification ends at about 498,440 m. Pixels without data are not scored and windows with more than 1% of them do not enter, as already written. No change to the rule, recorded because it reduces the area of 22JDM that can be scored.

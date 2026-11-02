@@ -7,6 +7,8 @@ the tests run without an Earth Engine account.
 """
 import datetime as dt
 
+import numpy as np
+
 DATA = "2024-05-06"                      # sensing date, UTC
 TILES = ("22JDM", "22JCN")
 BANDAS = ("B2", "B3", "B4", "B8A", "B11", "B12")
@@ -77,3 +79,45 @@ def registro_entrada(tile, candidato, propriedades, colecoes, arquivos, grade, z
         "fracao_pixels_com_6_bandas_zero": float(zeros),
         "verificacao_do_deslocamento": deslocamento,
     }
+
+
+def deslocamento_na_grade(nome, perfil, origem_canonica, tile):
+    """Where an exported file sits on the canonical grid of the granule, as whole pixels.
+
+    Earth Engine crops an export to the footprint of the image, rounded outward to the 10 m grid, so the file may be
+    larger or smaller than the 10980 x 10980 granule. This is accepted only if the file is on the same lattice: same
+    CRS, 10 m pixels, the number of bands and the type of the layer, and an origin that is a whole number of pixels
+    from the canonical origin. Returns (col_off, row_off): the canonical column and row of the file's first pixel
+    (negative when the file starts before the canonical grid)."""
+    esperado = {"s2": (len(BANDAS), "uint16"), "nuvem": (1, "uint8"), "scl": (1, "uint8")}[nome]
+    erros = []
+    if perfil["count"] != esperado[0]:
+        erros.append(f"{perfil['count']} bands, expected {esperado[0]}")
+    if str(perfil["dtype"]) != esperado[1]:
+        erros.append(f"type {perfil['dtype']}, expected {esperado[1]}")
+    if str(perfil["crs"]) != CRS_ESPERADO[tile]:
+        erros.append(f"CRS {perfil['crs']}, expected {CRS_ESPERADO[tile]}")
+    a, b, c, d, e, f = perfil["transform"]
+    if (a, b, d, e) != (PIXEL, 0.0, 0.0, -PIXEL):
+        erros.append(f"pixel {(a, b, d, e)}, expected {(PIXEL, 0.0, 0.0, -PIXEL)}")
+    dx, dy = (c - origem_canonica[0]) / PIXEL, (origem_canonica[1] - f) / PIXEL
+    if dx != round(dx) or dy != round(dy):
+        erros.append(f"origin {(c, f)} is not a whole number of pixels from {tuple(origem_canonica)}")
+    col_off, row_off = int(round(dx)), int(round(dy))
+    if not erros and (col_off >= LADO or row_off >= LADO or col_off + perfil["width"] <= 0
+                      or row_off + perfil["height"] <= 0):
+        erros.append("the file does not overlap the granule")
+    if erros:
+        raise ValueError(f"{tile} {nome}: " + "; ".join(erros))
+    return col_off, row_off
+
+
+def colocar_na_grade(dados, col_off, row_off, preenchimento):
+    """Places `dados` (bands, rows, columns) on the canonical LADO x LADO grid at (col_off, row_off), cropping what
+    falls outside and filling the rest with `preenchimento`. No value is resampled or changed."""
+    b, h, w = dados.shape
+    saida = np.full((b, LADO, LADO), preenchimento, dtype=dados.dtype)
+    r0, c0 = max(row_off, 0), max(col_off, 0)
+    r1, c1 = min(row_off + h, LADO), min(col_off + w, LADO)
+    saida[:, r0:r1, c0:c1] = dados[:, r0 - row_off:r1 - row_off, c0 - col_off:c1 - col_off]
+    return saida

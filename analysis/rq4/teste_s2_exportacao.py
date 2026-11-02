@@ -65,6 +65,44 @@ def teste_grade():
     print("grid: ok")
 
 
+def teste_deslocamento():
+    import numpy as np
+    orig = (399960.0, 6700000.0)
+    base = {"count": 6, "dtype": "uint16", "crs": "EPSG:32722", "height": 10980, "width": 9861,
+            "transform": (10.0, 0.0, 399950.0, 0.0, -10.0, 6700010.0)}
+    assert S.deslocamento_na_grade("s2", base, orig, "22JDM") == (-1, -1)           # the real 22JDM file
+    assert S.deslocamento_na_grade("s2", dict(base, transform=(10.0, 0.0, 399960.0, 0.0, -10.0, 6700000.0)), orig,
+                                   "22JDM") == (0, 0)
+    assert S.deslocamento_na_grade("scl", dict(base, count=1, dtype="uint8", transform=(10.0, 0.0, 399970.0, 0.0, -10.0, 6699980.0)),
+                                   orig, "22JDM") == (1, 2)
+    for ruim, trecho in ((dict(base, count=5), "bands"), (dict(base, dtype="int16"), "type"), (dict(base, crs="EPSG:4326"), "CRS"),
+                         (dict(base, transform=(20.0, 0.0, 399950.0, 0.0, -20.0, 6700010.0)), "pixel"),
+                         (dict(base, transform=(10.0, 0.0, 399955.0, 0.0, -10.0, 6700010.0)), "whole number"),
+                         (dict(base, transform=(10.0, 0.0, 600000.0, 0.0, -10.0, 6700000.0)), "overlap")):
+        try:
+            S.deslocamento_na_grade("s2", ruim, orig, "22JDM")
+        except ValueError as e:
+            assert trecho in str(e), (trecho, e)
+        else:
+            raise AssertionError(f"{trecho} was accepted")
+    # placing: smaller file, larger file, shifted file; values never change
+    S_LADO = S.LADO
+    S.LADO = 8
+    try:
+        d = np.arange(2 * 5 * 6, dtype=np.uint16).reshape(2, 5, 6) + 1
+        g = S.colocar_na_grade(d, 1, 2, 0)
+        assert g.shape == (2, 8, 8) and (g[:, 2:7, 1:7] == d).all() and g[:, :2].sum() == 0 and g[:, :, 0].sum() == 0
+        g = S.colocar_na_grade(d, -1, -2, 255)                                        # starts before the grid
+        assert (g[:, :3, :5] == d[:, 2:, 1:]).all() and (g[:, 3:] == 255).all() and (g[:, :, 5:] == 255).all()
+        g = S.colocar_na_grade(np.ones((1, 9, 10), np.uint8), -1, -1, 0)              # larger than the grid
+        assert g.shape == (1, 8, 8) and (g == 1).all()
+        n_validos = int((d != 0).sum())
+        assert int((S.colocar_na_grade(d, 3, 3, 0) != 0).sum()) < n_validos            # cropped on the far side
+    finally:
+        S.LADO = S_LADO
+    print("placement: ok")
+
+
 def teste_registro():
     cand = {"id": "x", "tile": "22JDM", "time_start_ms": ms("2024-05-06T13:32:29"), "nuvem": 12.5, "n_candidatos": 1}
     r = S.registro_entrada("22JDM", cand, {"PROCESSING_BASELINE": "05.10"}, {"l1c": "COPERNICUS/S2_HARMONIZED"},
@@ -74,5 +112,5 @@ def teste_registro():
 
 
 if __name__ == "__main__":
-    teste_escolha(); teste_linha_base(); teste_grade(); teste_registro()
+    teste_escolha(); teste_linha_base(); teste_grade(); teste_deslocamento(); teste_registro()
     print("all tests passed")
