@@ -32,6 +32,11 @@ def main():
         # the same water polygon in lat/lon, in another layer of the same file, and an empty layer
         g.iloc[:1].to_crs("EPSG:4326").to_file(caminho, layer="agua_wgs84_20240508", driver="GPKG")
         gpd.GeoDataFrame({"classe": []}, geometry=[], crs="EPSG:32722").to_file(caminho, layer="vazia", driver="GPKG")
+        # a table without geometry, like P00_data_source of a Copernicus EMS geodatabase
+        import pandas as pd
+        import pyogrio
+        pyogrio.write_dataframe(pd.DataFrame({"sensor": ["Sentinel-2", "Pleiades"], "data": ["08/05/2024", "07/05/2024"]}),
+                                caminho, layer="P00_data_source", driver="GPKG")
         # a folder with a geojson of points (zero area) in 22JCN
         os.makedirs(os.path.join(raiz, "pasta", "sub"))
         gpd.GeoDataFrame({"tipo": ["a", "b", "a"]}, geometry=[Point(350000, 6750000)] * 3, crs="EPSG:32722").to_file(
@@ -49,6 +54,10 @@ def main():
         a = por[("ufrgs", "agua_wgs84_20240508")]
         assert abs(a["area_km2_22JDM"] - 6.0) < 0.01 and a["crs_original"].endswith("4326"), a
         assert por[("ufrgs", "vazia")]["n_feicoes"] == 0
+        t = por[("ufrgs", "P00_data_source")]
+        assert t["n_feicoes"] == 2 and t["tipos_geometria"] == "tabela sem geometria" and not t.get("erro"), t
+        vt = [v for k, v in valores.items() if k.endswith("P00_data_source")][0]
+        assert vt["_linhas"][0] == {"sensor": "Sentinel-2", "data": "08/05/2024"}, vt
         p = [l for l in linhas if l["fonte"] == "emsn" and l.get("camada")]
         assert len(p) == 1 and p[0]["n_feicoes"] == 3 and p[0]["area_km2"] == 0.0
         assert p[0]["datas_no_arquivo"] == "" and p[0]["datas_no_nome"] == ""      # 06052024 is not YYYYMMDD

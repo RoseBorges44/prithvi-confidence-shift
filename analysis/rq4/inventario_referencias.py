@@ -21,6 +21,7 @@ import numpy as np
 CRS_TILES = "EPSG:32722"
 EXTENSOES = (".gpkg", ".geojson", ".json", ".shp", ".kml", ".gdb")
 MAX_VALORES = 30
+MAX_LINHAS_TABELA = 500
 
 
 def caixas_tiles(caminho_entradas):
@@ -43,11 +44,20 @@ def datas_no_nome(nome):
     return sorted({f"{a}-{m}-{d}" for a, m, d in achados})
 
 
+def nome_geometria(df):
+    """Name of the active geometry column, or None for a table without geometry."""
+    try:
+        return df.geometry.name
+    except AttributeError:
+        return None
+
+
 def resumo_valores(gdf):
     """Columns with at most MAX_VALORES distinct values (geometry excluded): value -> count."""
     out = {}
+    geom = nome_geometria(gdf)
     for col in gdf.columns:
-        if col == gdf.geometry.name:
+        if col == geom:
             continue
         try:
             cont = gdf[col].astype("string").fillna("<vazio>").value_counts()
@@ -58,29 +68,50 @@ def resumo_valores(gdf):
     return out
 
 
+def inventariar_tabela(df, fonte, arquivo, camada):
+    """One row of the inventory for a table without geometry (e.g. the data-source table of a Copernicus EMS
+    geodatabase). Tables of up to MAX_LINHAS_TABELA rows are kept whole in the values file."""
+    linha = {"fonte": fonte, "arquivo": arquivo, "camada": camada, "datas_no_nome": ";".join(datas_no_nome(camada)),
+             "datas_no_arquivo": ";".join(datas_no_nome(arquivo)), "n_feicoes": int(len(df)),
+             "tipos_geometria": "tabela sem geometria", "colunas": ";".join(map(str, df.columns))}
+    val = resumo_valores(df)
+    if len(df) <= MAX_LINHAS_TABELA:
+        val["_linhas"] = df.astype("string").fillna("").to_dict("records")
+    return linha, val
+
+
 def inventariar_camada(gdf, fonte, arquivo, camada, caixas):
-    """One row of the inventory for a GeoDataFrame."""
+    """One row of the inventory for a GeoDataFrame. A failure of the geometric part is recorded in `erro` and does
+    not lose the counts, columns and values."""
     import shapely
     from shapely.geometry import box
 
+    geom_nome = nome_geometria(gdf)
     linha = {"fonte": fonte, "arquivo": arquivo, "camada": camada, "datas_no_nome": ";".join(datas_no_nome(camada)),
              "datas_no_arquivo": ";".join(datas_no_nome(arquivo)),
              "n_feicoes": int(len(gdf)), "crs_original": str(gdf.crs) if gdf.crs is not None else "",
              "tipos_geometria": ";".join(sorted({str(t) for t in gdf.geom_type.dropna().unique()})),
-             "colunas": ";".join(c for c in gdf.columns if c != gdf.geometry.name)}
+             "colunas": ";".join(c for c in gdf.columns if c != geom_nome)}
     vazio = {"xmin": "", "ymin": "", "xmax": "", "ymax": "", "area_km2": ""}
     vazio.update({f"area_km2_{t}": "" for t in caixas})
+    linha.update(vazio)
     if len(gdf) == 0 or gdf.crs is None:
-        linha.update(vazio)
-        return linha, {}
-    g = gdf.to_crs(CRS_TILES)
-    geom = shapely.make_valid(np.asarray(g.geometry.values))
-    xmin, ymin, xmax, ymax = shapely.total_bounds(geom)
-    area =float(shapely.area(geom).sum()) / 1e6
-    linha.update({"xmin": round(float(xmin), 1), "ymin": round(float(ymin), 1), "xmax": round(float(xmax), 1),
-                  "ymax": round(float(ymax), 1), "area_km2": round(area, 4)})
-    for t, c in caixas.items():
-        linha[f"area_km2_{t}"] = round(float(shapely.area(shapely.intersection(geom, box(*c))).sum()) / 1e6, 4)
+        return linha, resumo_valores(gdf)
+    try:
+        g = gdf.to_crs(CRS_TILES)
+        geom = np.asarray(g.geometry.values)
+        try:
+            geom = shapely.make_valid(geom)
+        except Exception:
+            pass
+        xmin, ymin, xmax, ymax = shapely.total_bounds(geom)
+        area = float(shapely.area(geom).sum()) / 1e6
+        linha.update({"xmin": round(float(xmin), 1), "ymin": round(float(ymin), 1), "xmax": round(float(xmax), 1),
+                      "ymax": round(float(ymax), 1), "area_km2": round(area, 4)})
+        for t, c in caixas.items():
+            linha[f"area_km2_{t}"] = round(float(shapely.area(shapely.intersection(geom, box(*c))).sum()) / 1e6, 4)
+    except Exception as e:
+        linha["erro"] = f"{type(e).__name__}: {e}"
     return linha, resumo_valores(gdf)
 
 
@@ -122,7 +153,10 @@ def inventariar(fontes, caixas, base=None):
                 continue
             try:
                 gdf = gpd.read_file(arq, layer=camada)
-                linha, val = inventariar_camada(gdf, fonte, rel, camada, caixas)
+                if nome_geometria(gdf) is None:
+                    linha, val = inventariar_tabela(gdf, fonte, rel, camada)
+                else:
+                    linha, val = inventariar_camada(gdf, fonte, rel, camada, caixas)
             except Exception as e:
                 linha, val = {"fonte": fonte, "arquivo": rel, "camada": camada, "erro": f"{type(e).__name__}: {e}"}, {}
             linhas.append(linha)
