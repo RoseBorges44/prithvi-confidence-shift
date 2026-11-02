@@ -1,0 +1,1770 @@
+{
+ "emsr720 | extraido/AOI01/EMSR720_AOI01_GRA_PRODUCT_areaOfInterestA_v1.json | EMSR720_AOI01_GRA_PRODUCT_areaOfInterestA_v1": {
+  "emsr_id": {
+   "EMSR720": 1
+  },
+  "glide_no": {
+   "Not Applicable": 1
+  },
+  "area_id": {
+   "01": 1
+  },
+  "locality": {
+   "Guapore": 1
+  },
+  "map_type": {
+   "Grading": 1
+  }
+ },
+ "emsr720 | extraido/AOI01/EMSR720_AOI01_GRA_PRODUCT_areaOfInterestA_v1.shp | EMSR720_AOI01_GRA_PRODUCT_areaOfInterestA_v1": {
+  "emsr_id": {
+   "EMSR720": 1
+  },
+  "glide_no": {
+   "Not Applicable": 1
+  },
+  "area_id": {
+   "01": 1
+  },
+  "locality": {
+   "Guapore": 1
+  },
+  "map_type": {
+   "Grading": 1
+  }
+ },
+ "emsr720 | extraido/AOI01/EMSR720_AOI01_GRA_PRODUCT_builtUpP_v1.json | EMSR720_AOI01_GRA_PRODUCT_builtUpP_v1": {
+  "obj_type": {
+   "11-Residential Buildings": 244,
+   "12-Non-residential Buildings": 12
+  },
+  "name": {
+   "Unknown": 255,
+   "Cemitério Público Municipal": 1
+  },
+  "info": {
+   "997-Not Applicable": 244,
+   "127-Other non-residential buildings": 10,
+   "1251-Industrial buildings": 1,
+   "1280-Cemetery": 1
+  },
+  "simplified": {
+   "Residential": 244,
+   "Non residential": 11,
+   "Not Applicable": 1
+  },
+  "damage_gra": {
+   "Destroyed": 172,
+   "Possibly damaged": 62,
+   "Damaged": 22
+  },
+  "det_method": {
+   "Photo-interpretation": 256
+  },
+  "notation": {
+   "Building point": 256
+  },
+  "or_src_id": {
+   "994": 256
+  },
+  "dmg_src_id": {
+   "5": 256
+  },
+  "cd_value": {
+   "Not Applicable": 256
+  }
+ },
+ "emsr720 | extraido/AOI01/EMSR720_AOI01_GRA_PRODUCT_builtUpP_v1.shp | EMSR720_AOI01_GRA_PRODUCT_builtUpP_v1": {
+  "obj_type": {
+   "11-Residential Buildings": 244,
+   "12-Non-residential Buildings": 12
+  },
+  "name": {
+   "Unknown": 255,
+   "CemitÃ©rio PÃºblico Municipal": 1
+  },
+  "info": {
+   "997-Not Applicable": 244,
+   "127-Other non-residential buildings": 10,
+   "1251-Industrial buildings": 1,
+   "1280-Cemetery": 1
+  },
+  "simplified": {
+   "Residential": 244,
+   "Non residential": 11,
+   "Not Applicable": 1
+  },
+  "damage_gra": {
+   "Destroyed": 172,
+   "Possibly damaged": 62,
+   "Damaged": 22
+  },
+  "det_method": {
+   "Photo-interpretation": 256
+  },
+  "notation": {
+   "Building point": 256
+  },
+  "or_src_id": {
+   "994": 256
+  },
+  "dmg_src_id": {
+   "5": 256
+  },
+  "cd_value": {
+   "Not Applicable": 256
+  }
+ },
+ "emsr720 | extraido/AOI01/EMSR720_AOI01_GRA_PRODUCT_facilitiesA_v1.json | EMSR720_AOI01_GRA_PRODUCT_facilitiesA_v1": {
+  "obj_type": {
+   "24-Other Civil Engineering Works": 1
+  },
+  "name": {
+   "Unknown": 1
+  },
+  "info": {
+   "2411-Sports grounds": 1
+  },
+  "simplified": {
+   "Sport and recreation constructions": 1
+  },
+  "damage_gra": {
+   "Damaged": 1
+  },
+  "det_method": {
+   "Photo-interpretation": 1
+  },
+  "notation": {
+   "Not Applicable": 1
+  },
+  "or_src_id": {
+   "994": 1
+  },
+  "dmg_src_id": {
+   "5": 1
+  },
+  "cd_value": {
+   "Not Applicable": 1
+  }
+ },
+ "emsr720 | extraido/AOI01/EMSR720_AOI01_GRA_PRODUCT_facilitiesA_v1.shp | EMSR720_AOI01_GRA_PRODUCT_facilitiesA_v1": {
+  "obj_type": {
+   "24-Other Civil Engineering Works": 1
+  },
+  "name": {
+   "Unknown": 1
+  },
+  "info": {
+   "2411-Sports grounds": 1
+  },
+  "simplified": {
+   "Sport and recreation constructions": 1
+  },
+  "damage_gra": {
+   "Damaged": 1
+  },
+  "det_method": {
+   "Photo-interpretation": 1
+  },
+  "notation": {
+   "Not Applicable": 1
+  },
+  "or_src_id": {
+   "994": 1
+  },
+  "dmg_src_id": {
+   "5": 1
+  },
+  "cd_value": {
+   "Not Applicable": 1
+  }
+ },
+ "emsr720 | extraido/AOI01/EMSR720_AOI01_GRA_PRODUCT_imageFootprintA_v1.json | EMSR720_AOI01_GRA_PRODUCT_imageFootprintA_v1": {
+  "obj_type": {
+   "Image Footprint": 2
+  },
+  "or_src_id": {
+   "4": 1,
+   "5": 1
+  }
+ },
+ "emsr720 | extraido/AOI01/EMSR720_AOI01_GRA_PRODUCT_imageFootprintA_v1.shp | EMSR720_AOI01_GRA_PRODUCT_imageFootprintA_v1": {
+  "obj_type": {
+   "Image Footprint": 2
+  },
+  "or_src_id": {
+   "4": 1,
+   "5": 1
+  }
+ },
+ "emsr720 | extraido/AOI01/EMSR720_AOI01_GRA_PRODUCT_observedEventA_v1.json | EMSR720_AOI01_GRA_PRODUCT_observedEventA_v1": {
+  "event_type": {
+   "5-Flood": 116,
+   "6-Mass Movement": 52
+  },
+  "obj_desc": {
+   "Riverine flood": 116,
+   "Landslide": 52
+  },
+  "det_method": {
+   "Photo-interpretation": 168
+  },
+  "notation": {
+   "Flooded area": 80,
+   "Not Applicable": 52,
+   "Flood trace": 36
+  },
+  "dmg_src_id": {
+   "5": 168
+  }
+ },
+ "emsr720 | extraido/AOI01/EMSR720_AOI01_GRA_PRODUCT_observedEventA_v1.shp | EMSR720_AOI01_GRA_PRODUCT_observedEventA_v1": {
+  "event_type": {
+   "5-Flood": 116,
+   "6-Mass Movement": 52
+  },
+  "obj_desc": {
+   "Riverine flood": 116,
+   "Landslide": 52
+  },
+  "det_method": {
+   "Photo-interpretation": 168
+  },
+  "notation": {
+   "Flooded area": 80,
+   "Not Applicable": 52,
+   "Flood trace": 36
+  },
+  "dmg_src_id": {
+   "5": 168
+  }
+ },
+ "emsr720 | extraido/AOI01/EMSR720_AOI01_GRA_PRODUCT_transportationL_v1.json | EMSR720_AOI01_GRA_PRODUCT_transportationL_v1": {
+  "obj_type": {
+   "211-Highways, Streets and Roads": 134
+  },
+  "info": {
+   "21122-Local Road": 63,
+   "21124-Cart Track": 44,
+   "21120-Primary Road": 20,
+   "21123-No Driveway": 7
+  },
+  "simplified": {
+   "Local roads": 63,
+   "Tracks": 51,
+   "Main roads": 20
+  },
+  "damage_gra": {
+   "Possibly damaged": 82,
+   "Damaged": 30,
+   "Destroyed": 22
+  },
+  "det_method": {
+   "Photo-interpretation": 134
+  },
+  "notation": {
+   "Not Applicable": 134
+  },
+  "or_src_id": {
+   "994": 134
+  },
+  "dmg_src_id": {
+   "5": 134
+  },
+  "cd_value": {
+   "Not Applicable": 134
+  }
+ },
+ "emsr720 | extraido/AOI01/EMSR720_AOI01_GRA_PRODUCT_transportationL_v1.shp | EMSR720_AOI01_GRA_PRODUCT_transportationL_v1": {
+  "obj_type": {
+   "211-Highways, Streets and Roads": 134
+  },
+  "info": {
+   "21122-Local Road": 63,
+   "21124-Cart Track": 44,
+   "21120-Primary Road": 20,
+   "21123-No Driveway": 7
+  },
+  "simplified": {
+   "Local roads": 63,
+   "Tracks": 51,
+   "Main roads": 20
+  },
+  "damage_gra": {
+   "Possibly damaged": 82,
+   "Damaged": 30,
+   "Destroyed": 22
+  },
+  "det_method": {
+   "Photo-interpretation": 134
+  },
+  "notation": {
+   "Not Applicable": 134
+  },
+  "or_src_id": {
+   "994": 134
+  },
+  "dmg_src_id": {
+   "5": 134
+  },
+  "cd_value": {
+   "Not Applicable": 134
+  }
+ },
+ "emsr720 | extraido/AOI02/EMSR720_AOI02_GRA_PRODUCT_areaOfInterestA_v1.json | EMSR720_AOI02_GRA_PRODUCT_areaOfInterestA_v1": {
+  "emsr_id": {
+   "EMSR720": 1
+  },
+  "glide_no": {
+   "Not Applicable": 1
+  },
+  "area_id": {
+   "02": 1
+  },
+  "locality": {
+   "Encantado": 1
+  },
+  "map_type": {
+   "Grading": 1
+  }
+ },
+ "emsr720 | extraido/AOI02/EMSR720_AOI02_GRA_PRODUCT_areaOfInterestA_v1.shp | EMSR720_AOI02_GRA_PRODUCT_areaOfInterestA_v1": {
+  "emsr_id": {
+   "EMSR720": 1
+  },
+  "glide_no": {
+   "Not Applicable": 1
+  },
+  "area_id": {
+   "02": 1
+  },
+  "locality": {
+   "Encantado": 1
+  },
+  "map_type": {
+   "Grading": 1
+  }
+ },
+ "emsr720 | extraido/AOI02/EMSR720_AOI02_GRA_PRODUCT_builtUpP_v1.json | EMSR720_AOI02_GRA_PRODUCT_builtUpP_v1": {
+  "obj_type": {
+   "995-Unclassified": 309,
+   "12-Non-residential Buildings": 15
+  },
+  "name": {
+   "Unknown": 324
+  },
+  "info": {
+   "997-Not Applicable": 324
+  },
+  "simplified": {
+   "Unclassified": 309,
+   "Not Applicable": 15
+  },
+  "damage_gra": {
+   "Possibly damaged": 225,
+   "Destroyed": 69,
+   "Damaged": 30
+  },
+  "det_method": {
+   "Photo-interpretation": 324
+  },
+  "notation": {
+   "Building point": 324
+  },
+  "or_src_id": {
+   "994": 288,
+   "4": 36
+  },
+  "dmg_src_id": {
+   "4": 324
+  },
+  "cd_value": {
+   "Not Applicable": 324
+  }
+ },
+ "emsr720 | extraido/AOI02/EMSR720_AOI02_GRA_PRODUCT_builtUpP_v1.shp | EMSR720_AOI02_GRA_PRODUCT_builtUpP_v1": {
+  "obj_type": {
+   "995-Unclassified": 309,
+   "12-Non-residential Buildings": 15
+  },
+  "name": {
+   "Unknown": 324
+  },
+  "info": {
+   "997-Not Applicable": 324
+  },
+  "simplified": {
+   "Unclassified": 309,
+   "Not Applicable": 15
+  },
+  "damage_gra": {
+   "Possibly damaged": 225,
+   "Destroyed": 69,
+   "Damaged": 30
+  },
+  "det_method": {
+   "Photo-interpretation": 324
+  },
+  "notation": {
+   "Building point": 324
+  },
+  "or_src_id": {
+   "994": 288,
+   "4": 36
+  },
+  "dmg_src_id": {
+   "4": 324
+  },
+  "cd_value": {
+   "Not Applicable": 324
+  }
+ },
+ "emsr720 | extraido/AOI02/EMSR720_AOI02_GRA_PRODUCT_facilitiesA_v1.json | EMSR720_AOI02_GRA_PRODUCT_facilitiesA_v1": {
+  "obj_type": {
+   "24-Other Civil Engineering Works": 3
+  },
+  "name": {
+   "Unknown": 2,
+   "Campo Ouro Verde": 1
+  },
+  "info": {
+   "2411-Sports grounds": 2,
+   "2412-Other sport and recreation constructions": 1
+  },
+  "simplified": {
+   "Sport and recreation constructions": 3
+  },
+  "damage_gra": {
+   "Possibly damaged": 3
+  },
+  "det_method": {
+   "Photo-interpretation": 3
+  },
+  "notation": {
+   "Not Applicable": 3
+  },
+  "or_src_id": {
+   "994": 3
+  },
+  "dmg_src_id": {
+   "4": 3
+  },
+  "cd_value": {
+   "Not Applicable": 3
+  }
+ },
+ "emsr720 | extraido/AOI02/EMSR720_AOI02_GRA_PRODUCT_facilitiesA_v1.shp | EMSR720_AOI02_GRA_PRODUCT_facilitiesA_v1": {
+  "obj_type": {
+   "24-Other Civil Engineering Works": 3
+  },
+  "name": {
+   "Unknown": 2,
+   "Campo Ouro Verde": 1
+  },
+  "info": {
+   "2411-Sports grounds": 2,
+   "2412-Other sport and recreation constructions": 1
+  },
+  "simplified": {
+   "Sport and recreation constructions": 3
+  },
+  "damage_gra": {
+   "Possibly damaged": 3
+  },
+  "det_method": {
+   "Photo-interpretation": 3
+  },
+  "notation": {
+   "Not Applicable": 3
+  },
+  "or_src_id": {
+   "994": 3
+  },
+  "dmg_src_id": {
+   "4": 3
+  },
+  "cd_value": {
+   "Not Applicable": 3
+  }
+ },
+ "emsr720 | extraido/AOI02/EMSR720_AOI02_GRA_PRODUCT_imageFootprintA_v1.json | EMSR720_AOI02_GRA_PRODUCT_imageFootprintA_v1": {
+  "obj_type": {
+   "Image Footprint": 2,
+   "Not Analysed - No data": 1
+  },
+  "or_src_id": {
+   "1": 1,
+   "4": 1,
+   "997": 1
+  }
+ },
+ "emsr720 | extraido/AOI02/EMSR720_AOI02_GRA_PRODUCT_imageFootprintA_v1.shp | EMSR720_AOI02_GRA_PRODUCT_imageFootprintA_v1": {
+  "obj_type": {
+   "Image Footprint": 2,
+   "Not Analysed - No data": 1
+  },
+  "or_src_id": {
+   "1": 1,
+   "4": 1,
+   "997": 1
+  }
+ },
+ "emsr720 | extraido/AOI02/EMSR720_AOI02_GRA_PRODUCT_observedEventA_v1.json | EMSR720_AOI02_GRA_PRODUCT_observedEventA_v1": {
+  "event_type": {
+   "5-Flood": 287,
+   "6-Mass Movement": 4
+  },
+  "obj_desc": {
+   "Riverine flood": 287,
+   "Landslide": 4
+  },
+  "det_method": {
+   "Photo-interpretation": 291
+  },
+  "notation": {
+   "Flooded area": 208,
+   "Flood trace": 79,
+   "Not Applicable": 4
+  },
+  "dmg_src_id": {
+   "4": 291
+  }
+ },
+ "emsr720 | extraido/AOI02/EMSR720_AOI02_GRA_PRODUCT_observedEventA_v1.shp | EMSR720_AOI02_GRA_PRODUCT_observedEventA_v1": {
+  "event_type": {
+   "5-Flood": 287,
+   "6-Mass Movement": 4
+  },
+  "obj_desc": {
+   "Riverine flood": 287,
+   "Landslide": 4
+  },
+  "det_method": {
+   "Photo-interpretation": 291
+  },
+  "notation": {
+   "Flooded area": 208,
+   "Flood trace": 79,
+   "Not Applicable": 4
+  },
+  "dmg_src_id": {
+   "4": 291
+  }
+ },
+ "emsr720 | extraido/AOI02/EMSR720_AOI02_GRA_PRODUCT_observedEventP_v1.json | EMSR720_AOI02_GRA_PRODUCT_observedEventP_v1": {
+  "event_type": {
+   "5-Flood": 1
+  },
+  "obj_desc": {
+   "Riverine flood": 1
+  },
+  "det_method": {
+   "Semi-automatic extraction": 1
+  },
+  "notation": {
+   "Dike breach": 1
+  },
+  "dmg_src_id": {
+   "4": 1
+  }
+ },
+ "emsr720 | extraido/AOI02/EMSR720_AOI02_GRA_PRODUCT_observedEventP_v1.shp | EMSR720_AOI02_GRA_PRODUCT_observedEventP_v1": {
+  "event_type": {
+   "5-Flood": 1
+  },
+  "obj_desc": {
+   "Riverine flood": 1
+  },
+  "det_method": {
+   "Semi-automatic extraction": 1
+  },
+  "notation": {
+   "Dike breach": 1
+  },
+  "dmg_src_id": {
+   "4": 1
+  }
+ },
+ "emsr720 | extraido/AOI02/EMSR720_AOI02_GRA_PRODUCT_transportationL_v1.json | EMSR720_AOI02_GRA_PRODUCT_transportationL_v1": {
+  "obj_type": {
+   "211-Highways, Streets and Roads": 88
+  },
+  "name": {
+   "Unknown": 76,
+   "Rua Itália": 2,
+   "Travessa Caiçara": 2,
+   "Rua Augusto Pretto": 2,
+   "Rua Aurelio Helio Moesch": 1,
+   "Rua Bortolo Secchi": 1,
+   "Rua Remo Murer": 1,
+   "Rua Rio de Janeiro": 1,
+   "Rua General Osório": 1,
+   "Rua Minas Gerais": 1
+  },
+  "info": {
+   "21122-Local Road": 41,
+   "21124-Cart Track": 29,
+   "21123-No Driveway": 18
+  },
+  "simplified": {
+   "Tracks": 47,
+   "Local roads": 41
+  },
+  "damage_gra": {
+   "Possibly damaged": 58,
+   "Damaged": 19,
+   "Destroyed": 11
+  },
+  "det_method": {
+   "Photo-interpretation": 88
+  },
+  "notation": {
+   "Not Applicable": 88
+  },
+  "or_src_id": {
+   "994": 88
+  },
+  "dmg_src_id": {
+   "4": 88
+  },
+  "cd_value": {
+   "Not Applicable": 88
+  }
+ },
+ "emsr720 | extraido/AOI02/EMSR720_AOI02_GRA_PRODUCT_transportationL_v1.shp | EMSR720_AOI02_GRA_PRODUCT_transportationL_v1": {
+  "obj_type": {
+   "211-Highways, Streets and Roads": 88
+  },
+  "name": {
+   "Unknown": 76,
+   "Rua ItÃ¡lia": 2,
+   "Travessa CaiÃ§ara": 2,
+   "Rua Augusto Pretto": 2,
+   "Rua Aurelio Helio Moesch": 1,
+   "Rua Bortolo Secchi": 1,
+   "Rua Remo Murer": 1,
+   "Rua Rio de Janeiro": 1,
+   "Rua General OsÃ³rio": 1,
+   "Rua Minas Gerais": 1
+  },
+  "info": {
+   "21122-Local Road": 41,
+   "21124-Cart Track": 29,
+   "21123-No Driveway": 18
+  },
+  "simplified": {
+   "Tracks": 47,
+   "Local roads": 41
+  },
+  "damage_gra": {
+   "Possibly damaged": 58,
+   "Damaged": 19,
+   "Destroyed": 11
+  },
+  "det_method": {
+   "Photo-interpretation": 88
+  },
+  "notation": {
+   "Not Applicable": 88
+  },
+  "or_src_id": {
+   "994": 88
+  },
+  "dmg_src_id": {
+   "4": 88
+  },
+  "cd_value": {
+   "Not Applicable": 88
+  }
+ },
+ "emsr720 | extraido/AOI03/EMSR720_AOI03_GRA_PRODUCT_areaOfInterestA_v1.json | EMSR720_AOI03_GRA_PRODUCT_areaOfInterestA_v1": {
+  "emsr_id": {
+   "EMSR720": 1
+  },
+  "glide_no": {
+   "Not Applicable": 1
+  },
+  "area_id": {
+   "03": 1
+  },
+  "locality": {
+   "Rocasales": 1
+  },
+  "map_type": {
+   "Grading": 1
+  }
+ },
+ "emsr720 | extraido/AOI03/EMSR720_AOI03_GRA_PRODUCT_areaOfInterestA_v1.shp | EMSR720_AOI03_GRA_PRODUCT_areaOfInterestA_v1": {
+  "emsr_id": {
+   "EMSR720": 1
+  },
+  "glide_no": {
+   "Not Applicable": 1
+  },
+  "area_id": {
+   "03": 1
+  },
+  "locality": {
+   "Rocasales": 1
+  },
+  "map_type": {
+   "Grading": 1
+  }
+ },
+ "emsr720 | extraido/AOI03/EMSR720_AOI03_GRA_PRODUCT_builtUpP_v1.json | EMSR720_AOI03_GRA_PRODUCT_builtUpP_v1": {
+  "obj_type": {
+   "995-Unclassified": 1473,
+   "12-Non-residential Buildings": 30,
+   "11-Residential Buildings": 24
+  },
+  "name": {
+   "Unknown": 1521,
+   "Escola Padre Fernando": 1,
+   "Seara": 1,
+   "Mercado Guerini": 1,
+   "Dália Indústria de Alimentos": 1,
+   "Igreja de Palmas": 1,
+   "Salão Paroquial de Palmas": 1
+  },
+  "info": {
+   "997-Not Applicable": 1505,
+   "1251-Industrial buildings": 11,
+   "1263-School, university and research buildings": 4,
+   "1271-Non-residential farm buildings": 3,
+   "1241-Communication buildings, stations, terminals and associated buildings": 1,
+   "1221-Institutional": 1,
+   "123-Wholesale and retail trade buildings": 1,
+   "1272-Buildings used as places of worship and for religious activities": 1
+  },
+  "simplified": {
+   "Unclassified": 1473,
+   "Non residential": 26,
+   "Residential": 24,
+   "School, university and research buildings": 4
+  },
+  "damage_gra": {
+   "Possibly damaged": 1406,
+   "Damaged": 69,
+   "Destroyed": 52
+  },
+  "det_method": {
+   "Photo-interpretation": 1527
+  },
+  "notation": {
+   "Building point": 1527
+  },
+  "or_src_id": {
+   "994": 1483,
+   "3": 44
+  },
+  "dmg_src_id": {
+   "4": 1527
+  },
+  "cd_value": {
+   "Not Applicable": 1527
+  }
+ },
+ "emsr720 | extraido/AOI03/EMSR720_AOI03_GRA_PRODUCT_builtUpP_v1.shp | EMSR720_AOI03_GRA_PRODUCT_builtUpP_v1": {
+  "obj_type": {
+   "995-Unclassified": 1473,
+   "12-Non-residential Buildings": 30,
+   "11-Residential Buildings": 24
+  },
+  "name": {
+   "Unknown": 1521,
+   "Escola Padre Fernando": 1,
+   "Seara": 1,
+   "Mercado Guerini": 1,
+   "DÃ¡lia IndÃºstria de Alimentos": 1,
+   "Igreja de Palmas": 1,
+   "SalÃ£o Paroquial de Palmas": 1
+  },
+  "info": {
+   "997-Not Applicable": 1505,
+   "1251-Industrial buildings": 11,
+   "1263-School, university and research buildings": 4,
+   "1271-Non-residential farm buildings": 3,
+   "1241-Communication buildings, stations, terminals and associated buildings": 1,
+   "1221-Institutional": 1,
+   "123-Wholesale and retail trade buildings": 1,
+   "1272-Buildings used as places of worship and for religious activities": 1
+  },
+  "simplified": {
+   "Unclassified": 1473,
+   "Non residential": 26,
+   "Residential": 24,
+   "School, university and research buildings": 4
+  },
+  "damage_gra": {
+   "Possibly damaged": 1406,
+   "Damaged": 69,
+   "Destroyed": 52
+  },
+  "det_method": {
+   "Photo-interpretation": 1527
+  },
+  "notation": {
+   "Building point": 1527
+  },
+  "or_src_id": {
+   "994": 1483,
+   "3": 44
+  },
+  "dmg_src_id": {
+   "4": 1527
+  },
+  "cd_value": {
+   "Not Applicable": 1527
+  }
+ },
+ "emsr720 | extraido/AOI03/EMSR720_AOI03_GRA_PRODUCT_facilitiesA_v1.json | EMSR720_AOI03_GRA_PRODUCT_facilitiesA_v1": {
+  "obj_type": {
+   "24-Other Civil Engineering Works": 8,
+   "23-Complex Constructions on Industrial Sites": 1
+  },
+  "name": {
+   "Unknown": 5,
+   "Esporte Clube 7 de Setembro": 1,
+   "Praça da Matriz": 1,
+   "Praça Santos Pinto": 1,
+   "Parque Náutico e de Lazer": 1
+  },
+  "info": {
+   "2412-Other sport and recreation constructions": 4,
+   "241-Sport and recreation constructions": 3,
+   "2411-Sports grounds": 1,
+   "23027-Power Substation": 1
+  },
+  "simplified": {
+   "Sport and recreation constructions": 5,
+   "Not Applicable": 3,
+   "Industrial plant": 1
+  },
+  "damage_gra": {
+   "Possibly damaged": 8,
+   "Damaged": 1
+  },
+  "det_method": {
+   "Photo-interpretation": 9
+  },
+  "notation": {
+   "Not Applicable": 9
+  },
+  "or_src_id": {
+   "994": 5,
+   "3": 4
+  },
+  "dmg_src_id": {
+   "4": 9
+  },
+  "cd_value": {
+   "Not Applicable": 9
+  }
+ },
+ "emsr720 | extraido/AOI03/EMSR720_AOI03_GRA_PRODUCT_facilitiesA_v1.shp | EMSR720_AOI03_GRA_PRODUCT_facilitiesA_v1": {
+  "obj_type": {
+   "24-Other Civil Engineering Works": 8,
+   "23-Complex Constructions on Industrial Sites": 1
+  },
+  "name": {
+   "Unknown": 5,
+   "Esporte Clube 7 de Setembro": 1,
+   "PraÃ§a da Matriz": 1,
+   "PraÃ§a Santos Pinto": 1,
+   "Parque NÃ¡utico e de Lazer": 1
+  },
+  "info": {
+   "2412-Other sport and recreation constructions": 4,
+   "241-Sport and recreation constructions": 3,
+   "2411-Sports grounds": 1,
+   "23027-Power Substation": 1
+  },
+  "simplified": {
+   "Sport and recreation constructions": 5,
+   "Not Applicable": 3,
+   "Industrial plant": 1
+  },
+  "damage_gra": {
+   "Possibly damaged": 8,
+   "Damaged": 1
+  },
+  "det_method": {
+   "Photo-interpretation": 9
+  },
+  "notation": {
+   "Not Applicable": 9
+  },
+  "or_src_id": {
+   "994": 5,
+   "3": 4
+  },
+  "dmg_src_id": {
+   "4": 9
+  },
+  "cd_value": {
+   "Not Applicable": 9
+  }
+ },
+ "emsr720 | extraido/AOI03/EMSR720_AOI03_GRA_PRODUCT_imageFootprintA_v1.json | EMSR720_AOI03_GRA_PRODUCT_imageFootprintA_v1": {
+  "obj_type": {
+   "Image Footprint": 2
+  },
+  "or_src_id": {
+   "3": 1,
+   "4": 1
+  }
+ },
+ "emsr720 | extraido/AOI03/EMSR720_AOI03_GRA_PRODUCT_imageFootprintA_v1.shp | EMSR720_AOI03_GRA_PRODUCT_imageFootprintA_v1": {
+  "obj_type": {
+   "Image Footprint": 2
+  },
+  "or_src_id": {
+   "3": 1,
+   "4": 1
+  }
+ },
+ "emsr720 | extraido/AOI03/EMSR720_AOI03_GRA_PRODUCT_observedEventA_v1.json | EMSR720_AOI03_GRA_PRODUCT_observedEventA_v1": {
+  "event_type": {
+   "5-Flood": 96,
+   "6-Mass Movement": 1
+  },
+  "obj_desc": {
+   "Riverine flood": 96,
+   "Landslide": 1
+  },
+  "det_method": {
+   "Photo-interpretation": 97
+  },
+  "notation": {
+   "Flooded area": 85,
+   "Flood trace": 11,
+   "Not Applicable": 1
+  },
+  "dmg_src_id": {
+   "4": 97
+  }
+ },
+ "emsr720 | extraido/AOI03/EMSR720_AOI03_GRA_PRODUCT_observedEventA_v1.shp | EMSR720_AOI03_GRA_PRODUCT_observedEventA_v1": {
+  "event_type": {
+   "5-Flood": 96,
+   "6-Mass Movement": 1
+  },
+  "obj_desc": {
+   "Riverine flood": 96,
+   "Landslide": 1
+  },
+  "det_method": {
+   "Photo-interpretation": 97
+  },
+  "notation": {
+   "Flooded area": 85,
+   "Flood trace": 11,
+   "Not Applicable": 1
+  },
+  "dmg_src_id": {
+   "4": 97
+  }
+ },
+ "emsr720 | extraido/AOI03/EMSR720_AOI03_GRA_PRODUCT_transportationL_v1.json | EMSR720_AOI03_GRA_PRODUCT_transportationL_v1": {
+  "obj_type": {
+   "211-Highways, Streets and Roads": 222,
+   "212-Railways": 7
+  },
+  "info": {
+   "21122-Local Road": 131,
+   "21124-Cart Track": 43,
+   "21120-Primary Road": 28,
+   "21121-Secondary Road": 19,
+   "2121-Long-distance railways": 7,
+   "21123-No Driveway": 1
+  },
+  "simplified": {
+   "Local roads": 131,
+   "Main roads": 47,
+   "Tracks": 44,
+   "Railways": 7
+  },
+  "damage_gra": {
+   "Possibly damaged": 123,
+   "Damaged": 70,
+   "Destroyed": 36
+  },
+  "det_method": {
+   "Photo-interpretation": 229
+  },
+  "notation": {
+   "Not Applicable": 229
+  },
+  "or_src_id": {
+   "994": 228,
+   "3": 1
+  },
+  "dmg_src_id": {
+   "4": 229
+  },
+  "cd_value": {
+   "Not Applicable": 229
+  }
+ },
+ "emsr720 | extraido/AOI03/EMSR720_AOI03_GRA_PRODUCT_transportationL_v1.shp | EMSR720_AOI03_GRA_PRODUCT_transportationL_v1": {
+  "obj_type": {
+   "211-Highways, Streets and Roads": 222,
+   "212-Railways": 7
+  },
+  "info": {
+   "21122-Local Road": 131,
+   "21124-Cart Track": 43,
+   "21120-Primary Road": 28,
+   "21121-Secondary Road": 19,
+   "2121-Long-distance railways": 7,
+   "21123-No Driveway": 1
+  },
+  "simplified": {
+   "Local roads": 131,
+   "Main roads": 47,
+   "Tracks": 44,
+   "Railways": 7
+  },
+  "damage_gra": {
+   "Possibly damaged": 123,
+   "Damaged": 70,
+   "Destroyed": 36
+  },
+  "det_method": {
+   "Photo-interpretation": 229
+  },
+  "notation": {
+   "Not Applicable": 229
+  },
+  "or_src_id": {
+   "994": 228,
+   "3": 1
+  },
+  "dmg_src_id": {
+   "4": 229
+  },
+  "cd_value": {
+   "Not Applicable": 229
+  }
+ },
+ "emsr720 | extraido/AOI03/EMSR720_AOI03_GRA_PRODUCT_transportationP_v1.json | EMSR720_AOI03_GRA_PRODUCT_transportationP_v1": {
+  "obj_type": {
+   "214-Bridges, Elevated Highways, Tunnels and Subways": 1
+  },
+  "name": {
+   "Unknown": 1
+  },
+  "info": {
+   "2141-Bridges and elevated highways": 1
+  },
+  "simplified": {
+   "Bridges and elevated highways": 1
+  },
+  "damage_gra": {
+   "Possibly damaged": 1
+  },
+  "det_method": {
+   "Photo-interpretation": 1
+  },
+  "notation": {
+   "Not Applicable": 1
+  },
+  "or_src_id": {
+   "3": 1
+  },
+  "dmg_src_id": {
+   "4": 1
+  },
+  "cd_value": {
+   "Not Applicable": 1
+  }
+ },
+ "emsr720 | extraido/AOI03/EMSR720_AOI03_GRA_PRODUCT_transportationP_v1.shp | EMSR720_AOI03_GRA_PRODUCT_transportationP_v1": {
+  "obj_type": {
+   "214-Bridges, Elevated Highways, Tunnels and Subways": 1
+  },
+  "name": {
+   "Unknown": 1
+  },
+  "info": {
+   "2141-Bridges and elevated highways": 1
+  },
+  "simplified": {
+   "Bridges and elevated highways": 1
+  },
+  "damage_gra": {
+   "Possibly damaged": 1
+  },
+  "det_method": {
+   "Photo-interpretation": 1
+  },
+  "notation": {
+   "Not Applicable": 1
+  },
+  "or_src_id": {
+   "3": 1
+  },
+  "dmg_src_id": {
+   "4": 1
+  },
+  "cd_value": {
+   "Not Applicable": 1
+  }
+ },
+ "emsr720 | extraido/AOI04/EMSR720_AOI04_GRA_PRODUCT_areaOfInterestA_v1.json | EMSR720_AOI04_GRA_PRODUCT_areaOfInterestA_v1": {
+  "emsr_id": {
+   "EMSR720": 1
+  },
+  "glide_no": {
+   "FL-2024-000063-BRA": 1
+  },
+  "area_id": {
+   "04": 1
+  },
+  "locality": {
+   "Das Antas Dam": 1
+  },
+  "map_type": {
+   "Grading": 1
+  }
+ },
+ "emsr720 | extraido/AOI04/EMSR720_AOI04_GRA_PRODUCT_areaOfInterestA_v1.shp | EMSR720_AOI04_GRA_PRODUCT_areaOfInterestA_v1": {
+  "emsr_id": {
+   "EMSR720": 1
+  },
+  "glide_no": {
+   "FL-2024-000063-BRA": 1
+  },
+  "area_id": {
+   "04": 1
+  },
+  "locality": {
+   "Das Antas Dam": 1
+  },
+  "map_type": {
+   "Grading": 1
+  }
+ },
+ "emsr720 | extraido/AOI04/EMSR720_AOI04_GRA_PRODUCT_builtUpP_v1.json | EMSR720_AOI04_GRA_PRODUCT_builtUpP_v1": {
+  "obj_type": {
+   "11-Residential Buildings": 233
+  },
+  "name": {
+   "Unknown": 233
+  },
+  "info": {
+   "997-Not Applicable": 233
+  },
+  "simplified": {
+   "Residential": 233
+  },
+  "damage_gra": {
+   "Possibly damaged": 98,
+   "Damaged": 78,
+   "Destroyed": 57
+  },
+  "det_method": {
+   "Photo-interpretation": 233
+  },
+  "notation": {
+   "Building point": 233
+  },
+  "or_src_id": {
+   "1": 233
+  },
+  "dmg_src_id": {
+   "2": 233
+  },
+  "cd_value": {
+   "Not Applicable": 233
+  }
+ },
+ "emsr720 | extraido/AOI04/EMSR720_AOI04_GRA_PRODUCT_builtUpP_v1.shp | EMSR720_AOI04_GRA_PRODUCT_builtUpP_v1": {
+  "obj_type": {
+   "11-Residential Buildings": 233
+  },
+  "name": {
+   "Unknown": 233
+  },
+  "info": {
+   "997-Not Applicable": 233
+  },
+  "simplified": {
+   "Residential": 233
+  },
+  "damage_gra": {
+   "Possibly damaged": 98,
+   "Damaged": 78,
+   "Destroyed": 57
+  },
+  "det_method": {
+   "Photo-interpretation": 233
+  },
+  "notation": {
+   "Building point": 233
+  },
+  "or_src_id": {
+   "1": 233
+  },
+  "dmg_src_id": {
+   "2": 233
+  },
+  "cd_value": {
+   "Not Applicable": 233
+  }
+ },
+ "emsr720 | extraido/AOI04/EMSR720_AOI04_GRA_PRODUCT_facilitiesA_v1.json | EMSR720_AOI04_GRA_PRODUCT_facilitiesA_v1": {
+  "obj_type": {
+   "215-Harbours, waterways, dams and other waterworks": 1
+  },
+  "name": {
+   "Barragem 14 de Julho": 1
+  },
+  "info": {
+   "2152-Dams": 1
+  },
+  "simplified": {
+   "Dam": 1
+  },
+  "damage_gra": {
+   "Destroyed": 1
+  },
+  "det_method": {
+   "Photo-interpretation": 1
+  },
+  "notation": {
+   "Not Applicable": 1
+  },
+  "or_src_id": {
+   "994": 1
+  },
+  "dmg_src_id": {
+   "2": 1
+  },
+  "cd_value": {
+   "Not Applicable": 1
+  }
+ },
+ "emsr720 | extraido/AOI04/EMSR720_AOI04_GRA_PRODUCT_facilitiesA_v1.shp | EMSR720_AOI04_GRA_PRODUCT_facilitiesA_v1": {
+  "obj_type": {
+   "215-Harbours, waterways, dams and other waterworks": 1
+  },
+  "name": {
+   "Barragem 14 de Julho": 1
+  },
+  "info": {
+   "2152-Dams": 1
+  },
+  "simplified": {
+   "Dam": 1
+  },
+  "damage_gra": {
+   "Destroyed": 1
+  },
+  "det_method": {
+   "Photo-interpretation": 1
+  },
+  "notation": {
+   "Not Applicable": 1
+  },
+  "or_src_id": {
+   "994": 1
+  },
+  "dmg_src_id": {
+   "2": 1
+  },
+  "cd_value": {
+   "Not Applicable": 1
+  }
+ },
+ "emsr720 | extraido/AOI04/EMSR720_AOI04_GRA_PRODUCT_imageFootprintA_v1.json | EMSR720_AOI04_GRA_PRODUCT_imageFootprintA_v1": {
+  "obj_type": {
+   "Image Footprint": 2
+  },
+  "or_src_id": {
+   "1": 1,
+   "2": 1
+  }
+ },
+ "emsr720 | extraido/AOI04/EMSR720_AOI04_GRA_PRODUCT_imageFootprintA_v1.shp | EMSR720_AOI04_GRA_PRODUCT_imageFootprintA_v1": {
+  "obj_type": {
+   "Image Footprint": 2
+  },
+  "or_src_id": {
+   "1": 1,
+   "2": 1
+  }
+ },
+ "emsr720 | extraido/AOI04/EMSR720_AOI04_GRA_PRODUCT_observedEventA_v1.json | EMSR720_AOI04_GRA_PRODUCT_observedEventA_v1": {
+  "event_type": {
+   "6-Mass Movement": 74,
+   "5-Flood": 44
+  },
+  "obj_desc": {
+   "Landslide": 74,
+   "Riverine flood": 44
+  },
+  "det_method": {
+   "Photo-interpretation": 118
+  },
+  "notation": {
+   "Not Applicable": 74,
+   "Flooded area": 29,
+   "Flood trace": 15
+  },
+  "dmg_src_id": {
+   "2": 118
+  }
+ },
+ "emsr720 | extraido/AOI04/EMSR720_AOI04_GRA_PRODUCT_observedEventA_v1.shp | EMSR720_AOI04_GRA_PRODUCT_observedEventA_v1": {
+  "event_type": {
+   "6-Mass Movement": 74,
+   "5-Flood": 44
+  },
+  "obj_desc": {
+   "Landslide": 74,
+   "Riverine flood": 44
+  },
+  "det_method": {
+   "Photo-interpretation": 118
+  },
+  "notation": {
+   "Not Applicable": 74,
+   "Flooded area": 29,
+   "Flood trace": 15
+  },
+  "dmg_src_id": {
+   "2": 118
+  }
+ },
+ "emsr720 | extraido/AOI04/EMSR720_AOI04_GRA_PRODUCT_transportationL_v1.json | EMSR720_AOI04_GRA_PRODUCT_transportationL_v1": {
+  "obj_type": {
+   "211-Highways, Streets and Roads": 98,
+   "212-Railways": 11
+  },
+  "name": {
+   "Unknown": 90,
+   "Tronco Principal Sul": 8,
+   "Estrada São Judas Tadeu": 4,
+   "Ferrovia do Vinho": 3,
+   "Estrada Geral São Casemiro": 2,
+   "Estrada Linha 14 de Julho": 1,
+   "Estrada Morro do Céu": 1
+  },
+  "info": {
+   "21124-Cart Track": 59,
+   "21122-Local Road": 20,
+   "21120-Primary Road": 18,
+   "2121-Long-distance railways": 11,
+   "21123-No Driveway": 1
+  },
+  "simplified": {
+   "Tracks": 60,
+   "Local roads": 20,
+   "Main roads": 18,
+   "Railways": 11
+  },
+  "damage_gra": {
+   "Destroyed": 71,
+   "Damaged": 26,
+   "Possibly damaged": 12
+  },
+  "det_method": {
+   "Photo-interpretation": 109
+  },
+  "notation": {
+   "Not Applicable": 109
+  },
+  "or_src_id": {
+   "994": 109
+  },
+  "dmg_src_id": {
+   "2": 109
+  },
+  "cd_value": {
+   "Not Applicable": 109
+  }
+ },
+ "emsr720 | extraido/AOI04/EMSR720_AOI04_GRA_PRODUCT_transportationL_v1.shp | EMSR720_AOI04_GRA_PRODUCT_transportationL_v1": {
+  "obj_type": {
+   "211-Highways, Streets and Roads": 98,
+   "212-Railways": 11
+  },
+  "name": {
+   "Unknown": 90,
+   "Tronco Principal Sul": 8,
+   "Estrada SÃ£o Judas Tadeu": 4,
+   "Ferrovia do Vinho": 3,
+   "Estrada Geral SÃ£o Casemiro": 2,
+   "Estrada Linha 14 de Julho": 1,
+   "Estrada Morro do CÃ©u": 1
+  },
+  "info": {
+   "21124-Cart Track": 59,
+   "21122-Local Road": 20,
+   "21120-Primary Road": 18,
+   "2121-Long-distance railways": 11,
+   "21123-No Driveway": 1
+  },
+  "simplified": {
+   "Tracks": 60,
+   "Local roads": 20,
+   "Main roads": 18,
+   "Railways": 11
+  },
+  "damage_gra": {
+   "Destroyed": 71,
+   "Damaged": 26,
+   "Possibly damaged": 12
+  },
+  "det_method": {
+   "Photo-interpretation": 109
+  },
+  "notation": {
+   "Not Applicable": 109
+  },
+  "or_src_id": {
+   "994": 109
+  },
+  "dmg_src_id": {
+   "2": 109
+  },
+  "cd_value": {
+   "Not Applicable": 109
+  }
+ },
+ "emsr720 | extraido/AOI05/EMSR720_AOI05_GRA_PRODUCT_areaOfInterestA_v1.json | EMSR720_AOI05_GRA_PRODUCT_areaOfInterestA_v1": {
+  "emsr_id": {
+   "EMSR720": 1
+  },
+  "glide_no": {
+   "FL-2024-000063-BRA": 1
+  },
+  "area_id": {
+   "05": 1
+  },
+  "locality": {
+   "Santatereza": 1
+  },
+  "map_type": {
+   "Grading": 1
+  }
+ },
+ "emsr720 | extraido/AOI05/EMSR720_AOI05_GRA_PRODUCT_areaOfInterestA_v1.shp | EMSR720_AOI05_GRA_PRODUCT_areaOfInterestA_v1": {
+  "emsr_id": {
+   "EMSR720": 1
+  },
+  "glide_no": {
+   "FL-2024-000063-BRA": 1
+  },
+  "area_id": {
+   "05": 1
+  },
+  "locality": {
+   "Santatereza": 1
+  },
+  "map_type": {
+   "Grading": 1
+  }
+ },
+ "emsr720 | extraido/AOI05/EMSR720_AOI05_GRA_PRODUCT_builtUpP_v1.json | EMSR720_AOI05_GRA_PRODUCT_builtUpP_v1": {
+  "obj_type": {
+   "11-Residential Buildings": 42
+  },
+  "name": {
+   "Unknown": 42
+  },
+  "info": {
+   "997-Not Applicable": 42
+  },
+  "simplified": {
+   "Residential": 42
+  },
+  "damage_gra": {
+   "Possibly damaged": 41,
+   "Damaged": 1
+  },
+  "det_method": {
+   "Photo-interpretation": 42
+  },
+  "notation": {
+   "Building point": 42
+  },
+  "or_src_id": {
+   "994": 42
+  },
+  "dmg_src_id": {
+   "4": 42
+  },
+  "cd_value": {
+   "Not Applicable": 42
+  }
+ },
+ "emsr720 | extraido/AOI05/EMSR720_AOI05_GRA_PRODUCT_builtUpP_v1.shp | EMSR720_AOI05_GRA_PRODUCT_builtUpP_v1": {
+  "obj_type": {
+   "11-Residential Buildings": 42
+  },
+  "name": {
+   "Unknown": 42
+  },
+  "info": {
+   "997-Not Applicable": 42
+  },
+  "simplified": {
+   "Residential": 42
+  },
+  "damage_gra": {
+   "Possibly damaged": 41,
+   "Damaged": 1
+  },
+  "det_method": {
+   "Photo-interpretation": 42
+  },
+  "notation": {
+   "Building point": 42
+  },
+  "or_src_id": {
+   "994": 42
+  },
+  "dmg_src_id": {
+   "4": 42
+  },
+  "cd_value": {
+   "Not Applicable": 42
+  }
+ },
+ "emsr720 | extraido/AOI05/EMSR720_AOI05_GRA_PRODUCT_facilitiesA_v1.json | EMSR720_AOI05_GRA_PRODUCT_facilitiesA_v1": {
+  "obj_type": {
+   "24-Other Civil Engineering Works": 2
+  },
+  "name": {
+   "Unknown": 2
+  },
+  "info": {
+   "2411-Sports grounds": 1,
+   "2412-Other sport and recreation constructions": 1
+  },
+  "simplified": {
+   "Sport and recreation constructions": 2
+  },
+  "damage_gra": {
+   "Possibly damaged": 2
+  },
+  "det_method": {
+   "Photo-interpretation": 2
+  },
+  "notation": {
+   "Not Applicable": 2
+  },
+  "or_src_id": {
+   "994": 2
+  },
+  "dmg_src_id": {
+   "4": 2
+  },
+  "cd_value": {
+   "Not Applicable": 2
+  }
+ },
+ "emsr720 | extraido/AOI05/EMSR720_AOI05_GRA_PRODUCT_facilitiesA_v1.shp | EMSR720_AOI05_GRA_PRODUCT_facilitiesA_v1": {
+  "obj_type": {
+   "24-Other Civil Engineering Works": 2
+  },
+  "name": {
+   "Unknown": 2
+  },
+  "info": {
+   "2411-Sports grounds": 1,
+   "2412-Other sport and recreation constructions": 1
+  },
+  "simplified": {
+   "Sport and recreation constructions": 2
+  },
+  "damage_gra": {
+   "Possibly damaged": 2
+  },
+  "det_method": {
+   "Photo-interpretation": 2
+  },
+  "notation": {
+   "Not Applicable": 2
+  },
+  "or_src_id": {
+   "994": 2
+  },
+  "dmg_src_id": {
+   "4": 2
+  },
+  "cd_value": {
+   "Not Applicable": 2
+  }
+ },
+ "emsr720 | extraido/AOI05/EMSR720_AOI05_GRA_PRODUCT_imageFootprintA_v1.json | EMSR720_AOI05_GRA_PRODUCT_imageFootprintA_v1": {
+  "obj_type": {
+   "Image Footprint": 2,
+   "Not Analysed - No data": 1
+  },
+  "or_src_id": {
+   "4": 2,
+   "1": 1
+  }
+ },
+ "emsr720 | extraido/AOI05/EMSR720_AOI05_GRA_PRODUCT_imageFootprintA_v1.shp | EMSR720_AOI05_GRA_PRODUCT_imageFootprintA_v1": {
+  "obj_type": {
+   "Image Footprint": 2,
+   "Not Analysed - No data": 1
+  },
+  "or_src_id": {
+   "4": 2,
+   "1": 1
+  }
+ },
+ "emsr720 | extraido/AOI05/EMSR720_AOI05_GRA_PRODUCT_observedEventA_v1.json | EMSR720_AOI05_GRA_PRODUCT_observedEventA_v1": {
+  "event_type": {
+   "5-Flood": 56,
+   "6-Mass Movement": 22
+  },
+  "obj_desc": {
+   "Riverine flood": 56,
+   "Landslide": 22
+  },
+  "det_method": {
+   "Photo-interpretation": 78
+  },
+  "notation": {
+   "Flooded area": 32,
+   "Flood trace": 24,
+   "Not Applicable": 22
+  },
+  "dmg_src_id": {
+   "4": 78
+  }
+ },
+ "emsr720 | extraido/AOI05/EMSR720_AOI05_GRA_PRODUCT_observedEventA_v1.shp | EMSR720_AOI05_GRA_PRODUCT_observedEventA_v1": {
+  "event_type": {
+   "5-Flood": 56,
+   "6-Mass Movement": 22
+  },
+  "obj_desc": {
+   "Riverine flood": 56,
+   "Landslide": 22
+  },
+  "det_method": {
+   "Photo-interpretation": 78
+  },
+  "notation": {
+   "Flooded area": 32,
+   "Flood trace": 24,
+   "Not Applicable": 22
+  },
+  "dmg_src_id": {
+   "4": 78
+  }
+ },
+ "emsr720 | extraido/AOI05/EMSR720_AOI05_GRA_PRODUCT_transportationL_v2.json | EMSR720_AOI05_GRA_PRODUCT_transportationL_v2": {
+  "obj_type": {
+   "211-Highways, Streets and Roads": 31,
+   "214-Bridges, Elevated Highways, Tunnels and Subways": 2,
+   "212-Railways": 1
+  },
+  "name": {
+   "Unknown": 21,
+   "Avenida Itália": 4,
+   "Rua Ferdinando Ferronato": 2,
+   "Rua Olimpio Valduga": 2,
+   "Rua Ricardo Vicari": 1,
+   "Rua Giosepe Brum": 1,
+   "Tronco Principal Sul": 1,
+   "Rua Dom Giosué Bardim": 1,
+   "Rua Helveceo Lisboa": 1
+  },
+  "info": {
+   "21122-Local Road": 18,
+   "21124-Cart Track": 8,
+   "21120-Primary Road": 5,
+   "2141-Bridges and elevated highways": 2,
+   "2121-Long-distance railways": 1
+  },
+  "simplified": {
+   "Local roads": 18,
+   "Tracks": 8,
+   "Main roads": 5,
+   "Bridges and elevated highways": 2,
+   "Railways": 1
+  },
+  "damage_gra": {
+   "Possibly damaged": 21,
+   "Damaged": 11,
+   "Destroyed": 2
+  },
+  "det_method": {
+   "Photo-interpretation": 34
+  },
+  "notation": {
+   "Not Applicable": 34
+  },
+  "or_src_id": {
+   "994": 32,
+   "1": 2
+  },
+  "dmg_src_id": {
+   "4": 34
+  },
+  "cd_value": {
+   "Not Applicable": 34
+  }
+ },
+ "emsr720 | extraido/AOI05/EMSR720_AOI05_GRA_PRODUCT_transportationL_v2.shp | EMSR720_AOI05_GRA_PRODUCT_transportationL_v2": {
+  "obj_type": {
+   "211-Highways, Streets and Roads": 31,
+   "214-Bridges, Elevated Highways, Tunnels and Subways": 2,
+   "212-Railways": 1
+  },
+  "name": {
+   "Unknown": 21,
+   "Avenida ItÃ¡lia": 4,
+   "Rua Ferdinando Ferronato": 2,
+   "Rua Olimpio Valduga": 2,
+   "Rua Ricardo Vicari": 1,
+   "Rua Giosepe Brum": 1,
+   "Tronco Principal Sul": 1,
+   "Rua Dom GiosuÃ© Bardim": 1,
+   "Rua Helveceo Lisboa": 1
+  },
+  "info": {
+   "21122-Local Road": 18,
+   "21124-Cart Track": 8,
+   "21120-Primary Road": 5,
+   "2141-Bridges and elevated highways": 2,
+   "2121-Long-distance railways": 1
+  },
+  "simplified": {
+   "Local roads": 18,
+   "Tracks": 8,
+   "Main roads": 5,
+   "Bridges and elevated highways": 2,
+   "Railways": 1
+  },
+  "damage_gra": {
+   "Possibly damaged": 21,
+   "Damaged": 11,
+   "Destroyed": 2
+  },
+  "det_method": {
+   "Photo-interpretation": 34
+  },
+  "notation": {
+   "Not Applicable": 34
+  },
+  "or_src_id": {
+   "994": 32,
+   "1": 2
+  },
+  "dmg_src_id": {
+   "4": 34
+  },
+  "cd_value": {
+   "Not Applicable": 34
+  }
+ }
+}

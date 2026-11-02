@@ -1,0 +1,132 @@
+{
+  "plano": "prereg/plano_rq4.md, secao 2",
+  "commit_repositorio": "78b0fdc8a6ee4c492beb8ee228ce4184136167fb",
+  "inventario_sha256": "2b94c809c558d9af4a32989122aaa241d116737e73ad47af9a5ba2dc0692a639",
+  "produtos": [
+    {
+      "aoi": 1,
+      "nome": "Guapore",
+      "produto": 686,
+      "versao": 1,
+      "sensor": "Pleiades Neo",
+      "imagens_utc": [
+        "2024-05-06T13:34:00"
+      ],
+      "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR720/AOI01/GRA_PRODUCT/EMSR720_AOI01_GRA_PRODUCT_v1.zip",
+      "camadas_na_api": [
+        "EMSR720_AOI01_GRA_PRODUCT_PNEO_20240506_1334_ORTHO.tif",
+        "EMSR720_AOI01_GRA_PRODUCT_builtUpP_v1_VT",
+        "EMSR720_AOI01_GRA_PRODUCT_facilitiesA_v1_VT",
+        "EMSR720_AOI01_GRA_PRODUCT_observedEventA_v1_VT",
+        "EMSR720_AOI01_GRA_PRODUCT_transportationL_v1_VT"
+      ]
+    },
+    {
+      "aoi": 2,
+      "nome": "Encantado",
+      "produto": 685,
+      "versao": 1,
+      "sensor": "Pleiades Neo",
+      "imagens_utc": [
+        "2024-05-06T13:35:00"
+      ],
+      "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR720/AOI02/GRA_PRODUCT/EMSR720_AOI02_GRA_PRODUCT_v1.zip",
+      "camadas_na_api": [
+        "EMSR720_AOI02_GRA_PRODUCT_PNEO_20240506_1335_ORTHO.tif",
+        "EMSR720_AOI02_GRA_PRODUCT_builtUpP_v1_VT",
+        "EMSR720_AOI02_GRA_PRODUCT_facilitiesA_v1_VT",
+        "EMSR720_AOI02_GRA_PRODUCT_observedEventA_v1_VT",
+        "EMSR720_AOI02_GRA_PRODUCT_observedEventP_v1_VT",
+        "EMSR720_AOI02_GRA_PRODUCT_transportationL_v1_VT"
+      ]
+    },
+    {
+      "aoi": 3,
+      "nome": "Roca Sales",
+      "produto": 687,
+      "versao": 1,
+      "sensor": "Pleiades Neo",
+      "imagens_utc": [
+        "2024-05-06T13:05:00"
+      ],
+      "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR720/AOI03/GRA_PRODUCT/EMSR720_AOI03_GRA_PRODUCT_v1.zip",
+      "camadas_na_api": [
+        "EMSR720_AOI03_GRA_PRODUCT_PNEO_20240506_1305_ORTHO.tif",
+        "EMSR720_AOI03_GRA_PRODUCT_builtUpP_v1_VT",
+        "EMSR720_AOI03_GRA_PRODUCT_facilitiesA_v1_VT",
+        "EMSR720_AOI03_GRA_PRODUCT_observedEventA_v1_VT",
+        "EMSR720_AOI03_GRA_PRODUCT_transportationL_v1_VT",
+        "EMSR720_AOI03_GRA_PRODUCT_transportationP_v1_VT"
+      ]
+    },
+    {
+      "aoi": 4,
+      "nome": "Das Antas Dam",
+      "produto": 682,
+      "versao": 1,
+      "sensor": "Pleiades Neo",
+      "imagens_utc": [
+        "2024-05-06T13:34:00"
+      ],
+      "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR720/AOI04/GRA_PRODUCT/EMSR720_AOI04_GRA_PRODUCT_v1.zip",
+      "camadas_na_api": [
+        "EMSR720_AOI04_GRA_PRODUCT_PNEO_20240506_1334_ORTHO.tif",
+        "EMSR720_AOI04_GRA_PRODUCT_builtUpP_v1_VT",
+        "EMSR720_AOI04_GRA_PRODUCT_facilitiesA_v1_VT",
+        "EMSR720_AOI04_GRA_PRODUCT_observedEventA_v1_VT",
+        "EMSR720_AOI04_GRA_PRODUCT_transportationL_v1_VT"
+      ]
+    },
+    {
+      "aoi": 5,
+      "nome": "Santa Tereza",
+      "produto": 688,
+      "versao": 2,
+      "sensor": "Pleiades Neo",
+      "imagens_utc": [
+        "2024-05-06T13:34:00"
+      ],
+      "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR720/AOI05/GRA_PRODUCT/EMSR720_AOI05_GRA_PRODUCT_v2.zip",
+      "camadas_na_api": [
+        "EMSR720_AOI05_GRA_PRODUCT_PNEO_20240506_1334_ORTHO.tif",
+        "EMSR720_AOI05_GRA_PRODUCT_builtUpP_v1_VT",
+        "EMSR720_AOI05_GRA_PRODUCT_facilitiesA_v1_VT",
+        "EMSR720_AOI05_GRA_PRODUCT_observedEventA_v1_VT",
+        "EMSR720_AOI05_GRA_PRODUCT_transportationL_v2_VT"
+      ]
+    }
+  ],
+  "arquivos_baixados": {
+    "EMSR720_AOI01_GRA_PRODUCT_v1.zip": {
+      "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR720/AOI01/GRA_PRODUCT/EMSR720_AOI01_GRA_PRODUCT_v1.zip",
+      "bytes": 4582516,
+      "sha256": "8fee75245cb73af5632e00178c4697c296853fba620985b43dccfc74dfa02a45"
+    },
+    "EMSR720_AOI02_GRA_PRODUCT_v1.zip": {
+      "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR720/AOI02/GRA_PRODUCT/EMSR720_AOI02_GRA_PRODUCT_v1.zip",
+      "bytes": 17801613,
+      "sha256": "46f85f1834e60f031c9223148193508fe5cff607429e9b9b3e284d2a8026aa38"
+    },
+    "EMSR720_AOI03_GRA_PRODUCT_v1.zip": {
+      "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR720/AOI03/GRA_PRODUCT/EMSR720_AOI03_GRA_PRODUCT_v1.zip",
+      "bytes": 5264645,
+      "sha256": "2f1dc572d2b9e6c12dd5206feb00132e75cf18448b3a1a36dd05628fb6ec8198"
+    },
+    "EMSR720_AOI04_GRA_PRODUCT_v1.zip": {
+      "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR720/AOI04/GRA_PRODUCT/EMSR720_AOI04_GRA_PRODUCT_v1.zip",
+      "bytes": 5546456,
+      "sha256": "30537f90cc97ef64ec53eb6b302b1b8de9f1619da2e6db813681a63ff1a6f73f"
+    },
+    "EMSR720_AOI05_GRA_PRODUCT_v2.zip": {
+      "url": "https://rapidmapping.emergency.copernicus.eu/backend/EMSR720/AOI05/GRA_PRODUCT/EMSR720_AOI05_GRA_PRODUCT_v2.zip",
+      "bytes": 8386339,
+      "sha256": "8695d47168c9bb12c29fae6bcb625ec369ee9d4fe96e48aed4044f38dfbc34ac"
+    }
+  },
+  "versoes": {
+    "geopandas": "1.2.0",
+    "pyogrio": "0.13.0",
+    "shapely": "2.2.0"
+  },
+  "gerado_utc": "2026-11-02T21:31:02Z"
+}

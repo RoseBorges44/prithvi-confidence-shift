@@ -9,3 +9,16 @@ Written by `notebooks/semana9_rq4_referencias.ipynb` (second run, 2026-11-02, fo
 | `valores_referencias.json` | Distinct values of the low-cardinality columns of each layer, and the whole data-source table `P00_data_source` of EMSN194 |
 | `zenodo_14617475.json` | Zenodo metadata of the UFRGS database (files and MD5) |
 | `rodada.json` | URLs, sizes and SHA-256 of the downloaded files, versions |
+
+## EMSR720 grading products of 2024-05-06 (`emsr720/`)
+
+Written by `notebooks/semana9_rq4_emsr720.ipynb` (2026-11-02, folder `rq4_emsr720`) with `analysis/rq4/inventario_referencias.py`, before any model output. The areas are given in each of the three tiles (22JDM, 22JCN, 22JDN). The vector layers themselves are not in the repository: they stay in the Drive (`dados/rs2024/referencias/emsr720`) and are identified by the SHA-256 of the packages (`rodada.json`) and of the `observedEvent` files (`observedEvent_sha256.csv`).
+
+| File | Content |
+|---|---|
+| `inventario_referencias.csv` | One row per layer of the five products (AOI 1 to 5): features, geometry, CRS, bounds, total area and area in each tile |
+| `valores_referencias.json` | Distinct values of the low-cardinality columns of each layer (classes of `observedEventA` in the column `notation`) |
+| `emsr720_conteudo.tsv` | Whole content of the five zip packages, with the size of each item |
+| `rodada.json` | The five products chosen by the rule of the plan, URLs, sizes and SHA-256 of the packages, library versions |
+| `observedEvent_sha256.csv` | SHA-256 of the `observedEvent` files (shp, shx, dbf, prj, json) of each AOI |
+
