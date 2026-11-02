@@ -75,6 +75,8 @@ def teste_deslocamento():
                                    "22JDM") == (0, 0)
     assert S.deslocamento_na_grade("scl", dict(base, count=1, dtype="uint8", transform=(10.0, 0.0, 399970.0, 0.0, -10.0, 6699980.0)),
                                    orig, "22JDM") == (1, 2)
+    assert S.deslocamento_na_grade("gsw", dict(base, count=1, dtype="uint8"), orig, "22JDM") == (-1, -1)    # auxiliary layers (GSW, WorldCover)
+    assert S.deslocamento_na_grade("worldcover", dict(base, count=1, dtype="uint8"), orig, "22JDM") == (-1, -1)
     for ruim, trecho in ((dict(base, count=5), "bands"), (dict(base, dtype="int16"), "type"), (dict(base, crs="EPSG:4326"), "CRS"),
                          (dict(base, transform=(20.0, 0.0, 399950.0, 0.0, -20.0, 6700010.0)), "pixel"),
                          (dict(base, transform=(10.0, 0.0, 399955.0, 0.0, -10.0, 6700010.0)), "whole number"),

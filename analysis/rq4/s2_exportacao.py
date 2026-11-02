@@ -89,7 +89,8 @@ def deslocamento_na_grade(nome, perfil, origem_canonica, tile):
     CRS, 10 m pixels, the number of bands and the type of the layer, and an origin that is a whole number of pixels
     from the canonical origin. Returns (col_off, row_off): the canonical column and row of the file's first pixel
     (negative when the file starts before the canonical grid)."""
-    esperado = {"s2": (len(BANDAS), "uint16"), "nuvem": (1, "uint8"), "scl": (1, "uint8")}[nome]
+    esperado = {"s2": (len(BANDAS), "uint16"), "nuvem": (1, "uint8"), "scl": (1, "uint8"),
+                "gsw": (1, "uint8"), "worldcover": (1, "uint8")}[nome]
     erros = []
     if perfil["count"] != esperado[0]:
         erros.append(f"{perfil['count']} bands, expected {esperado[0]}")
