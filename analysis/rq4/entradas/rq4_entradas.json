@@ -1,7 +1,15 @@
 {
   "plano": "prereg/plano_rq4.md, secao 1",
-  "commit_repositorio": "a21b9ecb9e5ff9b345103e77b1420def4c720b3d",
-  "s2_exportacao_sha256": "7f2a1dff405392268020f4ee9cdb5ca1d0495c7e57763755202dca121d6791cf",
+  "commit_repositorio": "cb8aea8738daf93ab279cc5305dfb14c582218bd",
+  "s2_exportacao_sha256": "86d95bc5d0c0564883369dda37adbe1549bb40975d24a6b5f02b4dd126e87bcc",
+  "reparos_da_grade_inteira": [
+    {
+      "arquivo": "canonico/22JCN_20240506T133149_20240506T133146_T22JCN_s2.tif",
+      "sha256_encontrado": "9329c43d5bc1fd55564a77bffea6b660d60534fb6b663eb98ce37426e0077355",
+      "bytes_encontrados": 1759436571,
+      "sha256_registrado": "ed67fbb266d5aab6238cd72a7079ec65159373474af15bf2ecfaf14bed5e0475"
+    }
+  ],
   "data_sensing_utc": "2024-05-06",
   "candidatos_no_dia": {
     "22JDM": [
@@ -19,6 +27,15 @@
         "tile": "22JCN",
         "time_start_ms": 1715002836467,
         "nuvem": 0.0383409477738959,
+        "n_candidatos": 1
+      }
+    ],
+    "22JDN": [
+      {
+        "id": "20240506T133149_20240506T133146_T22JDN",
+        "tile": "22JDN",
+        "time_start_ms": 1715002832830,
+        "nuvem": 0,
         "n_candidatos": 1
       }
     ]
@@ -191,8 +208,8 @@
           },
           "canonico": {
             "arquivo": "canonico/22JCN_20240506T133149_20240506T133146_T22JCN_s2.tif",
-            "bytes": 689425940,
-            "sha256": "ed67fbb266d5aab6238cd72a7079ec65159373474af15bf2ecfaf14bed5e0475"
+            "bytes": 1759436571,
+            "sha256": "9329c43d5bc1fd55564a77bffea6b660d60534fb6b663eb98ce37426e0077355"
           },
           "deslocamento_pixels": {
             "coluna": -1,
@@ -275,7 +292,133 @@
         "b4_bruto_menos_harmonizado": 1000.0,
         "b4_harmonizado": 682.789
       }
+    },
+    {
+      "tile": "22JDN",
+      "id": "20240506T133149_20240506T133146_T22JDN",
+      "sensing_utc": "2024-05-06T13:40:32Z",
+      "nuvem_percentual": 0.0,
+      "n_candidatos_no_dia": 1,
+      "propriedades": {
+        "system:index": "20240506T133149_20240506T133146_T22JDN",
+        "system:time_start": 1715002832830,
+        "MGRS_TILE": "22JDN",
+        "PRODUCT_ID": "S2B_MSIL1C_20240506T133149_N0510_R081_T22JDN_20240506T150929",
+        "GRANULE_ID": "L1C_T22JDN_A037430_20240506T133146",
+        "CLOUDY_PIXEL_PERCENTAGE": 0,
+        "PROCESSING_BASELINE": "05.10",
+        "SPACECRAFT_NAME": "Sentinel-2B",
+        "SENSING_ORBIT_NUMBER": 81
+      },
+      "colecoes": {
+        "l1c": "COPERNICUS/S2_HARMONIZED",
+        "nuvem": "COPERNICUS/S2_CLOUD_PROBABILITY",
+        "l2a": "COPERNICUS/S2_SR_HARMONIZED"
+      },
+      "arquivos": {
+        "s2": {
+          "bruto": {
+            "arquivo": "22JDN_20240506T133149_20240506T133146_T22JDN_s2.tif",
+            "bytes": 1221331523,
+            "sha256": "05c77746ddbd5c43052673261c94e1eae442b06af836d38c0169fbc5f97b4da1",
+            "altura": 10980,
+            "largura": 10981,
+            "transform": [
+              10.0,
+              0.0,
+              399950.0,
+              0.0,
+              -10.0,
+              6800030.0
+            ]
+          },
+          "canonico": {
+            "arquivo": "canonico/22JDN_20240506T133149_20240506T133146_T22JDN_s2.tif",
+            "bytes": 1698112562,
+            "sha256": "2d426af86bfd144688de9c8c6fac00e27386aabdaade78bfaaec8262a67b2eb0"
+          },
+          "deslocamento_pixels": {
+            "coluna": -1,
+            "linha": -1
+          }
+        },
+        "nuvem": {
+          "bruto": {
+            "arquivo": "22JDN_20240506T133149_20240506T133146_T22JDN_nuvem.tif",
+            "bytes": 32747755,
+            "sha256": "41bd4aedf37ee71a1c0fd05869621e995755d73cfdcbe6215b9462febd2c805d",
+            "altura": 10980,
+            "largura": 10980,
+            "transform": [
+              10.0,
+              0.0,
+              399960.0,
+              0.0,
+              -10.0,
+              6800020.0
+            ]
+          },
+          "canonico": {
+            "arquivo": "canonico/22JDN_20240506T133149_20240506T133146_T22JDN_nuvem.tif",
+            "bytes": 34158814,
+            "sha256": "5b1866eeb71889378a12c7e7d942e713bc18796f0a8901fc060ae199b9e44f50"
+          },
+          "deslocamento_pixels": {
+            "coluna": 0,
+            "linha": 0
+          }
+        },
+        "scl": {
+          "bruto": {
+            "arquivo": "22JDN_20240506T133149_20240506T133146_T22JDN_scl.tif",
+            "bytes": 4253309,
+            "sha256": "fa008d3de080eca6c43e53bcaadf84b1b63808a8f9abf03b53db9c2e1e3b341a",
+            "altura": 10980,
+            "largura": 10981,
+            "transform": [
+              10.0,
+              0.0,
+              399950.0,
+              0.0,
+              -10.0,
+              6800030.0
+            ]
+          },
+          "canonico": {
+            "arquivo": "canonico/22JDN_20240506T133149_20240506T133146_T22JDN_scl.tif",
+            "bytes": 2785937,
+            "sha256": "d3967213c8f3a144790cc941f4052c16d883f05edc84f23439d5c5d76367ca3f"
+          },
+          "deslocamento_pixels": {
+            "coluna": -1,
+            "linha": -1
+          }
+        }
+      },
+      "grade": {
+        "crs": "EPSG:32722",
+        "transform": [
+          10.0,
+          0.0,
+          399960.0,
+          0.0,
+          -10.0,
+          6800020.0
+        ],
+        "altura": 10980,
+        "largura": 10980,
+        "cobertura_s2": {
+          "primeira_coluna_com_dado": 0,
+          "ultima_coluna_com_dado": 10979
+        }
+      },
+      "fracao_pixels_com_6_bandas_zero": 0.03392236588465201,
+      "verificacao_do_deslocamento": {
+        "situacao": "conferido",
+        "b4_bruto_menos_harmonizado": 999.9999999999999,
+        "b4_harmonizado": 620.1807
+      }
     }
   ],
-  "gerado_utc": "2026-11-02T14:02:06Z"
+  "gerado_utc": "2026-11-02T21:21:10Z"
 }

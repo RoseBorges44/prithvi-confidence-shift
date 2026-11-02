@@ -20,6 +20,7 @@ def main():
         caixas = I.caixas_tiles(os.path.join(AQUI, "entradas", "rq4_entradas.json"))
         assert caixas["22JDM"] == (399960.0, 6590200.0, 509760.0, 6700000.0), caixas["22JDM"]
         assert caixas["22JCN"] == (300000.0, 6690220.0, 409800.0, 6800020.0), caixas["22JCN"]
+        assert caixas["22JDN"] == (399960.0, 6690220.0, 509760.0, 6800020.0), caixas["22JDN"]
         assert I.datas_no_nome("rhguaiba_planet-skysat_inundacao_obs_20240506") == ["2024-05-06"]
         assert I.datas_no_nome("x_20240506_20240508_v12345678") == ["2024-05-06", "2024-05-08"]
 
