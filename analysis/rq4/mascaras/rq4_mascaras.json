@@ -1,0 +1,1003 @@
+{
+  "plano": "prereg/plano_rq4.md, secoes 1 a 3 e mudancas datadas",
+  "commit_repositorio": "31f21ebbdc4ff6617da36542976c4d7082766550",
+  "mascaras_sha256": "fb0cb1fb24c6517eb15bab858f678588470c8d22590d7e61a075ecb8822bea39",
+  "codigos": {
+    "0": "terra (pontuado)",
+    "1": "água (pontuado)",
+    "2": "sem dado de entrada (seis bandas iguais a 0)",
+    "3": "fora de toda referência",
+    "4": "classe não pontuada (rastro de inundação ou deslizamento)",
+    "5": "referências discordam",
+    "6": "a até 2 pixels de uma fronteira água-terra do consenso",
+    "7": "nuvem (s2cloudless >= 40%)",
+    "8": "SCL 3, 8, 9 ou 10 (sombra, nuvem, cirro)",
+    "9": "sem probabilidade de nuvem ou sem SCL"
+  },
+  "ordem_dos_motivos": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "estratos": {
+    "1": "construído",
+    "2": "água permanente",
+    "3": "outro"
+  },
+  "distancias_ufrgs_m": [
+    1000,
+    500,
+    2000
+  ],
+  "parametros": {
+    "gsw_permanente": 90,
+    "nuvem_prob": 40,
+    "scl_excluidas": [
+      3,
+      8,
+      9,
+      10
+    ],
+    "raio_borda": 2,
+    "janela": 512,
+    "max_sem_dado": 0.01,
+    "min_pontuados": 26215
+  },
+  "referencias": {
+    "ufrgs": {
+      "arquivo": "ufrgs/cheias_rhguaiba_2024_db_v14.gpkg",
+      "camada": "rhguaiba_planet-skysat_inundacao_obs_20240506",
+      "feicoes": 6076
+    },
+    "emsr720": {
+      "AOI01": {
+        "zip": "EMSR720_AOI01_GRA_PRODUCT_v1.zip",
+        "fonte_dano": "5",
+        "pegadas_da_fonte": 1,
+        "partes_nao_analisadas": 0,
+        "poligonos_agua": 80,
+        "poligonos_nao_pontuados": 88
+      },
+      "AOI02": {
+        "zip": "EMSR720_AOI02_GRA_PRODUCT_v1.zip",
+        "fonte_dano": "4",
+        "pegadas_da_fonte": 1,
+        "partes_nao_analisadas": 1,
+        "poligonos_agua": 208,
+        "poligonos_nao_pontuados": 83
+      },
+      "AOI03": {
+        "zip": "EMSR720_AOI03_GRA_PRODUCT_v1.zip",
+        "fonte_dano": "4",
+        "pegadas_da_fonte": 1,
+        "partes_nao_analisadas": 0,
+        "poligonos_agua": 85,
+        "poligonos_nao_pontuados": 12
+      },
+      "AOI04": {
+        "zip": "EMSR720_AOI04_GRA_PRODUCT_v1.zip",
+        "fonte_dano": "2",
+        "pegadas_da_fonte": 1,
+        "partes_nao_analisadas": 0,
+        "poligonos_agua": 29,
+        "poligonos_nao_pontuados": 89
+      },
+      "AOI05": {
+        "zip": "EMSR720_AOI05_GRA_PRODUCT_v2.zip",
+        "fonte_dano": "4",
+        "pegadas_da_fonte": 1,
+        "partes_nao_analisadas": 1,
+        "poligonos_agua": 32,
+        "poligonos_nao_pontuados": 46
+      }
+    }
+  },
+  "entradas_verificadas": [
+    {
+      "arquivo": "referencias/ufrgs/cheias_rhguaiba_2024_db_v14.gpkg",
+      "sha256": "0d2eabcd4b3d555a6537fed29407006b14081e302c6c52cdcccc790df6afb40c"
+    },
+    {
+      "arquivo": "referencias/zips/EMSR720_AOI01_GRA_PRODUCT_v1.zip",
+      "sha256": "8fee75245cb73af5632e00178c4697c296853fba620985b43dccfc74dfa02a45"
+    },
+    {
+      "arquivo": "referencias/zips/EMSR720_AOI02_GRA_PRODUCT_v1.zip",
+      "sha256": "46f85f1834e60f031c9223148193508fe5cff607429e9b9b3e284d2a8026aa38"
+    },
+    {
+      "arquivo": "referencias/zips/EMSR720_AOI03_GRA_PRODUCT_v1.zip",
+      "sha256": "2f1dc572d2b9e6c12dd5206feb00132e75cf18448b3a1a36dd05628fb6ec8198"
+    },
+    {
+      "arquivo": "referencias/zips/EMSR720_AOI04_GRA_PRODUCT_v1.zip",
+      "sha256": "30537f90cc97ef64ec53eb6b302b1b8de9f1619da2e6db813681a63ff1a6f73f"
+    },
+    {
+      "arquivo": "referencias/zips/EMSR720_AOI05_GRA_PRODUCT_v2.zip",
+      "sha256": "8695d47168c9bb12c29fae6bcb625ec369ee9d4fe96e48aed4044f38dfbc34ac"
+    },
+    {
+      "arquivo": "s2/canonico/22JDM_20240506T133149_20240506T133146_T22JDM_s2.tif",
+      "sha256": "8449fb257d1979a82664dace89709087f407a80ec5da0ebc8ab8f6eb18ce8447"
+    },
+    {
+      "arquivo": "s2/canonico/22JDM_20240506T133149_20240506T133146_T22JDM_nuvem.tif",
+      "sha256": "bb0176afb5d365d19d87c96f06e9ae806cb79dd013c1e2f2e310759ee07b548a"
+    },
+    {
+      "arquivo": "s2/canonico/22JDM_20240506T133149_20240506T133146_T22JDM_scl.tif",
+      "sha256": "a7d199dd3499fe58f6da23e00810cd7cd4d514844fdc4743c51c56cf2da2f19d"
+    },
+    {
+      "arquivo": "aux/canonico/22JDM_gsw.tif",
+      "sha256": "bee193e5df891d207b36ba566d3c5e73245b62ab484f45b0de63a916bfa10226"
+    },
+    {
+      "arquivo": "aux/canonico/22JDM_worldcover.tif",
+      "sha256": "414b4e8c07768267f527a9dcc2a6eea86a4eb0ff8891494a23407b536e94e951"
+    },
+    {
+      "arquivo": "s2/canonico/22JCN_20240506T133149_20240506T133146_T22JCN_s2.tif",
+      "sha256": "9329c43d5bc1fd55564a77bffea6b660d60534fb6b663eb98ce37426e0077355"
+    },
+    {
+      "arquivo": "s2/canonico/22JCN_20240506T133149_20240506T133146_T22JCN_nuvem.tif",
+      "sha256": "8dba5d1f697a73d8ddcf14e1d09287791cacd0386a82636c89de3f61b4539cdc"
+    },
+    {
+      "arquivo": "s2/canonico/22JCN_20240506T133149_20240506T133146_T22JCN_scl.tif",
+      "sha256": "1acd23ae8324e580831543cc5597ae9b6a782b64cd59b8caa96ef003b96ca0d9"
+    },
+    {
+      "arquivo": "aux/canonico/22JCN_gsw.tif",
+      "sha256": "5d040d4454bf0c3bdd194225e12733559f2beb1c4b70bac27c30f1c05a63d3b1"
+    },
+    {
+      "arquivo": "aux/canonico/22JCN_worldcover.tif",
+      "sha256": "87e67ef8e3fb036d33e71e1be36ccb21fdab6bb88b65a605a763b5499c7ae78f"
+    },
+    {
+      "arquivo": "s2/canonico/22JDN_20240506T133149_20240506T133146_T22JDN_s2.tif",
+      "sha256": "2d426af86bfd144688de9c8c6fac00e27386aabdaade78bfaaec8262a67b2eb0"
+    },
+    {
+      "arquivo": "s2/canonico/22JDN_20240506T133149_20240506T133146_T22JDN_nuvem.tif",
+      "sha256": "5b1866eeb71889378a12c7e7d942e713bc18796f0a8901fc060ae199b9e44f50"
+    },
+    {
+      "arquivo": "s2/canonico/22JDN_20240506T133149_20240506T133146_T22JDN_scl.tif",
+      "sha256": "d3967213c8f3a144790cc941f4052c16d883f05edc84f23439d5c5d76367ca3f"
+    },
+    {
+      "arquivo": "aux/canonico/22JDN_gsw.tif",
+      "sha256": "5d1dd436ae4ee538d52dff2ebdad094beaebd8de581b3a8524ae9b7305f47506"
+    },
+    {
+      "arquivo": "aux/canonico/22JDN_worldcover.tif",
+      "sha256": "4c1b0afd0b992b89eb3efaec6d1846d5185c01e9ff993595025ae06b200cf74f"
+    }
+  ],
+  "tiles": {
+    "22JDM": {
+      "fracao_sem_dado": 0.21234345606019886,
+      "ufrgs_feicoes_perto": 748,
+      "ufrgs_mancha_km2": 1725.963,
+      "ufrgs_mancha_km2_inventario": "1725.9744",
+      "emsr720_produtos": {},
+      "emsr720_sobreposicao_entre_produtos_px": 0,
+      "alinhamento": {
+        "ufrgs_mancha": {
+          "melhor_deslocamento_linha_coluna": [
+            0,
+            0
+          ],
+          "concordancia_melhor": 0.5796,
+          "concordancia_em_0_0": 0.5796,
+          "n_pixels": 2011586
+        }
+      },
+      "por_distancia": {
+        "1000": {
+          "camadas": {
+            "ufrgs": {
+              "coberto": 27937962,
+              "agua": 17319582,
+              "nao_pontuado": 0,
+              "terra": 10618380
+            }
+          },
+          "contagens": {
+            "por_codigo": {
+              "0": 8445552,
+              "1": 14815872,
+              "2": 25600212,
+              "3": 69862734,
+              "4": 0,
+              "5": 0,
+              "6": 929781,
+              "7": 41331,
+              "8": 826653,
+              "9": 38265
+            },
+            "por_condicao": {
+              "2": 25600212,
+              "3": 92622438,
+              "4": 0,
+              "5": 0,
+              "6": 1017474,
+              "7": 26394525,
+              "8": 36694054,
+              "9": 25765746
+            },
+            "pontuados_por_nrefs": {
+              "1": {
+                "agua": 14815872,
+                "terra": 8445552
+              }
+            },
+            "pontuados_por_estrato": {
+              "construído": {
+                "agua": 659963,
+                "terra": 906593
+              },
+              "água permanente": {
+                "agua": 4606475,
+                "terra": 35533
+              },
+              "outro": {
+                "agua": 9549434,
+                "terra": 7503426
+              }
+            }
+          },
+          "janelas": {
+            "total": 484,
+            "entram": 127,
+            "pontuados_nas_que_entram": 22321931,
+            "agua_nas_que_entram": 14276685,
+            "terra_nas_que_entram": 8045246,
+            "pontuados_perdidos_em_janelas_que_nao_entram": 939493
+          },
+          "arquivo": "22JDM_classe_1000m.tif"
+        },
+        "500": {
+          "camadas": {
+            "ufrgs": {
+              "coberto": 23354304,
+              "agua": 17283797,
+              "nao_pontuado": 0,
+              "terra": 6070507
+            }
+          },
+          "contagens": {
+            "por_codigo": {
+              "0": 4719335,
+              "1": 14813179,
+              "2": 25600212,
+              "3": 73939414,
+              "4": 0,
+              "5": 0,
+              "6": 925227,
+              "7": 28040,
+              "8": 501396,
+              "9": 33597
+            },
+            "por_condicao": {
+              "2": 25600212,
+              "3": 97206096,
+              "4": 0,
+              "5": 0,
+              "6": 1011183,
+              "7": 26394525,
+              "8": 36694054,
+              "9": 25765746
+            },
+            "pontuados_por_nrefs": {
+              "1": {
+                "agua": 14813179,
+                "terra": 4719335
+              }
+            },
+            "pontuados_por_estrato": {
+              "construído": {
+                "agua": 659963,
+                "terra": 513570
+              },
+              "água permanente": {
+                "agua": 4603782,
+                "terra": 13180
+              },
+              "outro": {
+                "agua": 9549434,
+                "terra": 4192585
+              }
+            }
+          },
+          "janelas": {
+            "total": 484,
+            "entram": 117,
+            "pontuados_nas_que_entram": 18667964,
+            "agua_nas_que_entram": 14246448,
+            "terra_nas_que_entram": 4421516,
+            "pontuados_perdidos_em_janelas_que_nao_entram": 864550
+          },
+          "arquivo": "22JDM_classe_500m.tif"
+        },
+        "2000": {
+          "camadas": {
+            "ufrgs": {
+              "coberto": 35964924,
+              "agua": 17478856,
+              "nao_pontuado": 0,
+              "terra": 18486068
+            }
+          },
+          "contagens": {
+            "por_codigo": {
+              "0": 14848815,
+              "1": 14829244,
+              "2": 25600212,
+              "3": 62782168,
+              "4": 0,
+              "5": 0,
+              "6": 948329,
+              "7": 97817,
+              "8": 1409079,
+              "9": 44736
+            },
+            "por_condicao": {
+              "2": 25600212,
+              "3": 84595476,
+              "4": 0,
+              "5": 0,
+              "6": 1038689,
+              "7": 26394525,
+              "8": 36694054,
+              "9": 25765746
+            },
+            "pontuados_por_nrefs": {
+              "1": {
+                "agua": 14829244,
+                "terra": 14848815
+              }
+            },
+            "pontuados_por_estrato": {
+              "construído": {
+                "agua": 659963,
+                "terra": 1487065
+              },
+              "água permanente": {
+                "agua": 4619845,
+                "terra": 100138
+              },
+              "outro": {
+                "agua": 9549436,
+                "terra": 13261612
+              }
+            }
+          },
+          "janelas": {
+            "total": 484,
+            "entram": 152,
+            "pontuados_nas_que_entram": 28645944,
+            "agua_nas_que_entram": 14292038,
+            "terra_nas_que_entram": 14353906,
+            "pontuados_perdidos_em_janelas_que_nao_entram": 1032115
+          },
+          "arquivo": "22JDM_classe_2000m.tif"
+        }
+      },
+      "estrato_contagem": {
+        "construído": 4349730,
+        "água permanente": 26142236,
+        "outro": 90068434
+      }
+    },
+    "22JCN": {
+      "fracao_sem_dado": 0.00010057199544792485,
+      "ufrgs_feicoes_perto": 761,
+      "ufrgs_mancha_km2": 910.4,
+      "ufrgs_mancha_km2_inventario": "910.3684",
+      "emsr720_produtos": {},
+      "emsr720_sobreposicao_entre_produtos_px": 0,
+      "alinhamento": {
+        "ufrgs_mancha": {
+          "melhor_deslocamento_linha_coluna": [
+            0,
+            -1
+          ],
+          "concordancia_melhor": 0.5472,
+          "concordancia_em_0_0": 0.5463,
+          "n_pixels": 2704942
+        }
+      },
+      "por_distancia": {
+        "1000": {
+          "camadas": {
+            "ufrgs": {
+              "coberto": 22273109,
+              "agua": 9115207,
+              "nao_pontuado": 0,
+              "terra": 13157902
+            }
+          },
+          "contagens": {
+            "por_codigo": {
+              "0": 12545566,
+              "1": 8457620,
+              "2": 12125,
+              "3": 98280998,
+              "4": 0,
+              "5": 0,
+              "6": 1214944,
+              "7": 7775,
+              "8": 41372,
+              "9": 0
+            },
+            "por_condicao": {
+              "2": 12125,
+              "3": 98287291,
+              "4": 0,
+              "5": 0,
+              "6": 1215146,
+              "7": 152201,
+              "8": 224078,
+              "9": 12125
+            },
+            "pontuados_por_nrefs": {
+              "1": {
+                "agua": 8457620,
+                "terra": 12545566
+              }
+            },
+            "pontuados_por_estrato": {
+              "construído": {
+                "agua": 108968,
+                "terra": 460638
+              },
+              "água permanente": {
+                "agua": 237711,
+                "terra": 55642
+              },
+              "outro": {
+                "agua": 8110941,
+                "terra": 12029286
+              }
+            }
+          },
+          "janelas": {
+            "total": 484,
+            "entram": 169,
+            "pontuados_nas_que_entram": 20477007,
+            "agua_nas_que_entram": 8454140,
+            "terra_nas_que_entram": 12022867,
+            "pontuados_perdidos_em_janelas_que_nao_entram": 526179
+          },
+          "arquivo": "22JCN_classe_1000m.tif"
+        },
+        "500": {
+          "camadas": {
+            "ufrgs": {
+              "coberto": 16602651,
+              "agua": 9110017,
+              "nao_pontuado": 0,
+              "terra": 7492634
+            }
+          },
+          "contagens": {
+            "por_codigo": {
+              "0": 6894212,
+              "1": 8454487,
+              "2": 12125,
+              "3": 103950049,
+              "4": 0,
+              "5": 0,
+              "6": 1210258,
+              "7": 5267,
+              "8": 34002,
+              "9": 0
+            },
+            "por_condicao": {
+              "2": 12125,
+              "3": 103957749,
+              "4": 0,
+              "5": 0,
+              "6": 1210456,
+              "7": 152201,
+              "8": 224078,
+              "9": 12125
+            },
+            "pontuados_por_nrefs": {
+              "1": {
+                "agua": 8454487,
+                "terra": 6894212
+              }
+            },
+            "pontuados_por_estrato": {
+              "construído": {
+                "agua": 108968,
+                "terra": 280191
+              },
+              "água permanente": {
+                "agua": 234578,
+                "terra": 29201
+              },
+              "outro": {
+                "agua": 8110941,
+                "terra": 6584820
+              }
+            }
+          },
+          "janelas": {
+            "total": 484,
+            "entram": 131,
+            "pontuados_nas_que_entram": 14587844,
+            "agua_nas_que_entram": 8395139,
+            "terra_nas_que_entram": 6192705,
+            "pontuados_perdidos_em_janelas_que_nao_entram": 760855
+          },
+          "arquivo": "22JCN_classe_500m.tif"
+        },
+        "2000": {
+          "camadas": {
+            "ufrgs": {
+              "coberto": 32690577,
+              "agua": 9116995,
+              "nao_pontuado": 0,
+              "terra": 23573582
+            }
+          },
+          "contagens": {
+            "por_codigo": {
+              "0": 22936083,
+              "1": 8458297,
+              "2": 12125,
+              "3": 87865406,
+              "4": 0,
+              "5": 0,
+              "6": 1217945,
+              "7": 13686,
+              "8": 56858,
+              "9": 0
+            },
+            "por_condicao": {
+              "2": 12125,
+              "3": 87869823,
+              "4": 0,
+              "5": 0,
+              "6": 1218147,
+              "7": 152201,
+              "8": 224078,
+              "9": 12125
+            },
+            "pontuados_por_nrefs": {
+              "1": {
+                "agua": 8458297,
+                "terra": 22936083
+              }
+            },
+            "pontuados_por_estrato": {
+              "construído": {
+                "agua": 108968,
+                "terra": 722788
+              },
+              "água permanente": {
+                "agua": 238388,
+                "terra": 87400
+              },
+              "outro": {
+                "agua": 8110941,
+                "terra": 22125895
+              }
+            }
+          },
+          "janelas": {
+            "total": 484,
+            "entram": 216,
+            "pontuados_nas_que_entram": 31041141,
+            "agua_nas_que_entram": 8458297,
+            "terra_nas_que_entram": 22582844,
+            "pontuados_perdidos_em_janelas_que_nao_entram": 353239
+          },
+          "arquivo": "22JCN_classe_2000m.tif"
+        }
+      },
+      "estrato_contagem": {
+        "construído": 1545891,
+        "água permanente": 650648,
+        "outro": 118363861
+      }
+    },
+    "22JDN": {
+      "fracao_sem_dado": 0.03392236588465201,
+      "ufrgs_feicoes_perto": 866,
+      "ufrgs_mancha_km2": 1128.3683,
+      "ufrgs_mancha_km2_inventario": "",
+      "emsr720_produtos": {
+        "AOI01": {
+          "coberto_km2": 41.6031,
+          "agua_observada_km2": 1.3335,
+          "nao_pontuada_km2": 8.1495,
+          "agua_observada_fora_da_area_mapeada_px": 0,
+          "nao_pontuada_fora_da_area_mapeada_px": 1
+        },
+        "AOI02": {
+          "coberto_km2": 35.413,
+          "agua_observada_km2": 0.8818,
+          "nao_pontuada_km2": 6.9153,
+          "agua_observada_fora_da_area_mapeada_px": 0,
+          "nao_pontuada_fora_da_area_mapeada_px": 0
+        },
+        "AOI03": {
+          "coberto_km2": 28.3818,
+          "agua_observada_km2": 0.9994,
+          "nao_pontuada_km2": 10.9177,
+          "agua_observada_fora_da_area_mapeada_px": 0,
+          "nao_pontuada_fora_da_area_mapeada_px": 0
+        },
+        "AOI04": {
+          "coberto_km2": 39.9852,
+          "agua_observada_km2": 0.6705,
+          "nao_pontuada_km2": 2.2799,
+          "agua_observada_fora_da_area_mapeada_px": 0,
+          "nao_pontuada_fora_da_area_mapeada_px": 0
+        },
+        "AOI05": {
+          "coberto_km2": 18.1475,
+          "agua_observada_km2": 0.3486,
+          "nao_pontuada_km2": 1.6982,
+          "agua_observada_fora_da_area_mapeada_px": 2,
+          "nao_pontuada_fora_da_area_mapeada_px": 9
+        }
+      },
+      "emsr720_sobreposicao_entre_produtos_px": 0,
+      "alinhamento": {
+        "ufrgs_mancha": {
+          "melhor_deslocamento_linha_coluna": [
+            0,
+            0
+          ],
+          "concordancia_melhor": 0.5641,
+          "concordancia_em_0_0": 0.5641,
+          "n_pixels": 3214829
+        },
+        "emsr720_agua_observada": {
+          "melhor_deslocamento_linha_coluna": [
+            3,
+            0
+          ],
+          "concordancia_melhor": 0.6458,
+          "concordancia_em_0_0": 0.6385,
+          "n_pixels": 270676
+        }
+      },
+      "por_distancia": {
+        "1000": {
+          "camadas": {
+            "ufrgs": {
+              "coberto": 26958575,
+              "agua": 11286675,
+              "nao_pontuado": 0,
+              "terra": 15671900
+            },
+            "emsr720": {
+              "coberto": 1635306,
+              "agua": 88873,
+              "terra": 1246837,
+              "nao_pontuado": 299596
+            }
+          },
+          "contagens": {
+            "por_codigo": {
+              "0": 14732742,
+              "1": 9972442,
+              "2": 4089694,
+              "3": 89961800,
+              "4": 299596,
+              "5": 155139,
+              "6": 1315326,
+              "7": 21551,
+              "8": 3705,
+              "9": 8405
+            },
+            "por_condicao": {
+              "2": 4089694,
+              "3": 93470505,
+              "4": 299596,
+              "5": 155139,
+              "6": 1353791,
+              "7": 85931,
+              "8": 26928,
+              "9": 4184234
+            },
+            "pontuados_por_nrefs": {
+              "1": {
+                "agua": 9888760,
+                "terra": 13773174
+              },
+              "2": {
+                "agua": 83682,
+                "terra": 959568
+              }
+            },
+            "pontuados_por_estrato": {
+              "construído": {
+                "agua": 457417,
+                "terra": 927753
+              },
+              "água permanente": {
+                "agua": 617556,
+                "terra": 28048
+              },
+              "outro": {
+                "agua": 8897469,
+                "terra": 13776941
+              }
+            }
+          },
+          "janelas": {
+            "total": 484,
+            "entram": 180,
+            "pontuados_nas_que_entram": 24027428,
+            "agua_nas_que_entram": 9836072,
+            "terra_nas_que_entram": 14191356,
+            "pontuados_perdidos_em_janelas_que_nao_entram": 677756
+          },
+          "arquivo": "22JDN_classe_1000m.tif"
+        },
+        "500": {
+          "camadas": {
+            "ufrgs": {
+              "coberto": 20402124,
+              "agua": 11284280,
+              "nao_pontuado": 0,
+              "terra": 9117844
+            },
+            "emsr720": {
+              "coberto": 1635306,
+              "agua": 88873,
+              "terra": 1246837,
+              "nao_pontuado": 299596
+            }
+          },
+          "contagens": {
+            "por_codigo": {
+              "0": 8628662,
+              "1": 9971311,
+              "2": 4089694,
+              "3": 96078241,
+              "4": 299596,
+              "5": 154953,
+              "6": 1312841,
+              "7": 15248,
+              "8": 3193,
+              "9": 6661
+            },
+            "por_condicao": {
+              "2": 4089694,
+              "3": 99737412,
+              "4": 299596,
+              "5": 154953,
+              "6": 1351302,
+              "7": 85931,
+              "8": 26928,
+              "9": 4184234
+            },
+            "pontuados_por_nrefs": {
+              "1": {
+                "agua": 9887629,
+                "terra": 7952474
+              },
+              "2": {
+                "agua": 83682,
+                "terra": 676188
+              }
+            },
+            "pontuados_por_estrato": {
+              "construído": {
+                "agua": 457417,
+                "terra": 560832
+              },
+              "água permanente": {
+                "agua": 616425,
+                "terra": 11712
+              },
+              "outro": {
+                "agua": 8897469,
+                "terra": 8056118
+              }
+            }
+          },
+          "janelas": {
+            "total": 484,
+            "entram": 154,
+            "pontuados_nas_que_entram": 17836326,
+            "agua_nas_que_entram": 9788018,
+            "terra_nas_que_entram": 8048308,
+            "pontuados_perdidos_em_janelas_que_nao_entram": 763647
+          },
+          "arquivo": "22JDN_classe_500m.tif"
+        },
+        "2000": {
+          "camadas": {
+            "ufrgs": {
+              "coberto": 37642384,
+              "agua": 11291111,
+              "nao_pontuado": 0,
+              "terra": 26351273
+            },
+            "emsr720": {
+              "coberto": 1635306,
+              "agua": 88873,
+              "terra": 1246837,
+              "nao_pontuado": 299596
+            }
+          },
+          "contagens": {
+            "por_codigo": {
+              "0": 25037905,
+              "1": 9974775,
+              "2": 4089694,
+              "3": 79633764,
+              "4": 299596,
+              "5": 155141,
+              "6": 1320407,
+              "7": 31096,
+              "8": 6254,
+              "9": 11768
+            },
+            "por_condicao": {
+              "2": 4089694,
+              "3": 82909534,
+              "4": 299596,
+              "5": 155141,
+              "6": 1358982,
+              "7": 85931,
+              "8": 26928,
+              "9": 4184234
+            },
+            "pontuados_por_nrefs": {
+              "1": {
+                "agua": 9891093,
+                "terra": 23956240
+              },
+              "2": {
+                "agua": 83682,
+                "terra": 1081665
+              }
+            },
+            "pontuados_por_estrato": {
+              "construído": {
+                "agua": 457417,
+                "terra": 1504270
+              },
+              "água permanente": {
+                "agua": 619792,
+                "terra": 56721
+              },
+              "outro": {
+                "agua": 8897566,
+                "terra": 23476914
+              }
+            }
+          },
+          "janelas": {
+            "total": 484,
+            "entram": 207,
+            "pontuados_nas_que_entram": 34435560,
+            "agua_nas_que_entram": 9846697,
+            "terra_nas_que_entram": 24588863,
+            "pontuados_perdidos_em_janelas_que_nao_entram": 577120
+          },
+          "arquivo": "22JDN_classe_2000m.tif"
+        }
+      },
+      "estrato_contagem": {
+        "construído": 5601656,
+        "água permanente": 1205904,
+        "outro": 113752840
+      }
+    }
+  },
+  "arquivos": [
+    {
+      "arquivo": "22JDM_classe_1000m.tif",
+      "sha256_conteudo": "e47e687bcd951b516bd4c8a88d81edd8e5d9d0b89792503e796b3a234ec0a89b",
+      "bytes": 902517,
+      "sha256": "f6d528dd2bc44f65cd6c5d5aa2e27712661de1dea35367b44f4822bd9ffb30ac",
+      "no_drive": "gravado_nesta_rodada"
+    },
+    {
+      "arquivo": "22JDM_classe_500m.tif",
+      "sha256_conteudo": "504e858697b8959e1fab0316525282f2d8e74c6b32b10a1511719361191698dd",
+      "bytes": 860279,
+      "sha256": "eba0952d24bc5da33ac7a60dbc246bac51e26305b8f9c104e2d7d07ab885f4ad",
+      "no_drive": "gravado_nesta_rodada"
+    },
+    {
+      "arquivo": "22JDM_classe_2000m.tif",
+      "sha256_conteudo": "1cd1cd7225a1dfabe9fbe52f7062384ddb674f1ba1c3d2620c937cdd0e4e23a5",
+      "bytes": 942263,
+      "sha256": "56367cd0090c6045b256578dc5aaeef7d7554632662d82aeea4500a0efb3b47f",
+      "no_drive": "gravado_nesta_rodada"
+    },
+    {
+      "arquivo": "22JDM_estrato.tif",
+      "sha256_conteudo": "adc2ed5349ca3e574a91f0c1ede46e9119f08348ca99f1629fabada15ae0ecfa",
+      "bytes": 1205714,
+      "sha256": "ed88be245e201ec7d3e292b82c24f2f5b3dc077f2588cf3480b841a9379204e4",
+      "no_drive": "gravado_nesta_rodada"
+    },
+    {
+      "arquivo": "22JCN_classe_1000m.tif",
+      "sha256_conteudo": "c2805785f41d22536f7a43146cfdf27f32fca4eaa4dad552f33db870409ba107",
+      "bytes": 896791,
+      "sha256": "f72cf1e6ed3ad1eae74cddb5d6eea37461bcaa095ef19d8b0c901f4f9f530b53",
+      "no_drive": "gravado_nesta_rodada"
+    },
+    {
+      "arquivo": "22JCN_classe_500m.tif",
+      "sha256_conteudo": "d49938e65c91eb9a60e83457e6e3d449b29d9df1a272f30607fef77d1acbee94",
+      "bytes": 840721,
+      "sha256": "745eef15f91113c2e77a42ae6e19d5702e04f2c245160c9dd330f2e6df86f3c0",
+      "no_drive": "gravado_nesta_rodada"
+    },
+    {
+      "arquivo": "22JCN_classe_2000m.tif",
+      "sha256_conteudo": "a7cc8d2974508d46acef77e3fbc7e62bf7a22dde9e27e9bf94abb9b9bbe096a7",
+      "bytes": 934433,
+      "sha256": "122824b5aef3300071c03841eca14afa0debd8f73fdd496b62df73f94a45d53f",
+      "no_drive": "gravado_nesta_rodada"
+    },
+    {
+      "arquivo": "22JCN_estrato.tif",
+      "sha256_conteudo": "5b03e67a4bde0dde8a6031556ad5273ab1fd639e0e6af997df547279e428920e",
+      "bytes": 1008466,
+      "sha256": "2a9c4004258d0cbf4be89886c082d65ff74a32f9010a9af2eb49f5b21ad61bd7",
+      "no_drive": "gravado_nesta_rodada"
+    },
+    {
+      "arquivo": "22JDN_classe_1000m.tif",
+      "sha256_conteudo": "ebc949216a0a8b883eca6bc40748e67504230fdce914aa196d6fd02f165aa1fb",
+      "bytes": 1088703,
+      "sha256": "34c83bc2da197733714c6c50fd0e219180805a0757a362a3cf5beea5787c6069",
+      "no_drive": "gravado_nesta_rodada"
+    },
+    {
+      "arquivo": "22JDN_classe_500m.tif",
+      "sha256_conteudo": "f8d1543ac5ea79aea9054433882fc4c147ba5d96622755bd68f2240d25437f50",
+      "bytes": 1039385,
+      "sha256": "c6b6576defca987cd19a3ad9985f004267a67a6976d3b0ae238122eb46459423",
+      "no_drive": "gravado_nesta_rodada"
+    },
+    {
+      "arquivo": "22JDN_classe_2000m.tif",
+      "sha256_conteudo": "3ee6d29730f457e2520d721398b534f29f74f44e9ea0f5bc37f1469ebda8ca74",
+      "bytes": 1113171,
+      "sha256": "b13a7ee40a1af3e0b53f27105297d0a96b8c1a189efcfcdc6428dd32a4bb31fd",
+      "no_drive": "gravado_nesta_rodada"
+    },
+    {
+      "arquivo": "22JDN_estrato.tif",
+      "sha256_conteudo": "3c94acc18b0bc0bed27d22abc3bb7bada49822b7ed2a9e79a59fb4cd3fb6b14e",
+      "bytes": 1779180,
+      "sha256": "9d8708ced770c917a01c30b63e5be1342c72563eeab925d5f6c8607d759779fd",
+      "no_drive": "gravado_nesta_rodada"
+    }
+  ],
+  "versoes": {
+    "numpy": "2.4.6",
+    "scipy": "1.16.3",
+    "rasterio": "1.5.2",
+    "geopandas": "1.2.0",
+    "shapely": "2.2.0",
+    "pyogrio": "0.13.0"
+  },
+  "gerado_utc": "2026-11-03T12:14:53Z"
+}

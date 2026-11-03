@@ -1,0 +1,28 @@
+aoi,eventphase,sensor_res,source_nam,source_tm,src_date,src_id
+AOI01,Pre-event,Not Applicable,Open Street Map,Not Applicable,03/05/2024,994
+AOI01,Pre-event,100.0 m,Copernicus Global Land Cover,Not Applicable,2019,982
+AOI01,Pre-event,30.0 m,FABDEM,Not Applicable,2020,981
+AOI01,Pre-event,1.0 m,ESRI World Imagery,00:00:00Z,21/07/2022,4
+AOI01,Post-event,0.3 m,Pleiades Neo,T13:34:55Z,06/05/2024,5
+AOI02,Pre-event,Not Applicable,Open Street Map,Not Applicable,03/05/2024,994
+AOI02,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,997
+AOI02,Pre-event,100.0 m,Copernicus Global Land Cover,Not Applicable,2019,982
+AOI02,Pre-event,30.0 m,FABDEM,Not Applicable,2020,981
+AOI02,Pre-event,0.6 m,ESRI World Imagery,T00:00:00Z,17/11/2022,1
+AOI02,Post-event,0.3 m,Pleiades Neo,T13:35:00Z,06/05/2024,4
+AOI03,Pre-event,Not Applicable,Open Street Map,Not Applicable,03/05/2024,994
+AOI03,Pre-event,30.0 m,FABDEM,Not Applicable,2020,981
+AOI03,Pre-event,0.6 m,ESRI World Imagery,T00:00:00Z,17/11/2022,1
+AOI03,Pre-event,100.0 m,Copernicus Global Land Cover,Not Applicable or Thh:mm:ssZ,2019,982
+AOI03,Post-event,0.3 m,Pleiades Neo,T13:05:48Z,06/05/2024,4
+AOI03,Pre-event,0.5 m,ESRI World Imagery,T13:24:47Z,02/03/2024,3
+AOI04,Pre-event,Not Applicable,Open Street Map,Not Applicable,07/05/2024,994
+AOI04,Pre-event,100.0 m,Copernicus Global Land Cover,Not Applicable,2019,982
+AOI04,Pre-event,30.0 m,FABDEM,Not Applicable,2020,981
+AOI04,Pre-event,1.0 m,ESRI World Imagery,T00:00:00Z,01/06/2023,1
+AOI04,Post-event,0.3 m,Pleiades Neo,T13:34:00Z,06/05/2024,2
+AOI05,Pre-event,Not Applicable,Open Street Map,Not Applicable,07/05/2024,994
+AOI05,Pre-event,100.0 m,Copernicus Global Land Cover,Not Applicable,2019,982
+AOI05,Pre-event,30.0 m,FABDEM,Not Applicable,2020,981
+AOI05,Pre-event,1.0 m,ESRI World Imagery,T00:00:00Z,15/07/2023,1
+AOI05,Post-event,0.3 m,Pleiades Neo,T13:34:00Z,06/05/2024,4
