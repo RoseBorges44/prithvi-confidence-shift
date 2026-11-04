@@ -1,0 +1,227 @@
+{
+  "plano": "prereg/plano_rq4.md, secao 1 e mudancas datadas",
+  "commit_repositorio": "50f8f5c679a477da501e09de3b2080b6017bb5a0",
+  "modulos_sha256": {
+    "mascaras.py": "fb0cb1fb24c6517eb15bab858f678588470c8d22590d7e61a075ecb8822bea39",
+    "inferencia.py": "c513c9beaa88bd990494b168323ddf2e02301f86b6b7931ff9f0813412d5a5fd"
+  },
+  "regimes": [
+    "R1",
+    "R2",
+    "R3"
+  ],
+  "sementes": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "codigos_semana6": {
+    "R2": "4m9f",
+    "R3": "6wke",
+    "R1": "8tjg"
+  },
+  "pesos": {
+    "R1_s1": {
+      "arquivo": "pesos_R1_s1.pt",
+      "bytes": 60384720
+    },
+    "R1_s2": {
+      "arquivo": "pesos_R1_s2.pt",
+      "bytes": 60384720
+    },
+    "R1_s3": {
+      "arquivo": "pesos_R1_s3.pt",
+      "bytes": 60384720
+    },
+    "R1_s4": {
+      "arquivo": "pesos_R1_s4.pt",
+      "bytes": 60384720
+    },
+    "R1_s5": {
+      "arquivo": "pesos_R1_s5.pt",
+      "bytes": 60384720
+    },
+    "R2_s1": {
+      "arquivo": "pesos_R2_s1.pt",
+      "bytes": 1298956817
+    },
+    "R2_s2": {
+      "arquivo": "pesos_R2_s2.pt",
+      "bytes": 1298956817
+    },
+    "R2_s3": {
+      "arquivo": "pesos_R2_s3.pt",
+      "bytes": 1298956817
+    },
+    "R2_s4": {
+      "arquivo": "pesos_R2_s4.pt",
+      "bytes": 1298956817
+    },
+    "R2_s5": {
+      "arquivo": "pesos_R2_s5.pt",
+      "bytes": 1298956817
+    },
+    "R3_s1": {
+      "arquivo": "pesos_R3_s1.pt",
+      "bytes": 1276829073
+    },
+    "R3_s2": {
+      "arquivo": "pesos_R3_s2.pt",
+      "bytes": 1276829073
+    },
+    "R3_s3": {
+      "arquivo": "pesos_R3_s3.pt",
+      "bytes": 1276829073
+    },
+    "R3_s4": {
+      "arquivo": "pesos_R3_s4.pt",
+      "bytes": 1276829073
+    },
+    "R3_s5": {
+      "arquivo": "pesos_R3_s5.pt",
+      "bytes": 1276829073
+    }
+  },
+  "backbone_sha256": "3629cedfbb350faafcb0dac902ae0d3c927e25ce8d9e0024aa1276ec66956ddb",
+  "precisao_inferencia": "float32",
+  "lote": 8,
+  "tiles": {
+    "22JDM": {
+      "janelas": 152,
+      "pixels_atribuidos": 39845888,
+      "pixels_pontuados_em_alguma_distancia": 28645987,
+      "pares_janela_distancia_conferidos": 456
+    },
+    "22JCN": {
+      "janelas": 216,
+      "pixels_atribuidos": 51614480,
+      "pixels_pontuados_em_alguma_distancia": 31041177,
+      "pares_janela_distancia_conferidos": 648
+    },
+    "22JDN": {
+      "janelas": 207,
+      "pixels_atribuidos": 51937280,
+      "pixels_pontuados_em_alguma_distancia": 34435586,
+      "pares_janela_distancia_conferidos": 621
+    }
+  },
+  "conferencia_bolivia": [
+    {
+      "regime": "R1",
+      "semente": 1,
+      "diferenca_maxima": 0.0,
+      "pixels_com_sinal_trocado": 0,
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R1",
+      "semente": 2,
+      "diferenca_maxima": 0.0,
+      "pixels_com_sinal_trocado": 0,
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R1",
+      "semente": 3,
+      "diferenca_maxima": 0.0,
+      "pixels_com_sinal_trocado": 0,
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R1",
+      "semente": 4,
+      "diferenca_maxima": 0.0,
+      "pixels_com_sinal_trocado": 0,
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R1",
+      "semente": 5,
+      "diferenca_maxima": 0.0,
+      "pixels_com_sinal_trocado": 0,
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R2",
+      "semente": 1,
+      "diferenca_maxima": 0.0,
+      "pixels_com_sinal_trocado": 0,
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R2",
+      "semente": 2,
+      "diferenca_maxima": 0.0,
+      "pixels_com_sinal_trocado": 0,
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R2",
+      "semente": 3,
+      "diferenca_maxima": 0.0,
+      "pixels_com_sinal_trocado": 0,
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R2",
+      "semente": 4,
+      "diferenca_maxima": 0.0,
+      "pixels_com_sinal_trocado": 0,
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R2",
+      "semente": 5,
+      "diferenca_maxima": 0.0,
+      "pixels_com_sinal_trocado": 0,
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R3",
+      "semente": 1,
+      "diferenca_maxima": 0.0,
+      "pixels_com_sinal_trocado": 0,
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R3",
+      "semente": 2,
+      "diferenca_maxima": 0.0,
+      "pixels_com_sinal_trocado": 0,
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R3",
+      "semente": 3,
+      "diferenca_maxima": 0.0,
+      "pixels_com_sinal_trocado": 0,
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R3",
+      "semente": 4,
+      "diferenca_maxima": 0.0,
+      "pixels_com_sinal_trocado": 0,
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R3",
+      "semente": 5,
+      "diferenca_maxima": 0.0,
+      "pixels_com_sinal_trocado": 0,
+      "gpu": "Tesla T4"
+    }
+  ],
+  "margem_q": "int8, round(4 m) limitado a -127..127, de todos os pixels atribuidos; so para mapas",
+  "versoes": {
+    "terratorch": "1.2.11",
+    "torchgeo": "0.7.1",
+    "peft": "0.21.2",
+    "torch": "2.11.0+cu130",
+    "numpy": "2.4.6"
+  },
+  "gpu": "Tesla T4",
+  "gerado_utc": "2026-11-04T10:59:59Z"
+}
