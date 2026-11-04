@@ -76,6 +76,12 @@ def teste_contagens_batem_com_a_conta_na_grade():
             assert r["discordancias_nao_sinalizadas"] == int((mk & disc & ~flag).sum())
             esperado = N.auroc_exact(np.abs(m)[mk & disc], np.abs(m)[mk & ~disc])
             assert abs(r["auroc_d"] - esperado) < 1e-4, (d, nome, r["auroc_d"], esperado)
+            assert r["modelo_agua_referencia_terra"] == int((mk & (m > 0) & ~y).sum())
+            assert r["modelo_terra_referencia_agua"] == int((mk & (m <= 0) & y).sum())
+            assert r["modelo_agua_referencia_terra"] + r["modelo_terra_referencia_agua"] == r["discordancias"]
+            assert r["referencia_agua"] == int((mk & y).sum())
+            assert abs(r["fracao_agua_referencia"] - (mk & y).sum() / mk.sum()) < 1e-12
+            assert abs(r["discordancia_modelo_agua"] - (mk & (m > 0) & ~y).sum() / mk.sum()) < 1e-12
             assert abs(r["discordancia_nao_sinalizada"] - (mk & disc & ~flag).sum() / (mk & disc).sum()) < 1e-12
             assert abs(r["conjunto_vazio"] - (mk & flag).sum() / mk.sum()) < 1e-12
             assert abs(r["discordancia_entre_sinalizados"] - (mk & flag & disc).sum() / (mk & flag).sum()) < 1e-12

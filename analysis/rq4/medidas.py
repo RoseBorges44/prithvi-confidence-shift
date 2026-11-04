@@ -43,7 +43,10 @@ GRUPOS += [("referencias", f"{r} referência" + ("s" if r > 1 else ""), [(e - 1)
            for r in (1, 2)]
 
 MEDIDAS = ("taxa_discordancia", "auroc_d", "discordancia_nao_sinalizada", "conjunto_vazio",
-           "discordancia_entre_sinalizados", "discordancia_entre_nao_sinalizados")
+           "discordancia_entre_sinalizados", "discordancia_entre_nao_sinalizados",
+           "discordancia_modelo_agua", "discordancia_modelo_terra", "fracao_agua_referencia")
+# Added on 2026-11-04, after the first run of the measures had been seen (prereg/plano_rq4.md): the direction of the
+# disagreement, P(model water, reference land), P(model land, reference water), and the share of reference water.
 # measure of the plan -> name of the measure in regimes.csv of the confirmatory analysis (error there, disagreement here)
 MEDIDA_NO_ALVO = {"taxa_discordancia": "taxa_erro", "auroc_d": "auroc",
                   "discordancia_nao_sinalizada": "erro_nao_sinalizado", "conjunto_vazio": "conjunto_vazio"}
@@ -119,13 +122,18 @@ def medidas_do_grupo(cont, he, hc, celulas):
     """Measures of one group (sum of cells). Counts are returned with the measures."""
     c = cont[celulas].sum(0)
     n, disc, unf, sin = c[0], c[1], c[2], c[3]
+    tp, fp, fn = c[5], c[6], c[7]
     auroc = float(N.auroc_from_hist(he[celulas].sum(0), hc[celulas].sum(0)))
     return {"pixels": int(n), "discordancias": int(disc), "sinalizados": int(sin),
             "discordancias_nao_sinalizadas": int(unf),
             "taxa_discordancia": _div(disc, n), "auroc_d": auroc,
             "discordancia_nao_sinalizada": _div(unf, disc), "conjunto_vazio": _div(sin, n),
             "discordancia_entre_sinalizados": _div(disc - unf, sin),
-            "discordancia_entre_nao_sinalizados": _div(unf, n - sin)}
+            "discordancia_entre_nao_sinalizados": _div(unf, n - sin),
+            "modelo_agua_referencia_terra": int(fp), "modelo_terra_referencia_agua": int(fn),
+            "referencia_agua": int(tp + fn),
+            "discordancia_modelo_agua": _div(fp, n), "discordancia_modelo_terra": _div(fn, n),
+            "fracao_agua_referencia": _div(tp + fn, n)}
 
 
 def calcular(obter_margem, tau, tiles, rotulos, janelas_linhas, regimes, sementes, bins, distancias=None,
@@ -249,7 +257,10 @@ def tabela_celulas(contagens, tiles, regimes, sementes, distancias):
             linhas.append({"regime": regime, "semente": sem, "tile": tile, "distancia_m": d,
                            "estrato": NOMES_ESTRATO[cel // 2 + 1], "referencias": cel % 2 + 1,
                            "pixels": int(cont[cel, 0]), "discordancias": int(cont[cel, 1]),
-                           "discordancias_nao_sinalizadas": int(cont[cel, 2]), "sinalizados": int(cont[cel, 3])})
+                           "discordancias_nao_sinalizadas": int(cont[cel, 2]), "sinalizados": int(cont[cel, 3]),
+                           "modelo_agua_referencia_terra": int(cont[cel, 6]),
+                           "modelo_terra_referencia_agua": int(cont[cel, 7]),
+                           "referencia_agua": int(cont[cel, 5] + cont[cel, 7])})
     return linhas
 
 
