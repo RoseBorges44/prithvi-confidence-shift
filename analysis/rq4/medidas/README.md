@@ -13,8 +13,8 @@ O AUROC_d do histograma ficou a 9,6e-7 do valor exato (limite 1e-4), com os inte
 
 | Medida | R1 | R2 | R3 | Alvo agregado (R1, R2, R3) | Faixa dos cinco eventos |
 |---|---|---|---|---|---|
-| Taxa de discordância | 0,182 | 0,184 | 0,181 | 0,029, 0,030, 0,030 | 0,009 a 0,069 |
-| AUROC_d | 0,727 | 0,742 | 0,771 | 0,935, 0,943, 0,939 | 0,889 a 0,981 |
+| Taxa de discordância | 0,182 | 0,184 | 0,181 | 0,028, 0,030, 0,030 | 0,009 a 0,069 |
+| AUROC_d | 0,727 | 0,742 | 0,771 | 0,935, 0,942, 0,939 | 0,889 a 0,981 |
 | Discordância não sinalizada | 0,664 | 0,634 | 0,645 | 0,326, 0,274, 0,290 | 0,119 a 0,343 |
 | Conjunto vazio | 0,131 | 0,146 | 0,135 | 0,060, 0,068, 0,065 | 0,016 a 0,162 |
 
