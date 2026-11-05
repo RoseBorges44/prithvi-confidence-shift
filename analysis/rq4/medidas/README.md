@@ -25,3 +25,5 @@ Por tile, a taxa de discordância (R1) é 0,130 (22JDM), 0,253 (22JCN) e 0,172 (
 A discordância se concentra em trechos contínuos de vale (Taquari e Jacuí em 22JCN e 22JDN, o delta do Jacuí em 22JDM), com fração perto de 1 dentro do trecho e perto de 0 fora, e é parecida nos três regimes. Nesses trechos a fração sinalizada é baixa. Em 22JCN, na semente 1 do R3, uma janela isolada no canto noroeste tem MSP médio perto de 0,7 e quase todos os pixels sinalizados; não aparece em R1 e R2.
 
 Esta rodada não separa o sentido da discordância (modelo água e referência terra, ou o contrário), porque `contagens_celulas.csv` guarda só as contagens de discordância e de sinalização. Qualquer leitura da causa fica para depois dessa separação e da leitura do texto do plano (seção 4).
+
+A segunda rodada, que separa o sentido da discordância, está em `analysis/rq4/medidas_2/`.

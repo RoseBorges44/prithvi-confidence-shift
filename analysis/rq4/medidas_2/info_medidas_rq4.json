@@ -1,0 +1,71 @@
+{
+ "plano": "prereg/plano_rq4.md, seção 3",
+ "commit_repositorio": "c0273b35dd5516c0f72a38d787c60232e9ff950f",
+ "modulos_sha256": {
+  "rq4/mascaras.py": "fb0cb1fb24c6517eb15bab858f678588470c8d22590d7e61a075ecb8822bea39",
+  "rq4/inferencia.py": "c513c9beaa88bd990494b168323ddf2e02301f86b6b7931ff9f0813412d5a5fd",
+  "rq4/medidas.py": "1cf49611e4c4d0b041939f74add1edecc7058399d282ca1ed1a4d031d0992121",
+  "nucleo.py": "19d0db55d4b8c1cc290eed2e3cd696b9aab9139b82b654d7521ee338ffce3a6b"
+ },
+ "margens": "resultados/semana9/rq4_margens, SHA-256 conferidos com analysis/rq4/margens/manifesto_sha256.csv",
+ "confirmatoria": {
+  "resultados.json": "4cfadab60d26aa8d66e35da6af59db0dcaaa8532ac3400a5822936dc26bfb84f",
+  "regimes.csv": "533efcc87ba1c24e99762c5663ccf7d122f7bd69e8e915c49581656f3351d98d",
+  "chave": {
+   "R2": "4m9f",
+   "R3": "6wke",
+   "R1": "8tjg"
+  }
+ },
+ "tau": {
+  "R1_s1": 0.9350879497047277,
+  "R1_s2": 0.9149336937104073,
+  "R1_s3": 0.947178857899178,
+  "R1_s4": 0.9095650165850324,
+  "R1_s5": 0.9222936397908139,
+  "R2_s1": 0.9578713052028296,
+  "R2_s2": 0.9659446527637832,
+  "R2_s3": 0.9583418441971778,
+  "R2_s4": 0.9585339748257706,
+  "R2_s5": 0.9493502425417498,
+  "R3_s1": 0.9485722311577023,
+  "R3_s2": 0.9424467847251197,
+  "R3_s3": 0.9397321386115878,
+  "R3_s4": 0.9325698643321619,
+  "R3_s5": 0.9439872451248541
+ },
+ "distancias_m": [
+  1000,
+  500,
+  2000
+ ],
+ "distancia_principal_m": 1000,
+ "bins": {
+  "largura": 0.005,
+  "maximo": 40.0,
+  "n": 8001
+ },
+ "maior_diferenca_auroc_histograma_exato": 9.563442743276696e-07,
+ "maior_abs_m": 37.369224548339844,
+ "eventos_do_alvo": [
+  "Bolivia",
+  "EMSR333",
+  "EMSR342",
+  "EMSR347",
+  "EMSR438"
+ ],
+ "comparacao_com_primeira_rodada": {
+  "valores": 1296,
+  "maior_diferenca": 4.9838453364259294e-09
+ },
+ "semente_dos_mapas": 1,
+ "bloco_dos_mapas_pixels": 10,
+ "versoes": {
+  "numpy": "2.4.6",
+  "scipy": "1.16.3",
+  "matplotlib": "3.10.0",
+  "python": "3.13.18"
+ },
+ "minutos": 24.2,
+ "gerado_utc": "2026-11-04T21:59:58Z"
+}
