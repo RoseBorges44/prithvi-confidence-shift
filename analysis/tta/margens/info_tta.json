@@ -1,0 +1,507 @@
+{
+  "analise": "secundaria preregistrada (prereg/preregistro.md, secao 9), rodada apos abertura da chave",
+  "desvios": "prereg/desvios.md, entradas de 2026-10-25 e 2026-11-05",
+  "commit_repositorio": "8f71a1f2df447784fd8b0c356e9f6c56d089ee53",
+  "codigos_semana6": {
+    "R2": "4m9f",
+    "R3": "6wke",
+    "R1": "8tjg"
+  },
+  "regimes": [
+    "R1",
+    "R2",
+    "R3"
+  ],
+  "sementes": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "conjuntos": {
+    "teste": {
+      "unidades": 90,
+      "pixels": 20517367
+    },
+    "bolivia": {
+      "unidades": 15,
+      "pixels": 2867815
+    },
+    "t2": {
+      "unidades": 561,
+      "pixels": 113775206
+    }
+  },
+  "transformacoes": "8 do grupo diedral: rotacoes de 0, 90, 180 e 270 graus, sem e com espelho horizontal",
+  "margem_tta": "logit da probabilidade media de agua sobre as 8 transformacoes (media em float64, gravada em float32)",
+  "limite_sem_transformacao": 0.001,
+  "diferenca_maxima_sem_transformacao": 2.288818359375e-05,
+  "pixels_com_sinal_trocado": 3,
+  "conferencias": [
+    {
+      "regime": "R1",
+      "semente": 1,
+      "codigo": "8tjg",
+      "conjuntos": {
+        "teste": {
+          "pixels": 20517367,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 233
+        },
+        "bolivia": {
+          "pixels": 2867815,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 41
+        },
+        "t2": {
+          "pixels": 113775206,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 1486
+        }
+      },
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R1",
+      "semente": 2,
+      "codigo": "8tjg",
+      "conjuntos": {
+        "teste": {
+          "pixels": 20517367,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 245
+        },
+        "bolivia": {
+          "pixels": 2867815,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 42
+        },
+        "t2": {
+          "pixels": 113775206,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 1487
+        }
+      },
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R1",
+      "semente": 3,
+      "codigo": "8tjg",
+      "conjuntos": {
+        "teste": {
+          "pixels": 20517367,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 234
+        },
+        "bolivia": {
+          "pixels": 2867815,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 42
+        },
+        "t2": {
+          "pixels": 113775206,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 1491
+        }
+      },
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R1",
+      "semente": 4,
+      "codigo": "8tjg",
+      "conjuntos": {
+        "teste": {
+          "pixels": 20517367,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 242
+        },
+        "bolivia": {
+          "pixels": 2867815,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 41
+        },
+        "t2": {
+          "pixels": 113775206,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 1483
+        }
+      },
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R1",
+      "semente": 5,
+      "codigo": "8tjg",
+      "conjuntos": {
+        "teste": {
+          "pixels": 20517367,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 244
+        },
+        "bolivia": {
+          "pixels": 2867815,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 41
+        },
+        "t2": {
+          "pixels": 113775206,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 1483
+        }
+      },
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R2",
+      "semente": 1,
+      "codigo": "4m9f",
+      "conjuntos": {
+        "teste": {
+          "pixels": 20517367,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 265
+        },
+        "bolivia": {
+          "pixels": 2867815,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 45
+        },
+        "t2": {
+          "pixels": 113775206,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 1604
+        }
+      },
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R2",
+      "semente": 2,
+      "codigo": "4m9f",
+      "conjuntos": {
+        "teste": {
+          "pixels": 20517367,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 264
+        },
+        "bolivia": {
+          "pixels": 2867815,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 44
+        },
+        "t2": {
+          "pixels": 113775206,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 1615
+        }
+      },
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R2",
+      "semente": 3,
+      "codigo": "4m9f",
+      "conjuntos": {
+        "teste": {
+          "pixels": 20517367,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 264
+        },
+        "bolivia": {
+          "pixels": 2867815,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 45
+        },
+        "t2": {
+          "pixels": 113775206,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 1616
+        }
+      },
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R2",
+      "semente": 4,
+      "codigo": "4m9f",
+      "conjuntos": {
+        "teste": {
+          "pixels": 20517367,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 266
+        },
+        "bolivia": {
+          "pixels": 2867815,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 44
+        },
+        "t2": {
+          "pixels": 113775206,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 1611
+        }
+      },
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R2",
+      "semente": 5,
+      "codigo": "4m9f",
+      "conjuntos": {
+        "teste": {
+          "pixels": 20517367,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 262
+        },
+        "bolivia": {
+          "pixels": 2867815,
+          "diferenca_maxima_sem_transformacao": 0.0,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 44
+        },
+        "t2": {
+          "pixels": 113775206,
+          "diferenca_maxima_sem_transformacao": 6.67572021484375e-06,
+          "pixels_com_sinal_trocado": 1,
+          "segundos": 1459
+        }
+      },
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R3",
+      "semente": 1,
+      "codigo": "6wke",
+      "conjuntos": {
+        "teste": {
+          "pixels": 20517367,
+          "diferenca_maxima_sem_transformacao": 1.33514404296875e-05,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 220
+        },
+        "bolivia": {
+          "pixels": 2867815,
+          "diferenca_maxima_sem_transformacao": 9.5367431640625e-06,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 37
+        },
+        "t2": {
+          "pixels": 113775206,
+          "diferenca_maxima_sem_transformacao": 1.33514404296875e-05,
+          "pixels_com_sinal_trocado": 1,
+          "segundos": 1344
+        }
+      },
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R3",
+      "semente": 2,
+      "codigo": "6wke",
+      "conjuntos": {
+        "teste": {
+          "pixels": 20517367,
+          "diferenca_maxima_sem_transformacao": 1.71661376953125e-05,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 204
+        },
+        "bolivia": {
+          "pixels": 2867815,
+          "diferenca_maxima_sem_transformacao": 9.5367431640625e-06,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 34
+        },
+        "t2": {
+          "pixels": 113775206,
+          "diferenca_maxima_sem_transformacao": 1.9073486328125e-05,
+          "pixels_com_sinal_trocado": 1,
+          "segundos": 1326
+        }
+      },
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R3",
+      "semente": 3,
+      "codigo": "6wke",
+      "conjuntos": {
+        "teste": {
+          "pixels": 20517367,
+          "diferenca_maxima_sem_transformacao": 1.33514404296875e-05,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 204
+        },
+        "bolivia": {
+          "pixels": 2867815,
+          "diferenca_maxima_sem_transformacao": 9.5367431640625e-06,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 38
+        },
+        "t2": {
+          "pixels": 113775206,
+          "diferenca_maxima_sem_transformacao": 1.9073486328125e-05,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 1345
+        }
+      },
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R3",
+      "semente": 4,
+      "codigo": "6wke",
+      "conjuntos": {
+        "teste": {
+          "pixels": 20517367,
+          "diferenca_maxima_sem_transformacao": 1.9073486328125e-05,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 220
+        },
+        "bolivia": {
+          "pixels": 2867815,
+          "diferenca_maxima_sem_transformacao": 1.52587890625e-05,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 37
+        },
+        "t2": {
+          "pixels": 113775206,
+          "diferenca_maxima_sem_transformacao": 2.288818359375e-05,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 1364
+        }
+      },
+      "gpu": "Tesla T4"
+    },
+    {
+      "regime": "R3",
+      "semente": 5,
+      "codigo": "6wke",
+      "conjuntos": {
+        "teste": {
+          "pixels": 20517367,
+          "diferenca_maxima_sem_transformacao": 1.33514404296875e-05,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 222
+        },
+        "bolivia": {
+          "pixels": 2867815,
+          "diferenca_maxima_sem_transformacao": 1.1444091796875e-05,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 37
+        },
+        "t2": {
+          "pixels": 113775206,
+          "diferenca_maxima_sem_transformacao": 1.52587890625e-05,
+          "pixels_com_sinal_trocado": 0,
+          "segundos": 1345
+        }
+      },
+      "gpu": "Tesla T4"
+    }
+  ],
+  "pesos": {
+    "R1_s1": {
+      "arquivo": "pesos_R1_s1.pt",
+      "bytes": 60384720
+    },
+    "R1_s2": {
+      "arquivo": "pesos_R1_s2.pt",
+      "bytes": 60384720
+    },
+    "R1_s3": {
+      "arquivo": "pesos_R1_s3.pt",
+      "bytes": 60384720
+    },
+    "R1_s4": {
+      "arquivo": "pesos_R1_s4.pt",
+      "bytes": 60384720
+    },
+    "R1_s5": {
+      "arquivo": "pesos_R1_s5.pt",
+      "bytes": 60384720
+    },
+    "R2_s1": {
+      "arquivo": "pesos_R2_s1.pt",
+      "bytes": 1298956817
+    },
+    "R2_s2": {
+      "arquivo": "pesos_R2_s2.pt",
+      "bytes": 1298956817
+    },
+    "R2_s3": {
+      "arquivo": "pesos_R2_s3.pt",
+      "bytes": 1298956817
+    },
+    "R2_s4": {
+      "arquivo": "pesos_R2_s4.pt",
+      "bytes": 1298956817
+    },
+    "R2_s5": {
+      "arquivo": "pesos_R2_s5.pt",
+      "bytes": 1298956817
+    },
+    "R3_s1": {
+      "arquivo": "pesos_R3_s1.pt",
+      "bytes": 1276829073
+    },
+    "R3_s2": {
+      "arquivo": "pesos_R3_s2.pt",
+      "bytes": 1276829073
+    },
+    "R3_s3": {
+      "arquivo": "pesos_R3_s3.pt",
+      "bytes": 1276829073
+    },
+    "R3_s4": {
+      "arquivo": "pesos_R3_s4.pt",
+      "bytes": 1276829073
+    },
+    "R3_s5": {
+      "arquivo": "pesos_R3_s5.pt",
+      "bytes": 1276829073
+    }
+  },
+  "backbone_sha256": "3629cedfbb350faafcb0dac902ae0d3c927e25ce8d9e0024aa1276ec66956ddb",
+  "precisao_inferencia": "float32",
+  "lote": 8,
+  "versoes": {
+    "terratorch": "1.2.11",
+    "torchgeo": "0.7.1",
+    "peft": "0.21.2",
+    "torch": "2.14.1+cu130",
+    "numpy": "2.4.6"
+  },
+  "gpu": "Tesla T4",
+  "gerado_utc": "2026-11-07T18:37:40Z"
+}
