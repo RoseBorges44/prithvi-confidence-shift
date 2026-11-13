@@ -1,0 +1,65 @@
+arquivo,origem,sha256
+run_4m9f_s1_val.npz,"semana 6, sem mudança",7a7211e16b68a32a5754497b112b85f3b66c9feaf44b11a0d92824d8cf275d24
+run_4m9f_s1_teste.npz,margem de run_4m9f_s1_teste.npz (semana 6) e margem_tta de tta_4m9f_s1_teste.npz (semana 10),626a6317a3ec5e6538d424be5a7f52dc53439e34bb591cd67a4f7a990379648b
+run_4m9f_s1_bolivia.npz,margem de run_4m9f_s1_bolivia.npz (semana 6) e margem_tta de tta_4m9f_s1_bolivia.npz (semana 10),a541a584e5245617b792c4019a8e6f905e3d06d1abe28884149e1452001f0496
+run_4m9f_s1_t2.npz,margem de run_4m9f_s1_t2.npz (semana 6) e margem_tta de tta_4m9f_s1_t2.npz (semana 10),b076d34c1abc87b9192a0428e798ce05ed9ec2b4bb40b6dd0985f015f5765273
+run_4m9f_s2_val.npz,"semana 6, sem mudança",6a17ac0d4fd1bc5f26ce133afaa98223e6f5405b6a75efae666185b9c39d2def
+run_4m9f_s2_teste.npz,margem de run_4m9f_s2_teste.npz (semana 6) e margem_tta de tta_4m9f_s2_teste.npz (semana 10),bc69667d80da810c66836210af32bb61bd16b39030a7d322db7d6ef59916004c
+run_4m9f_s2_bolivia.npz,margem de run_4m9f_s2_bolivia.npz (semana 6) e margem_tta de tta_4m9f_s2_bolivia.npz (semana 10),f16a48c32ea304517a2870d8822c321c02c0c322a9554ccd89b094d0b32399c2
+run_4m9f_s2_t2.npz,margem de run_4m9f_s2_t2.npz (semana 6) e margem_tta de tta_4m9f_s2_t2.npz (semana 10),629185af9951fd556f78e5a2133c1d219cd5bc6c983b8f8c69cd8d5e87319d6e
+run_4m9f_s3_val.npz,"semana 6, sem mudança",721eebfb7cfdd584f0a8319c6801824c9c338fa1893f104b8cff2f1740a6e9fd
+run_4m9f_s3_teste.npz,margem de run_4m9f_s3_teste.npz (semana 6) e margem_tta de tta_4m9f_s3_teste.npz (semana 10),5f1f24ef408cac8f230bb87e9eb9d75f9bcccf501fec43fc4474ec87744d6e9a
+run_4m9f_s3_bolivia.npz,margem de run_4m9f_s3_bolivia.npz (semana 6) e margem_tta de tta_4m9f_s3_bolivia.npz (semana 10),60049f534b9b7d2b6c44294a63ab69be8a9e606fe9079ec8019f3170e21e3406
+run_4m9f_s3_t2.npz,margem de run_4m9f_s3_t2.npz (semana 6) e margem_tta de tta_4m9f_s3_t2.npz (semana 10),3562e01ed6037644cddb3142a4cf1e20521b55271bc1dcc38a446980c3fc00e0
+run_4m9f_s4_val.npz,"semana 6, sem mudança",9417124a0435886b9eec15033842031a6311f3c8492c92580d6fc0d9cf772df5
+run_4m9f_s4_teste.npz,margem de run_4m9f_s4_teste.npz (semana 6) e margem_tta de tta_4m9f_s4_teste.npz (semana 10),4546d4d7cdbb25181c83a61e0532a844babbb3bc42acad4cb40fe8ba5c3a39a4
+run_4m9f_s4_bolivia.npz,margem de run_4m9f_s4_bolivia.npz (semana 6) e margem_tta de tta_4m9f_s4_bolivia.npz (semana 10),16d193423849950dda4f9c371635641255bed91639d9b39b087e823a69100102
+run_4m9f_s4_t2.npz,margem de run_4m9f_s4_t2.npz (semana 6) e margem_tta de tta_4m9f_s4_t2.npz (semana 10),3c1ecb7ed8559beb97fb0fd10dd6b19d63cc059d6f24585eebaa08eada957a8f
+run_4m9f_s5_val.npz,"semana 6, sem mudança",ab298a56d878ac660fafd1df655ee4f9e1c8d86d06dca1b7a5f80d825db447cf
+run_4m9f_s5_teste.npz,margem de run_4m9f_s5_teste.npz (semana 6) e margem_tta de tta_4m9f_s5_teste.npz (semana 10),bc08cb458bb1608fad874fbddd912e251920b9f2e79002ff6d339eabf302d564
+run_4m9f_s5_bolivia.npz,margem de run_4m9f_s5_bolivia.npz (semana 6) e margem_tta de tta_4m9f_s5_bolivia.npz (semana 10),e38cce1748db21d956a998d3bded50536ef9f637f77b81ec1879bdd503e49cde
+run_4m9f_s5_t2.npz,margem de run_4m9f_s5_t2.npz (semana 6) e margem_tta de tta_4m9f_s5_t2.npz (semana 10),648cdfea702c8fd15afbed27c513d6bae9dbecd13c1c3b901fd6bd74e43e8048
+run_6wke_s1_val.npz,"semana 6, sem mudança",6c066143a409e9100b375ede211f73408cf8284b30928e2466b245df4c206656
+run_6wke_s1_teste.npz,margem de run_6wke_s1_teste.npz (semana 6) e margem_tta de tta_6wke_s1_teste.npz (semana 10),86d037feb455cd9c7a84d1fbaf0314f1616a7c2fc125506cf2d3fc387456eb9b
+run_6wke_s1_bolivia.npz,margem de run_6wke_s1_bolivia.npz (semana 6) e margem_tta de tta_6wke_s1_bolivia.npz (semana 10),5d7b97d9ae1671ef516ebccc12e8eeb4cdb224e2c84fd4ada72642acfdea77a5
+run_6wke_s1_t2.npz,margem de run_6wke_s1_t2.npz (semana 6) e margem_tta de tta_6wke_s1_t2.npz (semana 10),4d0d0f6a43a92bb2a384ec4f8117f02078900cab724fc50fe4b1bba7a3faa2f7
+run_6wke_s2_val.npz,"semana 6, sem mudança",7bafa4d07c9f75def0c73bde63aef3ffdf57549c150f34b9e3c75925027583ac
+run_6wke_s2_teste.npz,margem de run_6wke_s2_teste.npz (semana 6) e margem_tta de tta_6wke_s2_teste.npz (semana 10),6551297baa82ee2b56a8836c5ffed62a761a465b51dc30c42549b04a84dc8620
+run_6wke_s2_bolivia.npz,margem de run_6wke_s2_bolivia.npz (semana 6) e margem_tta de tta_6wke_s2_bolivia.npz (semana 10),5bb833461e52a404b890969bd8d5ba0ecf3501e5f65354e15be6a7baa11e6292
+run_6wke_s2_t2.npz,margem de run_6wke_s2_t2.npz (semana 6) e margem_tta de tta_6wke_s2_t2.npz (semana 10),08870044ea4fe01ff471e017d65a693bf46cbdf7e396f50daa09144156d34624
+run_6wke_s3_val.npz,"semana 6, sem mudança",8810e88c21d1ae2e1b1b5d551d8df6c470014b6d05405f491864f927ec27d824
+run_6wke_s3_teste.npz,margem de run_6wke_s3_teste.npz (semana 6) e margem_tta de tta_6wke_s3_teste.npz (semana 10),2893a3087fae79b211d04b20ca867a757ef9230ebce13b47aafeb154a7be098f
+run_6wke_s3_bolivia.npz,margem de run_6wke_s3_bolivia.npz (semana 6) e margem_tta de tta_6wke_s3_bolivia.npz (semana 10),3b823bbe70af6d34772440373c9fb4b784e308e166c3deb2c543e6180f917790
+run_6wke_s3_t2.npz,margem de run_6wke_s3_t2.npz (semana 6) e margem_tta de tta_6wke_s3_t2.npz (semana 10),55e06af2969b7e0f3fb6a3353c1f70594120870bb912d51c2672750473997f92
+run_6wke_s4_val.npz,"semana 6, sem mudança",013d175b842430e312d59853aabd9f62b83818b532257efd57bfddd3876a8a21
+run_6wke_s4_teste.npz,margem de run_6wke_s4_teste.npz (semana 6) e margem_tta de tta_6wke_s4_teste.npz (semana 10),3c334751583d18f0e4af559abc88a168b4d930ca0bef565b160264493077c01e
+run_6wke_s4_bolivia.npz,margem de run_6wke_s4_bolivia.npz (semana 6) e margem_tta de tta_6wke_s4_bolivia.npz (semana 10),47b085a9721fa7b0fcfda93b0629131c3b17095753e3676c96d68b037cbc4ed4
+run_6wke_s4_t2.npz,margem de run_6wke_s4_t2.npz (semana 6) e margem_tta de tta_6wke_s4_t2.npz (semana 10),ede1b7f1ca7b9d168d3c898d5f51f85eff4464ecf52ce75ca5504f2b248db03d
+run_6wke_s5_val.npz,"semana 6, sem mudança",592ea56529cf76b7596584674c334bdd8b038fdbd460f38a3d853e19ea905749
+run_6wke_s5_teste.npz,margem de run_6wke_s5_teste.npz (semana 6) e margem_tta de tta_6wke_s5_teste.npz (semana 10),d158b5d5707edfc2dee80b119befc5dd214451fa0f9c6a4298405c1cc197c9c1
+run_6wke_s5_bolivia.npz,margem de run_6wke_s5_bolivia.npz (semana 6) e margem_tta de tta_6wke_s5_bolivia.npz (semana 10),0ab3ab57b1a5132fd5812279e63b2541e9bdba5e67537bc1a27cbeab16aa1628
+run_6wke_s5_t2.npz,margem de run_6wke_s5_t2.npz (semana 6) e margem_tta de tta_6wke_s5_t2.npz (semana 10),0d70f571cda31011ea3bcf026a49a3caa162c62df13057330de1e738f86429cc
+run_8tjg_s1_val.npz,"semana 6, sem mudança",8feb77a5c8cd11e9de52e75aa46a61acf3c9ae4132033e2f3c309e9f58de754b
+run_8tjg_s1_teste.npz,margem de run_8tjg_s1_teste.npz (semana 6) e margem_tta de tta_8tjg_s1_teste.npz (semana 10),e9c015708bdf8e08d208a67de692a6113a3db735e1b4fb9bd5ddd0633af713e8
+run_8tjg_s1_bolivia.npz,margem de run_8tjg_s1_bolivia.npz (semana 6) e margem_tta de tta_8tjg_s1_bolivia.npz (semana 10),82f83db428c03cff8751f33270ed566d85bf6f4f86efbdac03e53bc18422d7e2
+run_8tjg_s1_t2.npz,margem de run_8tjg_s1_t2.npz (semana 6) e margem_tta de tta_8tjg_s1_t2.npz (semana 10),33c7c215a8677e449ae3692483d9c402a7630fec88428123c0b9a5a74823c2df
+run_8tjg_s2_val.npz,"semana 6, sem mudança",3fed04141d72b59d91faaaff3345d2c6acfcfc0af8988ad1961d913dd4b31de4
+run_8tjg_s2_teste.npz,margem de run_8tjg_s2_teste.npz (semana 6) e margem_tta de tta_8tjg_s2_teste.npz (semana 10),a840ecda4ce0f1973707e2b7d39cd88ff7b5b6a87ca43d7125bc1ade29564b1a
+run_8tjg_s2_bolivia.npz,margem de run_8tjg_s2_bolivia.npz (semana 6) e margem_tta de tta_8tjg_s2_bolivia.npz (semana 10),ed7e39fe616a4fc9e724da82068fccacb97cda1e7fa18b0b47300de22ddf85ae
+run_8tjg_s2_t2.npz,margem de run_8tjg_s2_t2.npz (semana 6) e margem_tta de tta_8tjg_s2_t2.npz (semana 10),db1679c790bd517d8812d51288df64a6372e917035369cf48ba3afc0d77b103f
+run_8tjg_s3_val.npz,"semana 6, sem mudança",d1c75b6c76873178d1be27ea98cf860525be7c4f2c882ed2287abea3d9085eb0
+run_8tjg_s3_teste.npz,margem de run_8tjg_s3_teste.npz (semana 6) e margem_tta de tta_8tjg_s3_teste.npz (semana 10),35995127cd17a4616d7b3bfbac763042b4165137de9260196254a020c51cb37e
+run_8tjg_s3_bolivia.npz,margem de run_8tjg_s3_bolivia.npz (semana 6) e margem_tta de tta_8tjg_s3_bolivia.npz (semana 10),07139a50634f3c126cb534dfa26402b6441b89b0af3056059c57ea2ef56d9557
+run_8tjg_s3_t2.npz,margem de run_8tjg_s3_t2.npz (semana 6) e margem_tta de tta_8tjg_s3_t2.npz (semana 10),49e62054357a2f281851c7bf50fef96539d0723cf70461ce76d6514c1775122f
+run_8tjg_s4_val.npz,"semana 6, sem mudança",304faf6aec3737a54eb7142319557c2d0f43ade0d2ea003a9dabb4c57076379e
+run_8tjg_s4_teste.npz,margem de run_8tjg_s4_teste.npz (semana 6) e margem_tta de tta_8tjg_s4_teste.npz (semana 10),9a023635aae9d3f3d665c0a7b1450e784d198f3e0a98baabc3333d314d7d0696
+run_8tjg_s4_bolivia.npz,margem de run_8tjg_s4_bolivia.npz (semana 6) e margem_tta de tta_8tjg_s4_bolivia.npz (semana 10),002e9916118818810cb7ef9954fe1282cd536c5e0ed81a68a86903e7dac58ed6
+run_8tjg_s4_t2.npz,margem de run_8tjg_s4_t2.npz (semana 6) e margem_tta de tta_8tjg_s4_t2.npz (semana 10),82650b48f38309c6df84473ab317d0c2e1eb92d776e86f69974e3e500a0c93a0
+run_8tjg_s5_val.npz,"semana 6, sem mudança",69c7c7b29039479d0790292822119b905217e6a461f6dec2b43c51e69c18176b
+run_8tjg_s5_teste.npz,margem de run_8tjg_s5_teste.npz (semana 6) e margem_tta de tta_8tjg_s5_teste.npz (semana 10),2cb5c2f4c9a333ae27baeff9df476114b2c368e599aaac0c40a709267e047489
+run_8tjg_s5_bolivia.npz,margem de run_8tjg_s5_bolivia.npz (semana 6) e margem_tta de tta_8tjg_s5_bolivia.npz (semana 10),4b61662b4617836e08e7708e3b64342310c8463ad122d07b1f9b7454aa29b147
+run_8tjg_s5_t2.npz,margem de run_8tjg_s5_t2.npz (semana 6) e margem_tta de tta_8tjg_s5_t2.npz (semana 10),c04f1b729f7043b184937895e6b919aae66399c6cfed0febccd11fb92fab3737
+labels_val.npz,"semana 6, sem mudança",e6f781f17cad9e39aca93f6aa50f009048bc46027cf2d3c8bbc1d566119fd46a
+labels_teste.npz,"semana 6, sem mudança",6c1b7f2d619f793c2a21cc0146dd5c1274e8dfb2b630e43d5fc82733ad905c1a
+labels_bolivia.npz,"semana 6, sem mudança",0fc7d814c18c33a167e825f4b935ddd098776c7ccd1afee719b896a418f5661e
+labels_t2.npz,"semana 6, sem mudança",960726a70d3d5637407bb7c6ff3f41bbe19b581284de7edccb3458012e9030e2

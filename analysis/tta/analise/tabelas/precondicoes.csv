@@ -1,0 +1,7 @@
+numero,item,valor,referencia,cumprida
+1,maior taxa de erro na validacao,0.024103,alfa 0.10,sim
+2,R0 na Bolivia: auroc_e,0.943172,R3 de 0.932614 a 0.939842,nao
+2,R0 na Bolivia: erro_nao_sinalizado,0.110332,R3 de 0.103690 a 0.166398,sim
+2,R0 na Bolivia: taxa_erro,0.052938,R3 de 0.040633 a 0.054150,sim
+2,R0 na Bolivia: miou,0.808535,R3 de 0.804310 a 0.854245,sim
+3,"mIoU no teste da fonte, R1 e R3",0.884095 e 0.893756,diferenca 0.966 pp (limite 1.5),sim

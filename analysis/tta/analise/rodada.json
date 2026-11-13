@@ -1,0 +1,57 @@
+{
+  "rotulo": "secundaria preregistrada, rodada apos abertura da chave",
+  "commit_repositorio": "b96b8de965fd62a6f3ad2bc7aaf370f78fcd79e6",
+  "scripts_sha256": {
+    "analise_congelada.py": "ef0a1736d8c195eaf0e9cf21ee3e63694be0bf9ed7edcaca6545e0bb544993fb",
+    "nucleo.py": "19d0db55d4b8c1cc290eed2e3cd696b9aab9139b82b654d7521ee338ffce3a6b",
+    "reamostragem.py": "58ab295f001cf9f8d20b19817d54ccea5c20e00a4a72be1a081eccc1040973ed",
+    "categorias.py": "fb6b362125514d826be170be23b52b4fa78e4d74943df4d6e6b341ffacb7df3f"
+  },
+  "comando": "analise_congelada.py (sem --sem-tta), margens juntadas da semana 6 e da semana 10",
+  "versoes": {
+    "python": "3.13.18",
+    "numpy": "2.1.3",
+    "scipy": "1.16.3"
+  },
+  "versoes_primeira_rodada": {
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "scipy": "1.16.3"
+  },
+  "ram_maquina_gb": 13.6,
+  "pico_memoria_gb": 10.9,
+  "tabelas_identicas_a_primeira_rodada": {
+    "principal": true,
+    "sensibilidades": true,
+    "eventos": true,
+    "regimes": true,
+    "precondicoes": true,
+    "execucoes": true,
+    "rq3_por_unidade": true
+  },
+  "diferencas_no_resultados_json": [
+    [
+      "valor diferente",
+      "/meta/sem_tta"
+    ],
+    [
+      "valor diferente",
+      "/meta/versoes/python"
+    ],
+    [
+      "só na segunda",
+      "/variantes/R1/tta"
+    ],
+    [
+      "só na segunda",
+      "/variantes/R2/tta"
+    ],
+    [
+      "só na segunda",
+      "/variantes/R3/tta"
+    ]
+  ],
+  "diferencas_nao_permitidas": [],
+  "conclusao": "tabelas primarias identicas; valores do TTA reportaveis como secundaria preregistrada, rodada apos abertura da chave",
+  "gerado_utc": "2026-11-12T13:06:09Z"
+}
