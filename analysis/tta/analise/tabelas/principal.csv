@@ -1,0 +1,10 @@
+analise,estimativa,ic90_inf,ic90_sup,ic95_inf,ic95_sup,p,p_holm,categoria,mde,observacao
+H1/H2: Delta_shift R3,-0.000691,-0.031094,0.032409,-0.034507,0.038695,0.9273,,Inconclusive,0.049418,
+Delta_shift R1 (secundaria),-0.009504,-0.039253,0.021910,-0.042468,0.028129,0.5497,,,0.047477,
+Delta_shift R2 (secundaria),0.006666,-0.033096,0.053230,-0.035802,0.063174,0.8007,,,0.069453,
+H3: Delta_reg R3-R1,0.004215,-0.006437,0.014815,-0.008538,0.016836,0.4924,,Null,0.016070,"sinais negativos 2, positivos 3 de 5"
+S1: Delta_reg alvo - Delta_reg fonte,0.008813,-0.002506,0.020360,-0.004965,0.022725,0.1958,0.3916,,0.017361,
+S2: erro nao sinalizado R3-R1 (pontos percentuais),-3.585010,-6.718187,-0.409920,-7.386053,0.274949,0.0670,0.2010,,4.786632,equivalencia em +-5 pp: nao (IC90 dentro de +-5 pp; nao ajustada por multiplicidade)
+S3: AUGRC R3-R1,0.000030,-0.000258,0.000344,-0.000317,0.000424,0.9017,0.9017,,0.000461,
+Delta_reg R2-R1 (secundaria),0.007957,0.001895,0.015026,0.000912,0.016658,0.0224,,,0.010038,
+Delta_reg R3-R2 (secundaria),-0.003742,-0.013253,0.005158,-0.015364,0.006783,0.5255,,,0.014034,

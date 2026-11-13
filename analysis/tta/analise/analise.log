@@ -1,0 +1,48 @@
+10:50:01 analysis start
+10:50:03 codes: 3; source units 89, target units 576
+10:58:03   run 4m9f s1: tau 0.9579, T 0.925, 480s
+11:05:32   run 4m9f s2: tau 0.9659, T 0.982, 449s
+11:12:57   run 4m9f s3: tau 0.9583, T 0.900, 445s
+11:20:31   run 4m9f s4: tau 0.9585, T 0.946, 454s
+11:27:22   run 4m9f s5: tau 0.9494, T 0.881, 411s
+11:32:42   ensemble 4m9f done
+11:39:47   run 6wke s1: tau 0.9486, T 0.815, 425s
+11:46:48   run 6wke s2: tau 0.9424, T 0.771, 421s
+11:53:46   run 6wke s3: tau 0.9397, T 0.763, 417s
+11:59:57   run 6wke s4: tau 0.9326, T 0.751, 371s
+12:06:17   run 6wke s5: tau 0.9440, T 0.805, 381s
+12:11:43   ensemble 6wke done
+12:19:08   run 8tjg s1: tau 0.9351, T 0.874, 444s
+12:26:20   run 8tjg s2: tau 0.9149, T 0.818, 432s
+12:33:27   run 8tjg s3: tau 0.9472, T 0.907, 427s
+12:40:38   run 8tjg s4: tau 0.9096, T 0.779, 431s
+12:48:11   run 8tjg s5: tau 0.9223, T 0.843, 453s
+12:53:23   ensemble 8tjg done
+12:53:23   histogram difference of the pooled sets of the runs 1.55e-06; of events, leave-one-event-out and boundary subsets 8.57e-06; of the TTA and ensemble variants 2.32e-06 (the last two only reported)
+12:53:23 histogram check: largest difference 1.55e-06 with Bins(width=0.005, vmax=40.0, n=8001); largest |m| 41.98
+12:53:24 key read: R1=8tjg, R2=4m9f, R3=6wke
+12:53:24 scenario primaria
+12:56:44   scenario prim/estrato/tudo: 200s
+12:56:45 scenario janelas_sensiveis
+12:57:36   scenario sens/estrato/tudo: 52s
+12:57:36 scenario nuvem_050
+12:58:36   scenario c50/estrato/tudo: 60s
+12:58:36 scenario conjunto_completo
+12:59:38   scenario full/estrato/tudo: 62s
+12:59:38 scenario blocos_espaciais
+13:00:19   scenario prim/bloco/tudo: 41s
+13:00:19 scenario reamostra_eventos
+13:01:12   scenario prim/dois_estagios/tudo: 53s
+13:01:12 scenario sem_fronteira
+13:02:03   scenario prim/estrato/sem_borda: 51s
+13:02:04 scenario sem_evento_Bolivia
+13:02:53   scenario sem:Bolivia/estrato/tudo: 49s
+13:02:53 scenario sem_evento_EMSR333
+13:03:44   scenario sem:EMSR333/estrato/tudo: 51s
+13:03:44 scenario sem_evento_EMSR342
+13:04:30   scenario sem:EMSR342/estrato/tudo: 46s
+13:04:30 scenario sem_evento_EMSR347
+13:05:12   scenario sem:EMSR347/estrato/tudo: 42s
+13:05:12 scenario sem_evento_EMSR438
+13:06:01   scenario sem:EMSR438/estrato/tudo: 49s
+13:06:02 done
