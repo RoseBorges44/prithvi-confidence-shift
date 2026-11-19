@@ -1,6 +1,6 @@
 # Análise do TTA
 
-Registro de `notebooks/semana10_tta_analise.ipynb` (commit `b96b8de`), rodado em CPU padrão (13,6 GB de RAM, pico de 10,9 GB) em 2026-11-12. Análise secundária da seção 9 de `prereg/preregistro.md`, rodada depois da abertura da chave (`prereg/desvios.md`, entradas de 2026-11-05, 2026-11-07 e 2026-11-12). Descritiva, fora da correção de Holm.
+Registro de `notebooks/semana10_tta_analise.ipynb` (commit `4557528`; o hash anterior do mesmo conteúdo, `b96b8de`, é o gravado em `rodada.json`), rodado em CPU padrão (13,6 GB de RAM, pico de 10,9 GB) em 2026-11-12. Análise secundária da seção 9 de `prereg/preregistro.md`, rodada depois da abertura da chave (`prereg/desvios.md`, entradas de 2026-11-05, 2026-11-07 e 2026-11-12). Descritiva, fora da correção de Holm.
 
 Roda `analysis/analise_congelada.py` sem `--sem-tta`, sobre as margens da semana 6 e as margens do TTA (`analysis/tta/margens/`). Os scripts foram conferidos por SHA-256 contra `analysis/README.md` antes da rodada.
 
