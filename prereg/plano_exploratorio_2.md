@@ -53,4 +53,10 @@ Question: does the fragmentation index of Kolluru et al. (2026) flag bad units (
 
 ## Changes to this plan
 
-None yet.
+**2026-11-19, before any computation.** Written while coding the analyses, after tests on synthetic data only; no real margin, label or weight file had been read.
+
+- E7. The R1 check run is seed 1.
+- E8, fit. On synthetic data of the same size (about 840,000 rows, 346 units), the variational fit took about 25 minutes and its optimizer did not report convergence. Each mixed model (main and sensitivity (c)) is therefore fitted twice: the first pass starts from the default values with `numpy.random.default_rng(4)` for the random starting standard deviations (the default draws from the global numpy state and is not reproducible), and the second pass starts from the solution of the first. The second pass is the reported fit. For both passes the optimizer message, the number of iterations and the largest absolute gradient are reported, with the largest change of a fixed effect between the passes.
+- E8, sensitivity (b). `BinomialBayesMixedGLM` takes no case weights, so the main model cannot be refitted with the row weights. Sensitivity (b) is a GEE logistic model with the same fixed effects, the row weights, independence correlation and robust standard errors clustered by unit.
+- E9, bad unit. "Top quarter" means an error rate at or above the 75th percentile of the set in that run (`numpy.quantile`, default linear interpolation), computed over all units of the set, with or without an index. The labels are fixed per run and are not recomputed in the bootstrap replicates.
+- E9, AUROC. Both AUROCs (index and 1 − mean MSP) and their difference are computed on the same units: those with an index. The number of units without an index is reported per run and set.
