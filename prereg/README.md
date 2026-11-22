@@ -14,3 +14,5 @@ OSF registration: to add (records the commit and SHA-256 of `preregistro.md`).
 | `desvios.md` | Deviations from `preregistro.md` and the date of the single confirmatory run | from 2026-10-24 |
 | `plano_exploratorio.md` | Exploratory analyses E1 to E6, written after the confirmatory run and before computing any of them | 2026-10-25 |
 | `plano_rq4.md` | Plan of RQ4 (Rio Grande do Sul, 2024-05-06), written before any model output on that area | 2026-10-31 |
+| `plano_exploratorio_2.md` | Exploratory analyses E7 to E9 (CKA, mixed logistic model of error pixels, fragmentation index), written before computing any of them; amended on the same day, before any computation | 2026-11-19 |
+| `plano_isomax.md` | Exploratory IsoMax+ arm in R1 with 3 seeds (E10), with the reasons for the variant, scales and scores, written before any code or training for it | 2026-11-22 |
